@@ -1,0 +1,27 @@
+capital = 916
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 25
+	liberalism = 50
+    centrism = 5
+	fascism = 5
+	communism = 5
+	neutral_and_specific = 5
+}
+
+create_country_leader = {
+	name = "Carlo Speltuti"
+	desc = "Carlo_Speltuti_DESC"
+	picture = "Carlo_Speltuti.dds"
+	expire = "1940.1.1"
+	ideology = social_liberalism
+	traits = { }
+}

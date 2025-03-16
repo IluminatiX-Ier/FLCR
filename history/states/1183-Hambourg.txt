@@ -1,0 +1,32 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+
+	history={
+		victory_points = {
+			13617 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			dockyard = 4
+			13617 = {
+				naval_base = 10
+
+			}
+
+		}
+		owner = HAM
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		13617
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

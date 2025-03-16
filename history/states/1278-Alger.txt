@@ -1,0 +1,28 @@
+state={
+	id=1278
+	name="STATE_1278"
+
+	history={
+		owner = C01
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ALG
+		add_core_of = C01
+
+		victory_points = {
+			13493 10 
+		}
+
+	}
+
+	provinces={
+		13493
+	}
+
+	manpower= 310000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

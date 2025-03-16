@@ -1,0 +1,27 @@
+
+state={
+	id=1243
+	name="STATE_1243"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+		owner = SXS
+		add_core_of = SXS
+
+		victory_points = {
+			13601 1 
+		}
+
+	}
+
+	provinces={
+		13601 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

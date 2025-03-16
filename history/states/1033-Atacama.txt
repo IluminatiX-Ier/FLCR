@@ -1,0 +1,30 @@
+
+state={
+	id=1033
+	name="STATE_1033"
+
+	history={
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			5131 = {
+				naval_base = 3
+
+			}
+
+		}
+		owner = CHL
+		add_core_of = CHL
+
+	}
+
+	provinces={
+		5171 5192 11000 13368
+	}
+	manpower=2080400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

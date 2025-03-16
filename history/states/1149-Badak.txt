@@ -1,0 +1,24 @@
+state={
+	id=1149
+	name="Badakhchan"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAJ
+		add_core_of = CHI
+		add_core_of = BUK
+
+	}
+
+	provinces={
+		8027 10417 12805
+	}
+	manpower=90012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

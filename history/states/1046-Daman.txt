@@ -1,0 +1,27 @@
+
+state={
+	id=1046
+	name="Daman"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		13405 = {
+				naval_base = 2
+				}
+
+		}
+		owner = POR
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13423
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

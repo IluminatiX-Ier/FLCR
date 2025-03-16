@@ -1,0 +1,33 @@
+
+state={
+	id=1053
+	name="Inde-britannique"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 2
+			7265 = {
+				naval_base = 4
+
+			}
+			13383 = {
+				naval_base = 2
+
+			}
+
+		}
+		owner = ENG
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		7265 13395 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

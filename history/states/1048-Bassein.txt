@@ -1,0 +1,29 @@
+
+state={
+	id=1048
+	name="Bassein"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			13306 = {
+				naval_base = 2
+
+			}
+
+		}
+		owner = POR
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13421 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

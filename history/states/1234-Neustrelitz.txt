@@ -1,0 +1,29 @@
+state={
+	id=1234
+	name="STATE_1234"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			3258 1
+		}
+
+		owner = MKZ
+		add_core_of = MKZ
+
+	}
+
+	provinces={
+		3258
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

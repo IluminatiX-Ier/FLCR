@@ -1,0 +1,29 @@
+﻿capital = 26
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 25
+	moderate_right = 10
+	liberalism = 10
+    centrism = 25
+	fascism = 10
+	communism = 10
+	neutral_and_specific = 10
+}
+
+create_country_leader = {
+	name = "Aleksander Kowalski"
+	desc = "Alexandre_Kolwaski_DESC"
+	picture = "Alexandre_Kolwaski.dds"
+	expire = "1940.1.1"
+	ideology = social_democratism
+	traits = { }
+}
+
+set_cosmetic_tag = POL_DE

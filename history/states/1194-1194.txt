@@ -1,0 +1,20 @@
+
+state={
+	id=1194
+	name="Desert de Jordanie"
+
+	history={
+		owner = HIL
+		add_core_of = JOR
+		add_core_of = HIL
+
+	}
+
+	provinces={
+		4603 13460 13462 13473 13474 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

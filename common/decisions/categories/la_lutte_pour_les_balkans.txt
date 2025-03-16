@@ -1,0 +1,27 @@
+la_lutte_pour_les_balkans = {
+	icon = decision_category_icon_la_lutte_pour_les_balkans
+	picture = decision_category_picture_la_lutte_pour_les_balkans
+	allowed = {
+	}
+
+	visible = {
+	OR {
+		tag = SLV
+		tag = CRO
+		tag = BOS
+		tag = HRZ
+		tag = MNT
+		tag = SER
+		tag = ALB
+		tag = BUL
+		tag = GRE
+		tag = TU
+		owns_state = 48
+		owns_state = 47
+		owns_state = 104
+		owns_state = 107
+		owns_state = 797
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=1050
+	name="Cannanore"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			13386 = {
+				naval_base = 1
+
+			}
+
+		}
+		owner = POR
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13393 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

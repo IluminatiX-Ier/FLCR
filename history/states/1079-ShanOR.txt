@@ -1,0 +1,24 @@
+
+state={
+	id=1079
+	name="Shan-orientale"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = SIA
+		add_core_of = BRM
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		4175 4210 7400 7647 7909 7974 12317
+	}
+	manpower=1710000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

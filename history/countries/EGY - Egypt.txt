@@ -1,0 +1,30 @@
+﻿capital = 907
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 0
+	liberalism = 5
+    centrism = 5
+	fascism = 5
+	communism = 5
+	neutral_and_specific = 80
+}
+
+create_country_leader = {
+	name = "Abdülaziz II"
+	desc = "Abdülaziz_II_DESC"
+	picture = "Abdülaziz_II.dds"
+	expire = "1940.1.1"
+	ideology = feudal_monarchism
+	traits = { }
+}
+
+
+set_cosmetic_tag = EGY_TUR_subject

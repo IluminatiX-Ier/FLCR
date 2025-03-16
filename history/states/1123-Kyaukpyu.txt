@@ -1,0 +1,27 @@
+
+state={
+	id=1123
+	name="Kyaukpyu"
+
+	history={
+			buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		13399 = {
+				naval_base = 4
+				}
+			}
+		owner = ENG
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		13415
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

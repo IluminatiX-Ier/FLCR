@@ -1,0 +1,27 @@
+state={
+	id=1155
+	name="Bengale Orientale"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		11929 = {
+				naval_base = 2
+				}
+			}
+		owner = BAN
+		add_core_of = BAN
+
+	}
+
+	provinces={
+		1497 4616 7662 9993 10416 10443 11929 12366 12395 12423 13208 
+	}
+	manpower=24009000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

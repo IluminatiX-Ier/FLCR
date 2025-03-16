@@ -1,0 +1,30 @@
+
+state={
+	id=428
+	name="STATE_428"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = PAK
+		add_core_of = PAK
+		victory_points = {
+			9975 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1061 1103 1144 1190 4064 4090 4132 7020 7207 10118 12037 
+	}
+	manpower=10590200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

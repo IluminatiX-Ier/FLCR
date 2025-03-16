@@ -1,0 +1,27 @@
+capital = 985
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1937.3.18"
+	election_frequency = 36
+	elections_allowed = Yes
+}
+
+create_country_leader = {
+	name = "Mélanie de Martin du Bois"
+	desc = "Melanie_de_Martin_du_Bois_DESC"
+	picture = "Melanie_de_Martin_du_Bois.dds"
+	expire = "1967.1.1"
+	ideology = social_democratism
+	traits = { }
+}
+
+set_popularities = {
+	moderate_left = 15
+	moderate_right = 23
+	liberalism = 22
+    centrism = 18
+	fascism = 8
+	communism = 11
+	neutral_and_specific = 3
+}

@@ -1,0 +1,104 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1932.1.1.12
+		picture = "select_date_1932"
+		default_country = "LOU"
+		default = yes
+		
+		"LOU"={
+			history = "LOU_GATHERING_STORM_DESC"
+			ideology = moderate_left
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"RUS"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = neutral_and_specific
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+
+		"TUR"={
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutral_and_specific
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		# minors from DLC ####
+
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"MEX"={
+			minor = yes
+			history = "MEX_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

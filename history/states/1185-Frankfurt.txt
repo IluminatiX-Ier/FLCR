@@ -1,0 +1,28 @@
+
+state={
+	id=1185
+	name="STATE_1185"
+
+	history={
+		victory_points = {
+			13591 30 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 5
+
+		}
+		owner = FRC
+		add_core_of = FRC
+
+	}
+
+	provinces={
+		13591
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=1182
+	name="STATE_1182"
+
+	history={
+
+		victory_points = {
+			13618 1
+		}
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		owner = PRE
+		add_core_of = PRE
+		add_core_of = POM
+
+	}
+
+	provinces={
+		13615 13618 13620 	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

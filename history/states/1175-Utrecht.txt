@@ -1,0 +1,26 @@
+state={
+	id=1175
+	name="STATE_1175"
+
+	history={
+			buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 2
+		6241 = {
+				naval_base = 4
+				}
+			}
+		owner = HOL
+		add_core_of = HOL
+
+	}
+
+	provinces={
+		6241 11456
+	}
+	manpower=487784
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

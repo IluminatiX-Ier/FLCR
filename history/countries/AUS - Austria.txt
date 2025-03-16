@@ -1,0 +1,62 @@
+﻿capital = 4
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1932.1.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Anne-Marie Ière Von Habsbourg"
+	desc = "HMH_habsbourg_DESC"
+	picture = "Anna_maria_helena_Von_Habsbourg.dds"
+	expire = "1967.1.1"
+	ideology = centrism_monarchism
+	traits = { }
+}
+
+set_popularities = {
+    centrism = 25
+    liberalism = 5
+    market_liberalism = 0	
+    anar_liberalism = 0	
+    social_liberalism = 5	
+    social_democracy = 2	
+    radical_socialism = 0	
+    marxism = 8	
+    totalism = 0	
+    anarchism = 0
+    conservatism = 12
+    nationalism = 7
+    paternalism = 6
+    chauvinism = 0	
+    populism = 5	
+    autocracy = 25	
+}
+
+create_faction = AUS_empire
+
+puppet = HUN
+
+puppet = CZE
+
+puppet = TRA
+
+set_autonomy = {
+		target = LBA
+		autonomous_state = autonomy_protectorat
+			}
+
+puppet = CRA
+
+puppet = GLD
+
+puppet = BUC
+
+puppet = SIL
+
+	add_ideas = {
+	AUS_Empress_legacy
+	}

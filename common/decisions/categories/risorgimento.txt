@@ -1,0 +1,23 @@
+risorgimento = {
+	icon = decision_category_icon_risorgimento
+	picture = decision_category_picture_risorgimento
+	visible = {
+
+		NOT = {
+		has_cosmetic_tag = ITA
+			}
+
+		OR = {
+		tag = TTS
+		tag = LIG
+		tag = SPM
+		tag = VNS
+		tag = COR
+		tag = PAP
+		tag = MLO
+		tag = EMI
+		}
+		is_subject = no
+
+	}
+}

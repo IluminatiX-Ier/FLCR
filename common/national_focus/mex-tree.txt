@@ -1,0 +1,30 @@
+focus_tree = {
+	id = mex-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+	}
+	#Fin des problème...
+	focus = {
+		id = MEX_findesprobleme
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		bypass = {
+			MEX = {
+				has_war = yes
+			
+			
+			}
+			
+		}
+	}
+
+}

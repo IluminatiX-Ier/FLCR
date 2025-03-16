@@ -1,0 +1,24 @@
+
+state={
+	id=1186
+	name="Desert de l'Haïl"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = HIL
+		add_core_of = HIL
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		13461 13463 13468 13476 
+	}
+	manpower=17000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

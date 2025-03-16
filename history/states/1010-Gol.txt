@@ -1,0 +1,24 @@
+
+state={
+	id=1010
+	name="Golan"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		13481
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

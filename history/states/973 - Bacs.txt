@@ -1,0 +1,28 @@
+state={
+	id=973
+	name="STATE_973"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			388 1
+		}		
+		
+		owner = PRE
+		add_core_of = POL
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		388 11232
+	}
+	manpower=654010
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

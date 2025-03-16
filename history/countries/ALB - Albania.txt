@@ -1,0 +1,28 @@
+﻿capital = 987
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 2
+	moderate_right = 2
+	liberalism = 2
+    centrism = 2
+	fascism = 2
+	communism = 90
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Liria Hoxha"
+	desc = "Liria_Hoxha_DESC"
+	picture = "Liria_Hoxha.dds"
+	expire = "1940.1.1"
+	ideology = anti_revisionism
+	traits = { }
+}

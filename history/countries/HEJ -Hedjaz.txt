@@ -1,0 +1,27 @@
+﻿capital = 679
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 5
+	liberalism = 10
+    centrism = 0
+	fascism = 8
+	communism = 22
+	neutral_and_specific = 50
+}
+
+create_country_leader = {
+	name = "Youssef Said Al-Hashemi"
+	desc = "Al-Hashemi_DESC"
+	picture = "Al-Hashemi.dds"
+	expire = "1940.1.1"
+	ideology = absolutism
+	traits = { }
+}

@@ -1,0 +1,22 @@
+state={
+	id=1137
+	name="Yeke"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = YEK
+		add_core_of = YEK
+
+	}
+
+	provinces={
+		1950 8048 10766 12847 
+	}
+	manpower=4820000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

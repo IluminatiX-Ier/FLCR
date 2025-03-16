@@ -1,0 +1,170 @@
+spriteTypes = { 
+	##Icon For: Ouverture Politique
+	SpriteType = { 
+		name = "GFX_idea_generic_ouverture_politique-1463"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_ouverture_politique-1463.dds"
+	}
+
+	##Icon For: Fermeture Politique
+	SpriteType = { 
+		name = "GFX_idea_generic_fermeture_politique-1462"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_fermeture_politique-1462.dds"
+	}
+
+	##Icon For: Ouverture Radicale
+	SpriteType = { 
+		name = "GFX_idea_generic_ouverture_radicale-2131"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_ouverture_radicale-2131.dds"
+	}
+
+	##Icon For: Ouverture Démocratique
+	SpriteType = { 
+		name = "GFX_idea_generic_ouverture_dmocratique-1077"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_ouverture_dmocratique-1077.dds"
+	}
+
+	##Icon For: Multiplication de la défense intérieur
+	SpriteType = { 
+		name = "GFX_idea_generic_multiplication_de_la_dfense_intrieur-2052"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_multiplication_de_la_dfense_intrieur-2052.dds"
+	}
+
+	##Icon For: Maritimisation
+	SpriteType = { 
+		name = "GFX_idea_generic_maritimisation-1086"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_maritimisation-1086.dds"
+	}
+
+	##Icon For: Création du génie civil
+	SpriteType = { 
+		name = "GFX_idea_generic_cration_du_gnie_civil-1697"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_cration_du_gnie_civil-1697.dds"
+	}
+
+	##Icon For: Héritier de Tocqueville
+	SpriteType = { 
+		name = "GFX_idea_generic_hritier_de_tocqueville-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_hritier_de_tocqueville-122523.dds"
+	}
+
+	##Icon For: Partisan du Traditionalisme
+	SpriteType = { 
+		name = "GFX_idea_generic_partisan_du_traditionalisme-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_partisan_du_traditionalisme-122523.dds"
+	}
+
+	##Icon For: Fasciste Notoire
+	SpriteType = { 
+		name = "GFX_idea_generic_fasciste_notoire-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_fasciste_notoire-122523.dds"
+	}
+
+	##Icon For: Fils de la de Révolution
+	SpriteType = { 
+		name = "GFX_idea_generic_fils_de_la_de_rvolution-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_fils_de_la_de_rvolution-122523.dds"
+	}
+
+	##Icon For: Elite Égalitaire
+	SpriteType = { 
+		name = "GFX_idea_generic_elite_galitaire-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_elite_galitaire-122523.dds"
+	}
+
+	##Icon For: Nationaliste Convaincu
+	SpriteType = { 
+		name = "GFX_idea_generic_nationaliste_convaincu-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_nationaliste_convaincu-122523.dds"
+	}
+
+	##Icon For: Socialiste Convaincu
+	SpriteType = { 
+		name = "GFX_idea_generic_socialiste_convaincu-122523"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_socialiste_convaincu-122523.dds"
+	}
+
+	##Icon For: Marché National
+	SpriteType = { 
+		name = "GFX_idea_generic_march_national"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_march_national.png"
+	}
+
+	##Icon For: Marché décentralisé
+	SpriteType = { 
+		name = "GFX_idea_generic_march_dcentralis"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_march_dcentralis.png"
+	}
+
+	##Icon For: Économie Planifiée
+	SpriteType = { 
+		name = "GFX_idea_generic_conomie_planifie"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_conomie_planifie.png"
+	}
+
+	##Icon For: Interventionnisme Économique
+	SpriteType = { 
+		name = "GFX_idea_generic_interventionnisme_conomique"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_interventionnisme_conomique.png"
+	}
+
+	##Icon For: Marché Égalitaire
+	SpriteType = { 
+		name = "GFX_idea_generic_march_galitaire"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_march_galitaire.png"
+	}
+
+	##Icon For: Protectionisme
+	SpriteType = { 
+		name = "GFX_idea_generic_protectionisme"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_protectionisme.png"
+	}
+
+	##Icon For: Capitalisme
+	SpriteType = { 
+		name = "GFX_idea_generic_capitalisme"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_capitalisme.png"
+	}
+
+	##Icon For: Laissez Faire
+	SpriteType = { 
+		name = "GFX_idea_generic_laissez_faire"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_laissez_faire.png"
+	}
+
+	##Icon For: Économie de Guerre
+	SpriteType = { 
+		name = "GFX_idea_generic_conomie_de_guerre"
+		texturefile = "gfx/interface/ideas/generic-idea-ideas/generic_conomie_de_guerre.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_undisturbed_isolation"
+		texturefile = "gfx/interface/ideas/idea_undisturbed_isolation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_isolation"
+		texturefile = "gfx/interface/ideas/idea_isolation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_civilian_economy"
+		texturefile = "gfx/interface/ideas/idea_civilian_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_low_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_low_economic_mobilisation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_partial_economic_mobilisation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_war_economy"
+		texturefile = "gfx/interface/ideas/idea_war_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.png"
+	}
+
+ 
+ }

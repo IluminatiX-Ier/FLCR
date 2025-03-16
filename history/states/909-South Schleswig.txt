@@ -1,0 +1,29 @@
+
+state={
+	id=909
+	name="STATE_909"
+
+	history={
+		victory_points = {
+			13545 10 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = COM
+		add_core_of = FRA
+		add_core_of = COM
+		add_core_of = PRO
+		add_core_of = OCC
+
+	}
+
+	provinces={
+		13545 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

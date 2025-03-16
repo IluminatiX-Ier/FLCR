@@ -1,0 +1,29 @@
+
+state={
+	id=1051
+	name="Calicut"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			13382 = {
+				naval_base = 3
+
+			}
+
+		}
+		owner = POR
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13388
+	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

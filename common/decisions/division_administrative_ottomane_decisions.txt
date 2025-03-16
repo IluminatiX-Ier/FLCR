@@ -1,0 +1,722 @@
+division_administrative_ottomane = {
+	creerlekhedivatderoumelie = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = YUG
+			}
+}
+   available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 184  }
+	TUR = { owns_state = 731  }
+	TUR = { owns_state = 990  }
+	TUR = { owns_state = 212  }
+	TUR = { owns_state = 801  }
+	TUR = { owns_state = 211  }
+	TUR = { owns_state = 77  }
+	TUR = { owns_state = 1007  }
+	TUR = { owns_state = 991  }
+	TUR = { owns_state = 185  }
+	TUR = { owns_state = 106  }
+	TUR = { owns_state = 803  }
+	TUR = { owns_state = 805  }
+	TUR = { owns_state = 44  }
+	TUR = { owns_state = 983  }
+	TUR = { owns_state = 991  }
+	TUR = { owns_state = 982  }
+	TUR = { owns_state = 77  }
+	TUR = { owns_state = 107  }
+	TUR = { owns_state = 108  }
+	TUR = { owns_state = 802  }
+	TUR = { owns_state = 48  }
+	TUR = { owns_state = 981  }
+	TUR = { owns_state = 105  }
+    }
+
+   ai_will_do = { factor = 40 }
+
+    complete_effect = {	
+    hidden_effect = {
+	YUG = { add_state_core = 184  }
+	YUG = { add_state_core = 731  }
+	YUG = { add_state_core = 990  }
+	YUG = { add_state_core = 212  }
+	YUG = { add_state_core = 801  }
+	YUG = { add_state_core = 211  }
+	YUG = { add_state_core = 77  }
+	YUG = { add_state_core = 1007  }
+	YUG = { add_state_core = 991  }
+	YUG = { add_state_core = 185  }
+	YUG = { add_state_core = 106  }
+	YUG = { add_state_core = 803  }
+	YUG = { add_state_core = 805  }
+	YUG = { add_state_core = 44  }
+	YUG = { add_state_core = 983  }
+	YUG = { add_state_core = 991  }
+	YUG = { add_state_core = 982  }
+	YUG = { add_state_core = 77  }
+	YUG = { add_state_core = 107  }
+	YUG = { add_state_core = 108  }
+	YUG = { add_state_core = 802  }
+	YUG = { add_state_core = 48  }
+	YUG = { add_state_core = 981  }
+	YUG = { add_state_core = 105  }
+	YUG = { add_state_core = 934  }
+	YUG = { set_capital = {state = 48 } }
+				}
+	release_puppet = YUG
+	YUG = {set_cosmetic_tag = YUG_TUR_subject}
+	}	
+
+
+}
+	dissoudrelekhedivatderoumelie = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = YUG
+			}
+		}
+			
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	YUG = { has_civil_war = no }
+	YUG= { has_war = no }
+	YUG = { is_subject_of = TUR }			
+		}
+		complete_effect = {	
+    hidden_effect = {
+	YUG = { remove_state_core = 184  }
+	YUG = { remove_state_core = 731  }
+	YUG = { remove_state_core = 990  }
+	YUG = { remove_state_core = 212  }
+	YUG = { remove_state_core = 801  }
+	YUG = { remove_state_core = 211  }
+	YUG = { remove_state_core = 77  }
+	YUG = { remove_state_core = 1007  }
+	YUG = { remove_state_core = 991  }
+	YUG = { remove_state_core = 185  }
+	YUG = { remove_state_core = 106  }
+	YUG = { remove_state_core = 803  }
+	YUG = { remove_state_core = 805  }
+	YUG = { remove_state_core = 44  }
+	YUG = { remove_state_core = 983  }
+	YUG = { remove_state_core = 991  }
+	YUG = { remove_state_core = 982  }
+	YUG = { remove_state_core = 77  }
+	YUG = { remove_state_core = 107  }
+	YUG = { remove_state_core = 108  }
+	YUG = { remove_state_core = 802  }
+	YUG = { remove_state_core = 48  }
+	YUG = { remove_state_core = 981  }
+	YUG = { remove_state_core = 105  }
+	YUG = { remove_state_core = 934  }
+				}
+		annex_country = {
+		target = YUG
+		transfer_troops = yes 
+		}	
+		YUG = {drop_cosmetic_tag}
+		}		
+}
+}
+
+	diviserlekhedivatdegypte = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = EGY
+			egy = { is_subject_of = TUR } 
+			}
+				NOT = {
+				country_exists = SUD
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	EGY = { owns_state = 767  }
+	EGY = { owns_state = 551  }
+	EGY = { owns_state = 883  }
+	EGY = { owns_state = 886  }
+	EGY = { owns_state = 884  }
+	EGY = { owns_state = 885  }
+	EGY = { owns_state = 549  }
+	EGY = { owns_state = 887  }
+		}
+
+    complete_effect = {	
+    hidden_effect = {
+	 EGY = { release_puppet = SUD }
+	 TUR = { annex_country = { target = SUD }
+	transfer_troops = yes 
+	}
+	 TUR = { release_puppet = SUD }
+	SUD = { set_capital = {state = 551 } }
+				}
+	SUD = {set_cosmetic_tag = SUD_TUR_subject}
+	}	
+
+	}
+	unirlekhedivatdegypteetdusoudan = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = EGY
+			EGY = { is_subject_of = TUR } 
+			}
+				AND = {
+				country_exists = SUD
+			}
+		}
+
+ 		available = {
+			has_civil_war = no
+			has_war = no
+	EGY = { has_civil_war = no }
+	EGY = { has_war = no }
+	EGY = { is_subject_of = TUR }
+		}
+
+	complete_effect = {	
+    hidden_effect = {
+	SUD = { set_capital = {state = 551 } }
+				}
+	 EGY = { annex_country = { target = SUD }
+		transfer_troops = yes 
+		}
+		SUD = {drop_cosmetic_tag}
+	}
+}
+
+	}
+	creerlevilayetdelibye = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = LBA
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 451  }
+	TUR = { owns_state = 450  }
+	TUR = { owns_state = 449  }
+	TUR = { owns_state = 448  }
+	TUR = { owns_state = 661  }
+	TUR = { owns_state = 662  }
+	TUR = { owns_state = 1108  }
+	TUR = { owns_state = 1107  }
+	TUR = { owns_state = 663  }
+    }
+
+   ai_will_do = { factor = 40 }
+
+   complete_effect = {	
+    hidden_effect = {
+	LBA = { set_capital = {state = 448 } }
+				}
+	release_puppet = LBA
+	LBA = {set_cosmetic_tag = LBA_TUR_subject}
+	}
+}
+	dissoudre_le_vilayet_de_libye = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = LBA
+				LBA = { is_subject_of = TUR }	
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	LBA = { has_civil_war = no }
+	LBA = { has_war = no }
+	LBA = { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = LBA
+		transfer_troops = yes 
+		}	
+		LBA = {drop_cosmetic_tag}
+		}		
+}
+	}
+	creerlekhedivatdegypte1 = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = EGY
+				country_exists = SUD
+			}
+}
+   available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 453  }
+	TUR = { owns_state = 446  }
+	TUR = { owns_state = 907  }
+	TUR = { owns_state = 447  }
+	TUR = { owns_state = 452  }
+	TUR = { owns_state = 457  }
+	TUR = { owns_state = 456  }
+    }
+
+	complete_effect = {	
+	release_puppet = EGY
+	EGY = {set_cosmetic_tag = EGY_TUR_subject}
+    hidden_effect = {
+	release_puppet = SUD
+	EGY = { annex_country = { target = SUD }
+		transfer_troops = yes 
+		}
+	EGY = { set_capital = {state = 907 } }
+				}
+	}
+
+}
+
+	creerlekhedivatdegypte2 = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = EGY
+				}
+		AND = {
+				country_exists = SUD
+				}					
+}
+   available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 453  }
+	TUR = { owns_state = 446  }
+	TUR = { owns_state = 907  }
+	TUR = { owns_state = 447  }
+	TUR = { owns_state = 452  }
+	TUR = { owns_state = 457  }
+	TUR = { owns_state = 456  }
+    }
+
+	complete_effect = {	
+    hidden_effect = {
+	EGY = { set_capital = {state = 907 } }
+				}
+	 release_puppet = EGY
+	EGY = {set_cosmetic_tag = EGY_TUR_subject}
+
+	}
+
+}
+	dissoudrelekhedivatdegypte2 = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+		AND = {
+				country_exists = EGY
+				}
+		AND = {
+				country_exists = SUD
+				}					
+}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	EGY = { has_civil_war = no }
+	EGY = { has_war = no }
+	EGY = { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = EGY
+		transfer_troops = yes 
+		}	
+		EGY = {drop_cosmetic_tag}
+		}
+	}	
+}
+
+	dissoudrelekhedivatdegypte1 = {
+		icon = decision_TUR_Admin
+		cost = 600
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+		AND = {
+				country_exists = EGY
+				}
+		NOT = {
+				country_exists = SUD
+				}					
+}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	EGY = { has_civil_war = no }
+	EGY = { has_war = no }
+	EGY = { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = EGY
+		transfer_troops = yes 
+		}	
+		EGY = {drop_cosmetic_tag}
+		}
+	}
+}
+	restaurerlesvilayetsdebosnieetdherzegovine = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = BOS
+				country_exists = HRZ
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 980  }
+	TUR = { owns_state = 104  }
+	TUR = { owns_state = 804  }
+
+    }
+
+   ai_will_do = { factor = 40 }
+
+   complete_effect = {	
+    hidden_effect = {
+	BOS = { set_capital = {state = 104 } }
+	HRZ = { set_capital = {state = 804 } }
+				}
+	release_puppet = BOS
+	release_puppet = HRZ
+	BOS = {set_cosmetic_tag = BOS_TUR_subject}
+	HRZ = {set_cosmetic_tag = HRZ_TUR_subject}
+	}
+}
+	dissoudrelesvilayetsdebosnieetdherzegivine = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = BOS
+				country_exists = HRZ
+				BOS = { is_subject_of = TUR }
+				HRZ = { is_subject_of = TUR }					
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	BOS = { has_civil_war = no }
+	BOS = { has_war = no }
+	BOS = { is_subject_of = TUR }
+	HRZ = { has_civil_war = no }
+	HRZ = { has_war = no }
+	HRZ = { is_subject_of = TUR }		
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = BOS
+		transfer_troops = yes 
+		}
+		annex_country = {
+		target = HRZ
+		transfer_troops = yes 
+		}		
+		HRZ = {drop_cosmetic_tag}
+		BOS = {drop_cosmetic_tag}
+			}		
+		}
+	}
+}
+	creerlekhedivatdusoudan = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = SUD
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 551  }
+    }
+
+   complete_effect = {	
+    hidden_effect = {
+	SUD = { set_capital = {state = 551 } }
+				}
+	release_puppet = SUD
+	SUD = {set_cosmetic_tag = SUD_TUR_subject}
+	}
+}
+	dissoudrelekhedivatdusoudan = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = SUD
+				SUD = { is_subject_of = TUR }	
+			}
+				NOT = {	
+			EGY = { owns_state = 551 }
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	SUD = { has_civil_war = no }
+	SUD = { has_war = no }
+	SUD	= { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = SUD
+		transfer_troops = yes 
+		}	
+		SUD = {drop_cosmetic_tag}
+		}		
+}
+	}
+	creerlevilayetdalger = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = ALG
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 513 }
+	TUR = { owns_state = 459 }
+	TUR = { owns_state = 460 }
+    }
+
+   ai_will_do = { factor = 40 }
+
+   complete_effect = {	
+    hidden_effect = {
+	ALG = { set_capital = {state = 459 } }
+				}
+	release_puppet = ALG
+	ALG = {set_cosmetic_tag = ALG_TUR_subject}
+	}
+}
+	dissoudrelevilayetdalger = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = ALG
+				ALG = { is_subject_of = TUR }	
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	ALG = { has_civil_war = no }
+	ALG = { has_war = no }
+	ALG	= { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = ALG
+		transfer_troops = yes 
+		}	
+		ALG = {drop_cosmetic_tag}
+		}		
+}
+	}
+	dissoudre_le_beylicat_de_tunis = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = TUN
+				TUN = { is_subject_of = TUR }	
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	TUN = { has_civil_war = no }
+	TUN = { has_war = no }
+	TUN	= { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = TUN
+		transfer_troops = yes 
+		}	
+		TUN = {drop_cosmetic_tag}
+		}		
+	}
+}
+	creerlebeylicatdetunis = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = TUN
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 458 }
+	TUR = { owns_state = 665 }
+
+    }
+
+   ai_will_do = { factor = 40 }
+
+   complete_effect = {	
+    hidden_effect = {
+	TUN = { set_capital = {state = 459 } }
+				}
+	release_puppet = TUN
+	TUN = {set_cosmetic_tag = TUN_TUR_subject}
+	}
+}
+	creerlevilayetdemoree = {
+		icon = decision_TUR_Admin
+		cost = 150
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				NOT = {
+				country_exists = TUN
+			}
+}
+  available = {
+        has_civil_war = no
+        has_war = no
+	TUR = { owns_state = 47 }
+	TUR = { owns_state = 186 }
+	TUR = { owns_state = 182 }
+	TUR = { owns_state = 992 }
+
+    }
+
+   ai_will_do = { factor = 40 }
+
+   complete_effect = {	
+    hidden_effect = {
+	GRE = { set_capital = {state = 47 } }
+				}
+	GRE = {set_cosmetic_tag = GRE_TUR_subject}
+	GRE = { remove_state_core = 797 }
+	GRE = { remove_state_core = 341 }
+	GRE = { remove_state_core = 989 }
+	release_puppet = GRE
+	TUR = { set_capital = {state = 797 } }
+				}
+	}
+}
+}
+	dissoudre_le_vilayet_de_moree = {
+		icon = decision_TUR_Admin
+		cost = 300
+		days_re_enable = 1
+		selectable_mission = yes
+	visible = {
+				AND = {
+				country_exists = GRE
+				GRE = { is_subject_of = TUR }	
+			}
+		}
+
+		available = {
+			has_civil_war = no
+			has_war = no
+	GRE = { has_civil_war = no }
+	GRE = { has_war = no }
+	GRE	= { is_subject_of = TUR }			
+		}
+
+
+		complete_effect = {	
+		annex_country = {
+		target = GRE
+		transfer_troops = yes 
+		}	
+		GRE = {drop_cosmetic_tag}
+		}		
+}

@@ -1,0 +1,28 @@
+state={
+	id=1164
+	name="STATE_1164"
+
+	history={
+			buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 4
+		9909 = {
+				naval_base = 6
+				}
+			}
+		owner = SPM
+		add_core_of = FRA
+		add_core_of = SPM
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		9909   
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

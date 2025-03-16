@@ -1,0 +1,22 @@
+state={
+	id=1153
+	name="Khorassan-orientale"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		7990 10890 10759 12739 12852  
+	}
+	manpower=247974
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

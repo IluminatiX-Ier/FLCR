@@ -1,0 +1,30 @@
+
+state={
+	id=1161
+	name="STATE_1161"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		owner = ADR
+		add_core_of = ADR
+		add_core_of = OCC
+		add_core_of = CAT
+
+		victory_points = {
+			13534 1 
+		}
+
+	}
+
+	provinces={
+		13534 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+﻿capital = 37
+
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 50
+	moderate_right = 10
+	liberalism = 20
+    centrism = 20
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 0
+}
+
+
+set_autonomy = {
+		target = TOG
+		autonomous_state = autonomy_protectorat
+			}

@@ -1,0 +1,32 @@
+state={
+	id=1249
+	name="STATE_1249"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			10380 = {
+				naval_base = 4
+			}
+		}
+
+		victory_points = {
+			13533 8 
+		}
+
+		owner = FLO
+		add_core_of = FLO
+
+	}
+
+	provinces={
+		10352 10380 13533 
+	}
+	manpower=520000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

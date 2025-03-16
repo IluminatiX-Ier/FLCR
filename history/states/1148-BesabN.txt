@@ -1,0 +1,22 @@
+state={
+	id=1148
+	name="Bessarabie-nord"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = RUS
+		add_core_of = MOL
+
+	}
+
+	provinces={
+		3407
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

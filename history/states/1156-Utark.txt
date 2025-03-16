@@ -1,0 +1,22 @@
+state={
+	id=1156
+	name="Uttarakhand"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = PAK
+		add_core_of = PAK
+
+	}
+
+	provinces={
+		1898 3989 5002 5157 10021 11955 
+	}
+	manpower=8540000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

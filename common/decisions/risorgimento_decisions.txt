@@ -1,0 +1,164 @@
+risorgimento = {
+	risorgimentorealise = {
+		icon = decision_icon_risorgimentorealise
+		cost = 400
+
+		available = {
+			custom_trigger_tooltip = { 
+			tooltip = "ita_unis" 
+			owns_state = 2
+			owns_state = 162
+			owns_state = 995
+			owns_state = 157
+			owns_state = 993
+			owns_state = 994
+			owns_state = 849
+			owns_state = 117
+			owns_state = 996
+			owns_state = 156
+			owns_state = 115
+			owns_state = 114
+			owns_state = 1166
+			owns_state = 160
+			owns_state = 997
+			owns_state = 1288
+			owns_state = 159
+			owns_state = 161
+			owns_state = 1180
+			owns_state = 158
+			owns_state = 1179
+			}
+		}	
+
+		highlight_states = { 
+			highlight_state_targets = {
+			state = 2
+			state = 162
+			state = 995
+			state = 157
+			state = 993
+			state = 994
+			state = 849
+			state = 117
+			state = 996
+			state = 156
+			state = 115
+			state = 114
+			state = 1166
+			state = 160
+			state = 997
+			state = 1288
+			state = 159
+			state = 161
+			state = 1180
+			state = 158
+			state = 1179
+
+			}
+		}
+
+		complete_effect = {	
+			set_cosmetic_tag = ITA
+			custom_effect_tooltip = "ita_suite"
+			hidden_effect = {
+			add_state_core = 2
+			add_state_core = 162
+			add_state_core = 995
+			add_state_core = 157
+			add_state_core = 993
+			add_state_core = 994
+			add_state_core = 849
+			add_state_core = 117
+			add_state_core = 996
+			add_state_core = 156
+			add_state_core = 115
+			add_state_core = 114
+			add_state_core = 1166
+			add_state_core = 160
+			add_state_core = 997
+			add_state_core = 1288
+			add_state_core = 159
+			add_state_core = 161
+			add_state_core = 1180
+			add_state_core = 158
+			add_state_core = 1179
+		
+			if = {
+			limit = {
+			owns_state = 1167
+				}   
+			add_state_core = 1167
+				}
+
+			if = {
+			limit = {
+			owns_state = 1
+				}   
+			add_state_core = 1
+				}
+
+			if = {
+			limit = {
+			owns_state = 39
+			owns_state = 850
+				}   
+			add_state_core = 39
+			add_state_core = 850
+
+				}
+
+			if = {
+			limit = {
+			owns_state = 735
+				}   
+			add_state_core = 735
+				}
+
+
+			if = {
+			limit = {
+			owns_state = 1164
+				}   
+			add_state_core = 1164
+				}
+
+			if = {
+			limit = {
+			owns_state = 116
+				}   
+			add_state_core = 116
+
+				}
+
+			if = {
+			limit = {
+			owns_state = 736
+			owns_state = 852
+				}   
+			add_state_core = 736
+			add_state_core = 852		
+				}
+
+			if = {
+			limit = {
+			owns_state = 103
+			owns_state = 163			
+				}   
+			add_state_core = 103
+			add_state_core = 163
+				}
+
+				}
+			if = {
+			limit = {
+			owns_state = 735
+				}   
+			add_state_core = 735
+				}
+
+		}
+
+		load_focus_tree = ita-u
+		}
+	}
+}

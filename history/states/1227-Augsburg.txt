@@ -1,0 +1,24 @@
+
+state={
+	id=1227
+	name="STATE_1227"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		owner = AUG
+		add_core_of = AUG
+
+	}
+
+	provinces={
+		13576 
+	}
+	manpower=125000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

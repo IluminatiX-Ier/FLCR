@@ -1,0 +1,28 @@
+state={
+	id=1237
+	name="STATE_1237"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+
+		victory_points = {
+			405 1 
+		}
+
+		owner = PDB
+		add_core_of = PDB
+
+	}
+
+	provinces={
+		405 3355 9509 11431
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

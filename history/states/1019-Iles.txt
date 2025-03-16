@@ -1,0 +1,29 @@
+state={
+	id=1019
+	name="STATE_1019"
+
+	history={
+		buildings = {
+			infrastructure = 1
+			4430 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			4430 2 
+		}
+
+		owner = CAN
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		4360 4430 
+	}
+	manpower=510000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

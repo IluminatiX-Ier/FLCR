@@ -1,0 +1,29 @@
+state={
+	id=1245
+	name="STATE_1245"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		owner = BAY
+		add_core_of = BAY
+
+		victory_points = {
+			11529 1
+		}
+
+
+	}
+
+	provinces={
+		561 6540 9557 9572 11529 
+	}
+	manpower=860000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Ascendance Slovène
+	SpriteType = { 
+		name = "AUS_Empress_legacy_gfx"
+		texturefile = "gfx/interface/ideas/aus-ideas/AUS_Empress_legacy.png"
+	}
+
+ 
+ }

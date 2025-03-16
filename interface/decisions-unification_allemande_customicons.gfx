@@ -1,0 +1,26 @@
+spriteTypes = { 
+	##Icon For Category: Unification Allemande
+	SpriteType = { 
+		name = "decision_category_icon_unification_allemande"
+		texturefile = "gfx/interface/decisions/decision_category_icon_unification_allemande1.dds"
+	}
+
+	##Picture For: Unification Allemande
+	SpriteType = { 
+		name = "decision_category_picture_unification_allemande"
+		texturefile = "gfx/interface/decisions/decision_category_picture_unification_allemande.dds"
+	}
+
+	##Icon For: la solution Grande-allemande
+	SpriteType = { 
+		name = "decision_icon_la_solution_grandeallemande"
+		texturefile = "gfx/interface/decisions/decision_icon_la_solution_grandeallemande.dds"
+	}
+
+	##Icon For: la solution petite-allemande
+	SpriteType = { 
+		name = "decision_icon_la_solution_petiteallemande"
+		texturefile = "gfx/interface/decisions/decision_icon_la_solution_petiteallemande.dds"
+	}
+
+}

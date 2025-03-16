@@ -1,0 +1,23 @@
+economiechinoiseendesarroi = {
+	eclatementimminent = {
+    activation = {
+       YES = {
+	   country_exists = CHI
+	   fire_only_once = yes
+		}
+	}
+    available = {
+        has_war = yes
+    }
+    is_good = no
+    days_mission_timeout = 60
+    selectable_mission = no
+    timeout_effect = {
+		custom_effect_tooltip = "CHI_economy_1"
+		hidden_effect = {
+	CHI = { country_event = { id = Krack_32_JAP_CHI_krack_boursier_dasie.1 } }
+		}
+	}
+}
+
+}

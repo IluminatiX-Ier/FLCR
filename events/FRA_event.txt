@@ -1,0 +1,365 @@
+add_namespace = FRA_event
+
+#PRESENTATION#
+country_event = {
+	id = FRA_event.1
+	title = FRA_event.1.t
+	desc = FRA_event.1.d
+
+	picture = sfsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+		country_event = { id = FRA_event.2 }			
+	}
+
+	option = {
+		name = FRA_event.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+country_event = {
+	id = FRA_event.2
+	title = FRA_event.2.t
+	desc = FRA_event.2.d
+
+	picture = sffsfsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+		country_event = { id = FRA_event.3 }			
+	}
+
+	option = {
+		name = FRA_event.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+country_event = {
+	id = FRA_event.3
+	title = FRA_event.3.t
+	desc = FRA_event.3.d
+
+	picture = fsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+
+
+#Le procès de l'assasinat
+country_event = {
+	id = FRA_event.4
+	title = FRA_event.4.t
+	desc = FRA_event.4.d
+	is_triggered_only = yes
+	major = yes
+	
+	picture = fgfgfgf
+	option = {
+		name = FRA_event.4.a
+
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "danger_gauche"
+		hidden_effect = {
+		}	
+	
+	add_popularity = {
+		ideology = marxism
+		popularity = -0.03
+		}
+
+	add_popularity = {
+		ideology = totalism
+		popularity = -0.02
+		}
+
+	add_popularity = {
+		ideology = anarchism
+		popularity = -0.01
+		}
+		
+	}
+
+	option = {
+		name = FRA_event.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "no_alliance"
+		hidden_effect = {
+		}
+
+	add_popularity = {
+		ideology = nationalism
+		popularity = -0.03
+		}
+
+	add_popularity = {
+		ideology = paternalism
+		popularity = -0.02
+		}
+
+	add_popularity = {
+		ideology = chauvinism
+		popularity = -0.01
+		}
+		
+	}
+
+	option = {
+		name = FRA_event.4.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }			
+
+	custom_effect_tooltip = "no_populism"
+		hidden_effect = {
+		}
+
+	add_popularity = {
+		ideology = populism
+		popularity = -0.01
+		}
+		
+	}
+
+	option = {
+		name = FRA_event.4.e
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "no_crime"
+		hidden_effect = {
+
+		}
+
+		add_stability = 0.03
+
+	}
+
+}
+
+news_event = {
+	id = FRA_event.5
+	title = FRA_event.5.t
+	desc = FRA_event.5.d
+
+	picture = fsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+news_event = {
+	id = FRA_event.6
+	title = FRA_event.6.t
+	desc = FRA_event.6.d
+
+	picture = fsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+news_event = {
+	id = FRA_event.7
+	title = FRA_event.7.t
+	desc = FRA_event.7.d
+
+	picture = fsf
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = FRA_event.7.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+	}
+
+}
+
+
+#####COMMUNIST REVOLT PATH#######
+
+#Le PCF conteste !#
+country_event = {
+	id = FRA_event.8
+	title = FRA_event.8.t
+	desc = FRA_event.8.d
+	is_triggered_only = yes
+	major = yes
+	
+	picture = fgfgfgf
+	option = {
+		name = FRA_event.8.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "danger_gauche_1"
+		hidden_effect = {
+		}	
+
+	add_popularity = {
+		ideology = marxism
+		popularity = 0.025
+		}
+
+	add_popularity = {
+		ideology = totalism
+		popularity = 0.025
+		}
+
+		
+	}
+
+	option = {
+		name = FRA_event.8.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "danger_gauche_ecarte"
+		hidden_effect = {
+		}
+
+	add_popularity = {
+		ideology = marxism
+		popularity = -0.02
+		}
+
+		
+	}
+
+}
+
+#Révolution ou dernière chance !#
+
+country_event = {
+	id = FRA_event.9
+	title = FRA_event.9.t
+	desc = FRA_event.9.d
+	is_triggered_only = yes
+	major = yes
+	
+	picture = fgfgfgf
+	option = {
+		name = FRA_event.9.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "danger_gauche_2"
+		hidden_effect = {
+		}	
+
+	add_popularity = {
+		ideology = marxism
+		popularity = 0.05
+		}
+
+	add_popularity = {
+		ideology = totalism
+		popularity = 0.05
+		}
+
+	add_popularity = {
+		ideology = anarchism
+		popularity = 0.05
+		}
+
+	add_popularity = {
+		ideology = radical_socialism
+		popularity = 0.05
+		}
+		
+	add_popularity = {
+		ideology = social_democracy
+		popularity = 0.05
+		}
+		
+	}
+
+	option = {
+		name = FRA_event.9.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+
+	custom_effect_tooltip = "danger_gauche_fin_1"
+		hidden_effect = {
+		}
+
+
+		
+	}
+
+}

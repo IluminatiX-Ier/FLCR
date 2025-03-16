@@ -1,0 +1,2744 @@
+focus_tree = {
+	id = generic_focus
+	country = {
+		factor = 1
+	}
+	default = yes
+	continuous_focus_position = { x = -40 y = 1050 } 
+	#Développement de l'armée de terre
+	focus = {
+		id = generic_developpementdelarmeedeterre
+		icon = GFX_goal_unknown
+		x = 1
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						army_experience = 5
+						add_doctrine_cost_reduction = {
+							name = land_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = land_doctrine
+						}
+					
+		}
+	}
+
+	#Marché National
+	focus = {
+		id = generic_marchenational
+		icon = GFX_focus_generic_tungsten
+		x = 18
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_march_national
+			}	
+
+		prerequisite = { focus = generic_conservatisme  focus = generic_nationalconservatisme  }
+		mutually_exclusive = { focus = generic_marchedecentralise  }
+	}
+
+	#Développement du matériel
+	focus = {
+		id = generic_developpementdumateriel
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		prerequisite = { focus = generic_developpementdelarmeedeterre  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+					
+		}
+	}
+
+	#Développement de la motorisation
+	focus = {
+		id = generic_developpementdelamotorisation
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		prerequisite = { focus = generic_developpementdelarmeedeterre  }
+		bypass = {
+			 has_tech = motorised_infantry 
+		}
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = motorized_bonus
+							bonus = 3.0
+							technology = motorised_infantry
+						}
+					
+		}
+	}
+
+	#Développement des doctrines
+	focus = {
+		id = generic_developpementdesdoctrines
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		prerequisite = { focus = generic_developpementdelarmeedeterre  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						army_experience = 5
+						add_doctrine_cost_reduction = {
+							name = land_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = land_doctrine
+						}
+					
+		}
+	}
+
+	#Développement du matériel II
+	focus = {
+		id = generic_developpementdumaterielii
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		prerequisite = { focus = generic_developpementdumateriel  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+					
+		}
+	}
+
+	#Développement de la mécanisation
+	focus = {
+		id = generic_developpementdelamecanisation
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		prerequisite = { focus = generic_developpementdelamotorisation  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = motorized_bonus
+							ahead_reduction = 2
+							uses = 1
+							category = motorized_equipment
+						}
+					
+		}
+	}
+
+	#Développement des doctrines II
+	focus = {
+		id = generic_developpementdesdoctrinesii
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		prerequisite = { focus = generic_developpementdesdoctrines  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						army_experience = 5
+						add_doctrine_cost_reduction = {
+							name = land_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = land_doctrine
+						}
+					
+		}
+	}
+
+	#Développement du matériel III
+	focus = {
+		id = generic_developpementdumaterieliii
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		prerequisite = { focus = generic_developpementdumaterielii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = infantry_artillery_bonus
+							ahead_reduction = 2
+							uses = 1
+							category = infantry_weapons
+							category = artillery
+						}
+					
+		}
+	}
+
+	#Développement des blindés
+	focus = {
+		id = generic_developpementdesblindes
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		prerequisite = { focus = generic_developpementdelamecanisation  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = armor_bonus
+							bonus = 1.0
+							uses = 2
+							category = armor
+						}
+					
+		}
+	}
+
+	#Forces spéciales
+	focus = {
+		id = generic_forcesspeciales
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		prerequisite = { focus = generic_developpementdumaterieliii  focus = generic_developpementdesdoctrinesii  focus = generic_developpementdesblindes  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_ideas = special_forces
+						add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 1.0
+							uses = 1
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
+						}
+					
+		}
+	}
+
+	#Développement de l'aviation
+	focus = {
+		id = generic_developpementdelaviation
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}			
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}			
+		}
+		completion_reward = {
+			
+						air_experience = 25
+			
+						if = {
+							limit = {
+								capital_scope = {
+									NOT = {
+										free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									}
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									free_building_slots = {
+										building = air_base
+										size > 1
+									}
+								}
+								add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+								ROOT = { set_country_flag = aviation_effort_AB }
+							}
+						}
+						if = {
+							limit = {
+								capital_scope = {
+									free_building_slots = {
+										building = air_base
+										size > 1
+									}
+								}
+							}
+							capital_scope = {
+								add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+								ROOT = { set_country_flag = aviation_effort_AB }
+							}
+						}
+						add_doctrine_cost_reduction = {
+							name = air_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = air_doctrine
+						}
+					
+		}
+	}
+
+	#Priorité aux chasseurs
+	focus = {
+		id = generic_prioriteauxchasseurs
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		prerequisite = { focus = generic_developpementdelaviation  }
+		mutually_exclusive = { focus = generic_prioriteauxbombardiers  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = fighter_bonus
+							bonus = 1.0
+							uses = 2
+							category = light_fighter
+							category = cat_heavy_fighter
+						}
+					
+		}
+	}
+
+	#Priorité aux bombardiers
+	focus = {
+		id = generic_prioriteauxbombardiers
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		prerequisite = { focus = generic_developpementdelaviation  }
+		mutually_exclusive = { focus = generic_prioriteauxchasseurs  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = bomber_bonus
+							bonus = 1.0
+							uses = 2
+							category = cat_strategic_bomber
+							category = tactical_bomber
+						}
+					
+		}
+	}
+
+	#Développement de l'aviation II
+	focus = {
+		id = generic_developpementdelaviationii
+		icon = GFX_goal_generic_air_doctrine
+		x = 5
+		y = 2
+		prerequisite = { focus = generic_prioriteauxbombardiers  } prerequisite = { focus = generic_prioriteauxchasseurs  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_2_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name =  air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		completion_reward = {
+			
+						air_experience = 25
+						if = {
+							limit = {
+								capital_scope = {
+									OR = {
+										NOT = { is_controlled_by = ROOT }
+										NOT = {
+											free_building_slots = {
+												building = air_base
+												size > 1
+											}
+										}
+									}
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									free_building_slots = {
+										building = air_base
+										size > 1
+									}
+								}
+								add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+								ROOT = { set_country_flag = aviation_effort_2_AB }
+							}
+						}
+						if = {
+							limit = {
+								capital_scope = {
+									is_controlled_by = ROOT
+									free_building_slots = {
+										building = air_base
+										size > 1
+									}
+								}
+							}
+							capital_scope = {
+								add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}				
+								ROOT = { set_country_flag = aviation_effort_2_AB }
+							}
+						}
+						add_doctrine_cost_reduction = {
+							name =  air_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = air_doctrine
+						}
+					
+		}
+	}
+
+	#Développement de l'appui aérien rapproché
+	focus = {
+		id = generic_developpementdelappuiaerienrapproche
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		prerequisite = { focus = generic_developpementdelaviationii  focus = generic_developpementdelamotorisation  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = CAS_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = cas_bomber
+						}
+					
+		}
+	}
+
+	#Développement de la fuséologie
+	focus = {
+		id = generic_developpementdelafuseologie
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		prerequisite = { focus = generic_developpementdelaviationii  focus = generic_developpementdesinfrastructures  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = jet_rocket_bonus
+							ahead_reduction = 2
+							uses = 2
+							category = rocketry
+							category = jet_technology
+						}
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Développement de l'aéronavale
+	focus = {
+		id = generic_developpementdelaeronavale
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		prerequisite = { focus = generic_developpementdelaviationii  focus = generic_marine_flexible  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = naval_bomber
+						}
+					
+		}
+	}
+
+	#Développement de la marine
+	focus = {
+		id = generic_developpementdelamarine
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 9
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		available = {
+			
+						any_state = {
+							is_coastal = yes
+							is_controlled_by = ROOT
+						}
+					
+		}
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						navy_experience = 25
+						if = {
+							limit = {
+								NOT = {
+									any_owned_state = {
+										dockyard > 0
+										free_building_slots = {
+											building = dockyard
+											size > 2
+											include_locked = yes
+										}
+									}
+								}
+								any_owned_state = {
+									is_coastal = yes
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									is_coastal = yes
+									free_building_slots = {
+										building = dockyard
+										size > 2
+										include_locked = yes
+									}
+								}
+								add_extra_state_shared_building_slots = 3
+								add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+							}
+							set_country_flag = naval_effort_built
+						}
+						if = {
+							limit = {
+								NOT = { has_country_flag = naval_effort_built }
+								any_owned_state = {
+									dockyard > 0
+									free_building_slots = {
+										building = dockyard
+										size > 2
+										include_locked = yes
+									}
+								}
+							}
+							random_owned_controlled_state = {
+								limit = {
+									dockyard > 0
+									free_building_slots = {
+										building = dockyard
+										size > 2
+										include_locked = yes
+									}
+								}
+								add_extra_state_shared_building_slots = 3
+								add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+							}
+							set_country_flag = naval_effort_built
+						}
+						if = {
+							limit = {
+								NOT = { has_country_flag = naval_effort_built }
+								NOT = {
+									any_owned_state = {
+										free_building_slots = {
+											building = dockyard
+											size > 2
+											include_locked = yes
+										}
+									}
+								}
+							}
+							random_state = {
+								limit = {
+									controller = { tag = ROOT }
+									free_building_slots = {
+										building = dockyard
+										size > 2
+										include_locked = yes
+									}
+								}
+								add_extra_state_shared_building_slots = 3
+								add_building_construction = {
+									type = dockyard
+									level = 3
+									instant_build = yes
+								}
+							}
+						}			
+					
+		}
+	}
+
+	#Marine flexible
+	focus = {
+		id = generic_marine_flexible
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		prerequisite = { focus = generic_developpementdelamarine  }
+		mutually_exclusive = { focus = generic_flotte_importante  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_doctrine_cost_reduction = {
+							name = sub_op_bonus
+							cost_reduction = 0.5
+							uses = 2
+							technology = convoy_interdiction_ti
+							technology = unrestricted_submarine_warfare
+							technology = wolfpacks
+							technology = advanced_submarine_warfare
+							technology = combined_operations_raiding
+						}
+					
+		}
+	}
+
+	#Flotte importante
+	focus = {
+		id = generic_flotte_importante
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 10
+		y = 1
+		prerequisite = { focus = generic_developpementdelamarine  }
+		mutually_exclusive = { focus = generic_marine_flexible  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_doctrine_cost_reduction = {
+							name = fleet_in_being_bonus
+							cost_reduction = 0.25
+							uses = 2
+							category = fleet_in_being_tree
+						}
+					
+		}
+	}
+
+	#Développement des sous-marins
+	focus = {
+		id = generic_developpementdessousmarins
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		prerequisite = { focus = generic_marine_flexible  } prerequisite = { focus = generic_flotte_importante  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = ss_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = ss_tech
+						}
+					
+		}
+	}
+
+	#Développement des croiseurs
+	focus = {
+		id = generic_developpementdescroiseurs
+		icon = GFX_goal_generic_navy_cruiser
+		x = 10
+		y = 2
+		prerequisite = { focus = generic_flotte_importante  } prerequisite = { focus = generic_marine_flexible  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+					
+		}
+	}
+
+	#Développement des destroyers
+	focus = {
+		id = generic_developpementdesdestroyers
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		prerequisite = { focus = generic_developpementdessousmarins  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = dd_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = dd_tech
+						}
+					
+		}
+	}
+
+	#Développement des navires capitaux
+	focus = {
+		id = generic_developpementdesnavirescapitaux
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		prerequisite = { focus = generic_developpementdescroiseurs  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						navy_experience = 25
+						add_tech_bonus = {
+							name = capital_ships_bonus
+							bonus = 1.0
+							ahead_reduction = 2
+							uses = 1
+							category = bc_tech
+							category = bb_tech
+							category = cv_tech
+						}
+					
+		}
+	}
+
+	#Développement de l'industrie
+	focus = {
+		id = generic_developpementdelindustrie
+		icon = GFX_goal_unknown
+		x = 13
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRYFOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 1.0
+							uses = 1
+							category = industry
+						}
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Développement de la construction
+	focus = {
+		id = generic_developpementdelaconstruction
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		prerequisite = { focus = generic_developpementdelindustrie  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 1
+									include_locked = yes
+								}					
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement de l'armement
+	focus = {
+		id = generic_developpementdelarmement
+		icon = GFX_generic_developpementdelarmement-177633
+		x = 14
+		y = 1
+		prerequisite = { focus = generic_developpementdelindustrie  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement de la construction II
+	focus = {
+		id = generic_developpementdelaconstructionii
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		prerequisite = { focus = generic_developpementdelaconstruction  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement de l'armement II
+	focus = {
+		id = generic_developpementdelarmementii
+		icon = GFX_generic_developpementdelarmementii-177633
+		x = 14
+		y = 2
+		prerequisite = { focus = generic_developpementdelarmement  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement des infrastructures
+	focus = {
+		id = generic_developpementdesinfrastructures
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		prerequisite = { focus = generic_developpementdelaconstructionii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = infrastructure_effort_tt
+							all_owned_state = {			
+								free_building_slots = {
+									building = infrastructure
+									size < 1
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 0
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 1
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement de l'armement III
+	focus = {
+		id = generic_developpementdelarmementiii
+		icon = GFX_generic_developpementdelarmementiii-177633
+		x = 14
+		y = 3
+		prerequisite = { focus = generic_developpementdelarmementii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}					
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement des infrastructures II
+	focus = {
+		id = generic_developpementdesinfrastructuresii
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		prerequisite = { focus = generic_developpementdesinfrastructures  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = infrastructure_effort_tt
+							all_owned_state = {			
+								free_building_slots = {
+									building = infrastructure
+									size < 1
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 0
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 1
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement de la construction III
+	focus = {
+		id = generic_developpementdelaconstructioniii
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		prerequisite = { focus = generic_developpementdesinfrastructures  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 2
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 1
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 1
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Développement du nucléaire
+	focus = {
+		id = generic_developpementdunucleaire
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		prerequisite = { focus = generic_developpementdesinfrastructuresii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = nuclear_bonus
+							ahead_reduction = 2
+							category = nuclear
+						}
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Sciences [Root.GetAdjFP]
+	focus = {
+		id = generic_sciencesrootgetadjfp
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		prerequisite = { focus = generic_developpementdesinfrastructuresii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_research_slot = 1
+					
+		}
+	}
+
+	#Recherche [Root.GetAdjFS]
+	focus = {
+		id = generic_rechercherootgetadjfs
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		prerequisite = { focus = generic_sciencesrootgetadjfp  }
+		available = {
+			
+						num_of_factories > 50
+					
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_research_slot = 1
+					
+		}
+	}
+
+	#Armes secrètes
+	focus = {
+		id = generic_armessecretes
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		prerequisite = { focus = generic_developpementdesinfrastructuresii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = secret_bonus
+							bonus = 1.0
+							uses = 4
+							category = electronics
+							category = nuclear
+							category = rocketry
+						}
+					
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	#Effort Politique
+	focus = {
+		id = generic_effort_politique
+		icon = GFX_generic_effort_politique
+		x = 24
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 200
+			
+			
+		}
+	}
+
+	#Traditionalisme
+	focus = {
+		id = generic_traditionalisme
+		icon = GFX_goal_generic_traditionalisme
+		x = 19
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+			completion_reward = {			
+						add_ideas = generic_fermeture_politique				
+			}
+
+		prerequisite = { focus = generic_effort_politique  }
+		mutually_exclusive = { focus = generic_modernisation  }
+	}
+
+	#Modernisation
+	focus = {
+		id = generic_modernisation
+		icon = GFX_goal_generic_modernisation
+		x = 29
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+			completion_reward = {			
+						add_ideas = generic_ouverture_politique				
+			}
+		prerequisite = { focus = generic_effort_politique  }
+		mutually_exclusive = { focus = generic_traditionalisme  }
+	}
+
+	#Réaffirmer les Traditions
+	focus = {
+		id = generic_reaffirmerlestraditions
+		icon = GFX_focus_generic_reaffirmerlestraditions
+		x = 18
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {			
+				swap_ideas = {
+					remove_idea = generic_fermeture_politique
+					add_idea = generic_tradition
+						}
+			}
+
+		prerequisite = { focus = generic_traditionalisme  }
+		mutually_exclusive = { focus = generic_venerationdesanciens  }
+	}
+
+	#Vénération des Anciens
+	focus = {
+		id = generic_venerationdesanciens
+		icon = GFX_focus_generic_venerationdesanciens
+		x = 20
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {			
+				swap_ideas = {
+					remove_idea = generic_fermeture_politique
+					add_idea = generic_anciens
+						}
+			}
+
+		prerequisite = { focus = generic_traditionalisme  }
+		mutually_exclusive = { focus = generic_reaffirmerlestraditions  }
+	}
+
+	#Transition Radicale
+	focus = {
+		id = generic_transition_radicale
+		icon = GFX_generic_transition_radicale
+		x = 25
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {			
+
+				swap_ideas = {
+					remove_idea = generic_ouverture_politique
+					add_idea = generic_ouverture_radicale
+						}
+			}
+
+		prerequisite = { focus = generic_modernisation  }
+		mutually_exclusive = { focus = generic_transitiondemocratique  }
+	}
+
+	#Transition Démocratique
+	focus = {
+		id = generic_transitiondemocratique
+		icon = GFX_focus_generic_transitiondemocratique
+		x = 32
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {			
+
+				swap_ideas = {
+					remove_idea = generic_ouverture_politique
+					add_idea = generic_ouverture_dmocratique
+						}		
+			}
+
+		prerequisite = { focus = generic_modernisation  }
+		mutually_exclusive = { focus = generic_transition_radicale  }
+	}
+
+	#Conservatisme
+	focus = {
+		id = generic_conservatisme
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 18
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			neutral_and_specific > 0.5
+		}
+
+		bypass = {
+			has_government = neutral_and_specific
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = neutral_and_specific
+				elections_allowed = no
+			}
+			}
+
+		prerequisite = { focus = generic_reaffirmerlestraditions  }
+	}
+
+	#National-conservatisme
+	focus = {
+		id = generic_nationalconservatisme
+		icon = GFX_focus_generic_manpower
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			fascism > 0.5
+		}
+
+		bypass = {
+			has_government = fascism
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			}
+
+
+		prerequisite = { focus = generic_venerationdesanciens  }
+	}
+
+	#Communisme
+	focus = {
+		id = generic_communisme
+		icon = GFX_focus_generic_communisme
+		x = 26
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			communism > 0.5
+		}
+
+		bypass = {
+			has_government = communism
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+				swap_ideas = {
+					remove_idea = generic_ouverture_radicale
+					add_idea = generic_communism
+						}
+
+			}
+
+		prerequisite = { focus = generic_transition_radicale  }
+		mutually_exclusive = { focus = generic_fascisme  }
+	}
+
+	#Fascisme
+	focus = {
+		id = generic_fascisme
+		icon = GFX_focus_generic_fascisme
+		x = 24
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			fascism > 0.5
+		}
+
+		bypass = {
+			has_government = fascism
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+
+				swap_ideas = {
+					remove_idea = generic_ouverture_radicale
+					add_idea = generic_fascism
+						}
+			}
+
+		prerequisite = { focus = generic_transition_radicale  }
+		mutually_exclusive = { focus = generic_communisme  }
+	}
+
+	#Socialisme
+	focus = {
+		id = generic_socialisme
+		icon = GFX_focus_generic_socialist_science
+		x = 29
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			moderate_left > 0.4
+		}
+
+		bypass = {
+			has_government = moderate_left
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = moderate_left
+				election_frequency = 60
+				elections_allowed = yes
+			}
+
+				swap_ideas = {
+					remove_idea = generic_ouverture_dmocratique
+					add_idea = generic_moderate_left
+						}
+			}
+
+		prerequisite = { focus = generic_transitiondemocratique  }
+		mutually_exclusive = { focus = generic_centrisme  } mutually_exclusive = { focus = generic_nationalisme  } mutually_exclusive = { focus = generic_liberalisme  }
+	}
+
+	#Centrisme
+	focus = {
+		id = generic_centrisme
+		icon = GFX_goal_generic_centrisme
+		x = 31
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			centrism > 0.4
+		}
+
+		bypass = {
+			has_government = centrism
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = centrism
+				election_frequency = 60
+				elections_allowed = yes
+			}
+
+				swap_ideas = {
+					remove_idea = generic_ouverture_dmocratique
+					add_idea = generic_centrism
+						}
+			}
+
+		prerequisite = { focus = generic_transitiondemocratique  }
+		mutually_exclusive = { focus = generic_socialisme  } mutually_exclusive = { focus = generic_nationalisme  } mutually_exclusive = { focus = generic_liberalisme  }
+	}
+
+	#Nationalisme
+	focus = {
+		id = generic_nationalisme
+		icon = GFX_goal_generic_nationalisme
+		x = 33
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			moderate_right > 0.4
+		}
+
+		bypass = {
+			has_government = moderate_right
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = moderate_right
+				election_frequency = 60
+				elections_allowed = yes
+			}
+				swap_ideas = {
+					remove_idea = generic_ouverture_dmocratique
+					add_idea = generic_moderate_right
+						}
+			}
+
+		prerequisite = { focus = generic_transitiondemocratique  }
+		mutually_exclusive = { focus = generic_socialisme  } mutually_exclusive = { focus = generic_centrisme  } mutually_exclusive = { focus = generic_liberalisme  }
+	}
+
+	#Libéralisme
+	focus = {
+		id = generic_liberalisme
+		icon = GFX_goal_generic_liberalisme
+		x = 35
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			liberalism > 0.4
+		}
+
+		bypass = {
+			has_government = liberalism
+		}
+
+			completion_reward = {				
+			set_politics = {
+				ruling_party = liberalism
+				election_frequency = 60
+				elections_allowed = yes
+			}
+				swap_ideas = {
+					remove_idea = generic_ouverture_dmocratique
+					add_idea = generic_liberalism
+						}
+
+			}
+
+		prerequisite = { focus = generic_transitiondemocratique  }
+		mutually_exclusive = { focus = generic_socialisme  } mutually_exclusive = { focus = generic_centrisme  } mutually_exclusive = { focus = generic_nationalisme  }
+	}
+
+	#Marché décentralisé
+	focus = {
+		id = generic_marchedecentralise
+		icon = GFX_generic_marchedecentralise-280
+		x = 20
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_march_dcentralis
+			}
+
+		prerequisite = { focus = generic_nationalconservatisme  focus = generic_conservatisme  }
+		mutually_exclusive = { focus = generic_marchenational  }
+	}
+
+	#Économie de Guerre
+	focus = {
+		id = generic_economiedeguerre
+		icon = GFX_generic_economiedeguerre-262080
+		x = 24
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_conomie_de_guerre
+			}
+
+		prerequisite = { focus = generic_fascisme  focus = generic_communisme  }
+		mutually_exclusive = { focus = generic_economieplanifiee  }
+	}
+
+	#Économie Planifiée
+	focus = {
+		id = generic_economieplanifiee
+		icon = GFX_generic_economieplanifiee-262097
+		x = 26
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_conomie_planifie
+			}	
+
+	prerequisite = { focus = generic_fascisme  focus = generic_communisme  }
+		mutually_exclusive = { focus = generic_economiedeguerre  } mutually_exclusive = { focus = generic_interventionnismeeconomique  }
+	}
+
+	#Interventionnisme Économique
+	focus = {
+		id = generic_interventionnismeeconomique
+		icon = GFX_goal_generic_consumer_goods
+		x = 28
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_interventionnisme_conomique
+			}	
+
+		prerequisite = { focus = generic_communisme  focus = generic_socialisme  }
+		mutually_exclusive = { focus = generic_economieplanifiee  } mutually_exclusive = { focus = generic_marcheegalitaire  } mutually_exclusive = { focus = generic_economiedeguerre  }
+	}
+
+	#Marché Égalitaire
+	focus = {
+		id = generic_marcheegalitaire
+		icon = GFX_goal_generic_marcheegalitaire
+		x = 30
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_march_galitaire
+			}	
+
+		prerequisite = { focus = generic_centrisme  focus = generic_socialisme  }
+		mutually_exclusive = { focus = generic_interventionnismeeconomique  } mutually_exclusive = { focus = generic_protectionisme  }
+	}
+
+	#Protectionisme
+	focus = {
+		id = generic_protectionisme
+		icon = GFX_focus_generic_coastal_fort
+		x = 32
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_protectionisme
+			}	
+
+		prerequisite = { focus = generic_centrisme  focus = generic_nationalisme  }
+		mutually_exclusive = { focus = generic_marcheegalitaire  } mutually_exclusive = { focus = generic_capitalisme  }
+	}
+
+	#Capitalisme
+	focus = {
+		id = generic_capitalisme
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 34
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_capitalisme
+			}	
+
+		prerequisite = { focus = generic_liberalisme  focus = generic_nationalisme  }
+		mutually_exclusive = { focus = generic_protectionisme  } mutually_exclusive = { focus = generic_laissez_faire  }
+	}
+
+	#Laissez Faire
+	focus = {
+		id = generic_laissez_faire
+		icon = GFX_focus_mex_privatisation
+		x = 36
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_laissez_faire
+			}	
+
+		prerequisite = { focus = generic_liberalisme  }
+		mutually_exclusive = { focus = generic_capitalisme  }
+	}
+
+	#Passé Lointain
+	focus = {
+		id = generic_passelointain
+		icon = GFX_focus_generic_passelointain
+		x = 18
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { 
+			has_government = neutral_and_specific
+		}
+
+			completion_reward = {				
+				add_ideas = generic_passe_loin
+			}
+
+		prerequisite = { focus = generic_marchedecentralise  focus = generic_marchenational  }
+	}
+
+	#Société Inégalitaire
+	focus = {
+		id = generic_societeinegalitaire
+		icon = GFX_goal_generic_societeinegalitaire
+		x = 20
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+			has_government = fascism
+		}
+
+			completion_reward = {				
+				add_ideas = generic_soc_ine
+			}
+
+		prerequisite = { focus = generic_marchedecentralise  focus = generic_marchenational  }
+	}
+
+	#Théorie des Races
+	focus = {
+		id = generic_theoriedesraces
+		icon = GFX_focus_generic_theoriedesraces
+		x = 22
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		has_government = fascism
+		}
+
+			completion_reward = {				
+				add_ideas = generic_theo_race
+			}
+
+		prerequisite = { focus = generic_marchedecentralise  focus = generic_economiedeguerre  focus = generic_economieplanifiee  }
+	}
+
+	#État Totalitaire
+	focus = {
+		id = generic_etattotalitaire
+		icon = GFX_generic_etattotalitaire
+		x = 25
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		OR = {
+		has_government = communism
+		has_government = fascism
+			}
+		}
+
+			completion_reward = {				
+				add_ideas = generic_totalita
+			}
+
+		prerequisite = { focus = generic_economiedeguerre  focus = generic_economieplanifiee  focus = generic_interventionnismeeconomique  }
+	}
+
+	#La Révolution Permanente
+	focus = {
+		id = generic_larevolutionpermanente
+		icon = GFX_generic_larevolutionpermanente
+		x = 27
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		has_government = communism
+		}
+
+			completion_reward = {				
+				add_ideas = generic_revolu
+			}
+
+		prerequisite = { focus = generic_economiedeguerre  focus = generic_economieplanifiee  focus = generic_interventionnismeeconomique  }
+	}
+
+	#Droit Humain
+	focus = {
+		id = generic_droit_humain
+		icon = GFX_goal_generic_demand_territory
+		x = 29
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		has_government = moderate_left
+		}
+
+			completion_reward = {				
+				add_ideas = generic_huma
+			}
+
+		prerequisite = { focus = generic_interventionnismeeconomique  focus = generic_marcheegalitaire  }
+	}
+
+	#Le Meilleur de la Nation
+	focus = {
+		id = generic_le_meilleur_de_la_nation
+		icon = GFX_focus_research2
+		x = 31
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_meilleur
+			}
+
+		prerequisite = { focus = generic_ordreetstabilite  }
+	}
+
+	#Ordre et stabilité
+	focus = {
+		id = generic_ordreetstabilite
+		icon = GFX_goal_generic_defence
+		x = 31
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		has_government = centrism
+		}
+
+			completion_reward = {				
+				add_ideas = generic_ordre
+			}
+
+		prerequisite = { focus = generic_marcheegalitaire  focus = generic_protectionisme  }
+	}
+
+	#Fanatisme Idéologique
+	focus = {
+		id = generic_fanatismeideologique
+		icon = GFX_goal_generic_CAS
+		x = 25
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_fanati
+				set_rule = { can_use_kamikaze_pilots = yes }
+			}
+
+		prerequisite = { focus = generic_etattotalitaire  focus = generic_larevolutionpermanente  focus = generic_theoriedesraces  }
+	}
+
+	#Citoyen Travailleur
+	focus = {
+		id = generic_citoyen_travailleur
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 33
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		available = { 
+		OR = {
+			has_government = moderate_right
+			has_government = liberalism
+			}
+		}
+
+			completion_reward = {				
+				add_ideas = generic_trava
+			}
+
+		prerequisite = { focus = generic_capitalisme  focus = generic_protectionisme  focus = generic_laissez_faire  }
+	}
+
+	#Héritage Divin
+	focus = {
+		id = generic_heritagedivin
+		icon = GFX_focus_generic_support_the_left_right
+		x = 18
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_divi
+			}
+
+		prerequisite = { focus = generic_passelointain  }
+	}
+
+	#Guerre Nationale
+	focus = {
+		id = generic_guerre_nationale
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 20
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_gu_nati
+			}
+
+		prerequisite = { focus = generic_societeinegalitaire  focus = generic_theoriedesraces  }
+	}
+
+	#Chercher le progrès
+	focus = {
+		id = generic_chercherleprogres
+		icon = GFX_goal_generic_scientific_exchange
+		x = 29
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_progr
+			}
+
+		prerequisite = { focus = generic_droit_humain  }
+	}
+
+	#La Méritocratie
+	focus = {
+		id = generic_lameritocratie
+		icon = GFX_goal_generic_scientific_exchange
+		x = 33
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_meri
+			}
+
+		prerequisite = { focus = generic_citoyen_travailleur  }
+	}
+
+	#Accord commerciale
+	focus = {
+		id = generic_accord_commerciale
+		icon = GFX_generic_accord_commerciale
+		x = 35
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_acc
+			}
+
+		prerequisite = { focus = generic_citoyen_travailleur  }
+	}
+
+	#Établir la Glorieuse [Root.GetName]
+	focus = {
+		id = generic_etablirlaglorieuserootgetname
+		icon = GFX_generic_etablirlaglorieuserootgetname
+		x = 18
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_glor
+			set_rule = {
+				can_create_factions = yes
+				can_join_factions = yes
+				can_join_factions_not_allowed_diplomacy = yes
+				can_join_opposite_factions = yes
+				}
+					add_country_leader_trait = Headstrong
+			}
+
+		prerequisite = { focus = generic_heritagedivin  }
+	}
+
+	#Expensionisme
+	focus = {
+		id = generic_expensionisme
+		icon = GFX_focus_eng_global_defense
+		x = 22
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_expen
+			set_rule = {
+				can_create_factions = yes
+				can_join_factions = yes
+				}
+					add_country_leader_trait = Dictator
+			}
+
+		prerequisite = { focus = generic_guerre_nationale  focus = generic_fanatismeideologique  }
+		mutually_exclusive = { focus = generic_dominer_le_monde  }
+	}
+
+	#Dominer le Monde
+	focus = {
+		id = generic_dominer_le_monde
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 25
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_monde
+			set_rule = {
+				can_puppet = not
+				can_access_market = not
+				can_join_factions = not
+				can_create_collaboration_government = yes
+				can_guarantee_other_ideologies = not
+				}
+			}
+
+
+		prerequisite = { focus = generic_fanatismeideologique  }
+		mutually_exclusive = { focus = generic_repandrelarevolution  } mutually_exclusive = { focus = generic_expensionisme  }
+	}
+
+	#Répandre la Révolution
+	focus = {
+		id = generic_repandrelarevolution
+		icon = GFX_generic_repandrelarevolution
+		x = 27
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL 
+		}
+
+			completion_reward = {				
+				add_ideas = generic_repan
+			set_rule = {
+				can_puppet = yes
+				can_create_factions = yes	
+				can_join_factions = yes
+				}
+
+				add_country_leader_trait = Revolutionary_General
+
+			}
+
+
+		prerequisite = { focus = generic_fanatismeideologique  }
+		mutually_exclusive = { focus = generic_dominer_le_monde  }
+	}
+
+	#Protéger les plus faibles
+	focus = {
+		id = generic_protegerlesplusfaibles
+		icon = GFX_focus_generic_protegerlesplusfaibles
+		x = 29
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {				
+				add_ideas = generic_fai
+			set_rule = {
+				can_create_factions = yes	
+				can_join_factions = yes
+				can_send_volunteers = yes
+				}
+			}
+
+
+		prerequisite = { focus = generic_chercherleprogres  }
+	}
+
+	#Neutralité
+	focus = {
+		id = generic_neutralite
+		icon = GFX_goal_tripartite_pact
+		x = 31
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {				
+				add_ideas = neutrality_idea
+			set_rule = {
+				can_puppet = not
+				can_create_factions = not
+				can_join_factions = not
+				can_send_volunteers = not
+				}
+			}
+
+
+		prerequisite = { focus = generic_le_meilleur_de_la_nation  }
+	}
+
+	#Interventionnisme
+	focus = {
+		id = generic_interventionnisme
+		icon = GFX_generic_interventionnisme
+		x = 33
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {				
+				add_ideas = generic_inter
+			set_rule = {
+				can_create_factions = yes	
+				can_join_factions = yes
+				can_send_volunteers = yes
+				}
+			}
+
+		prerequisite = { focus = generic_lameritocratie  }
+	}
+
+	#Assurer nos Investissement
+	focus = {
+		id = generic_assurer_nos_investissement
+		icon = GFX_goal_generic_assurer_nos_investissement
+		x = 35
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {				
+				add_ideas = generic_inves
+			set_rule = {
+				can_create_factions = yes	
+				can_join_factions = yes
+				can_force_government = yes
+				can_join_factions_not_allowed_diplomacy = yes
+				can_join_opposite_factions = yes	
+				}
+			}
+
+		prerequisite = { focus = generic_accord_commerciale  }
+	}
+
+	#Multiplication de la défense intérieur
+	focus = {
+		id = generic_multiplicationdeladefenseinterieur
+		icon = GFX_goal_generic_multiplicationdeladefenseinterieur
+		x = 23
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_defense
+			}
+
+		prerequisite = { focus = generic_assurer_nos_investissement  focus = generic_neutralite  focus = generic_interventionnisme  focus = generic_repandrelarevolution  focus = generic_protegerlesplusfaibles  focus = generic_expensionisme  focus = generic_dominer_le_monde  focus = generic_etablirlaglorieuserootgetname  }
+	}
+
+	#Création du génie civil
+	focus = {
+		id = generic_creationdugeniecivil
+		icon = GFX_goal_generic_creationdugeniecivil
+		x = 26
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+			completion_reward = {				
+				add_research_slot = 1
+			}
+
+		prerequisite = { focus = generic_assurer_nos_investissement  focus = generic_neutralite  focus = generic_interventionnisme  focus = generic_repandrelarevolution  focus = generic_protegerlesplusfaibles  focus = generic_expensionisme  focus = generic_dominer_le_monde  focus = generic_etablirlaglorieuserootgetname  }
+	}
+
+	#Maritimisation
+	focus = {
+		id = generic_maritimisation
+		icon = GFX_generic_maritimisation
+		x = 29
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+			completion_reward = {				
+				add_ideas = generic_maritimisation
+			}
+
+
+		prerequisite = { focus = generic_assurer_nos_investissement  focus = generic_neutralite  focus = generic_interventionnisme  focus = generic_repandrelarevolution  focus = generic_protegerlesplusfaibles  focus = generic_expensionisme  focus = generic_dominer_le_monde  focus = generic_etablirlaglorieuserootgetname  }
+	}
+
+}

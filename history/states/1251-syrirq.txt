@@ -1,0 +1,27 @@
+state={
+	id=1251
+	name="STATE_1251"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = IRQ
+		add_core_of = TUR
+		add_core_of = SYR
+		add_claim_by = SYR
+
+	}
+
+	provinces={
+		13478 
+	}
+
+	manpower=247010
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

@@ -1,0 +1,27 @@
+
+state={
+	id=1169
+	name="STATE_1169"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = LUX
+		add_core_of = WLN
+
+	}
+
+	provinces={
+		6537 9418 9444 11407 13593 13594 
+	}
+	manpower=1700000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

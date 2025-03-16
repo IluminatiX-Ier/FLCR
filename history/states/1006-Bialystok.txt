@@ -1,0 +1,24 @@
+state={
+	id=1006
+	name="STATE_1006"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		owner = RUS
+		add_core_of = POL
+
+	}
+
+	provinces={
+		290 347 11247 11301
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,27 @@
+capital = 117
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 25
+	liberalism = 0
+    centrism = 55
+	fascism = 5
+	communism = 5
+	neutral_and_specific = 5
+}
+
+create_country_leader = {
+	name = "François V de Bourbon-Siciles"
+	desc = "Francois_V_DESC"
+	picture = "Francois_V.dds"
+	expire = "1940.1.1"
+	ideology = national_monarchism
+	traits = { }
+}

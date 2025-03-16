@@ -1,0 +1,649 @@
+unification_allemande = {
+	la_solution_petiteallemande = {
+		icon = decision_icon_la_solution_petiteallemande
+		cost = 500
+
+		available = {
+			custom_trigger_tooltip = { 
+			tooltip = "sekifaufaire_petiteallemande" 
+			owns_state = 1226
+			owns_state = 52
+			owns_state = 53
+			owns_state = 50
+			owns_state = 61
+			owns_state = 64
+			owns_state = 65
+			owns_state = 63
+			owns_state = 66
+			owns_state = 67
+			owns_state = 1234
+			owns_state = 62
+			owns_state = 1181
+			owns_state = 972
+			owns_state = 1182
+			owns_state = 762
+			owns_state = 68
+			owns_state = 58
+			owns_state = 1183
+			owns_state = 1184
+			owns_state = 1222
+			owns_state = 1235
+			owns_state = 59
+			owns_state = 1218
+			owns_state = 1219
+			owns_state = 1220
+			owns_state = 56
+			owns_state = 1237
+			owns_state = 1233
+			owns_state = 1216
+			owns_state = 970
+			owns_state = 1225
+			owns_state = 1228
+			owns_state = 1227
+			owns_state = 1245
+			owns_state = 1224
+			owns_state = 1217
+			owns_state = 1231
+			owns_state = 54
+			owns_state = 1240
+			owns_state = 1241
+			owns_state = 1243
+			owns_state = 1242
+			owns_state = 60
+			owns_state = 1221
+			owns_state = 1236
+			owns_state = 55
+			owns_state = 1244
+			owns_state = 1238
+			owns_state = 1185
+			owns_state = 1230
+			owns_state = 1239
+			owns_state = 1232
+			owns_state = 51
+			owns_state = 57
+			owns_state = 1146
+			owns_state = 1147
+			owns_state = 42
+			owns_state = 1178
+			owns_state = 1229
+			owns_state = 1177
+			owns_state = 1213
+			owns_state = 1212
+			owns_state = 1214
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+			}
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			state = 1226
+			state = 52
+			state = 53
+			state = 50
+			state = 61
+			state = 64
+			state = 65
+			state = 63
+			state = 66
+			state = 67
+			state = 1234
+			state = 62
+			state = 1181
+			state = 972
+			state = 1182
+			state = 762
+			state = 68
+			state = 58
+			state = 1183
+			state = 1184
+			state = 1222
+			state = 1235
+			state = 59
+			state = 1218
+			state = 1219
+			state = 1220
+			state = 56
+			state = 1237
+			state = 1233
+			state = 1216
+			state = 970
+			state = 1225
+			state = 1228
+			state = 1227
+			state = 1245
+			state = 1224
+			state = 1217
+			state = 1231
+			state = 54
+			state = 1240
+			state = 1241
+			state = 1243
+			state = 1242
+			state = 60
+			state = 1221
+			state = 1236
+			state = 55
+			state = 1244
+			state = 1238
+			state = 1185
+			state = 1230
+			state = 1239
+			state = 1232
+			state = 51
+			state = 57
+			state = 1146
+			state = 1147
+			state = 42
+			state = 1178
+			state = 1229
+			state = 1177
+			state = 1213
+			state = 1212
+			state = 1214
+			state = 1215
+			state = 1223
+			state = 1248
+			}
+		}
+
+
+		complete_effect = {	
+			set_cosmetic_tag = GER
+			custom_effect_tooltip = "alasuite1"
+			hidden_effect = {
+			add_state_core = 1226
+			add_state_core = 52
+			add_state_core = 53
+			add_state_core = 50
+			add_state_core = 61
+			add_state_core = 64
+			add_state_core = 65
+			add_state_core = 63
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 1234
+			add_state_core = 62
+			add_state_core = 1181
+			add_state_core = 972
+			add_state_core = 1182
+			add_state_core = 762
+			add_state_core = 68
+			add_state_core = 58
+			add_state_core = 1183
+			add_state_core = 1184
+			add_state_core = 1222
+			add_state_core = 1235
+			add_state_core = 59
+			add_state_core = 1218
+			add_state_core = 1219
+			add_state_core = 1220
+			add_state_core = 56
+			add_state_core = 1237
+			add_state_core = 1233
+			add_state_core = 1216
+			add_state_core = 970
+			add_state_core = 1225
+			add_state_core = 1228
+			add_state_core = 1227
+			add_state_core = 1245
+			add_state_core = 1224
+			add_state_core = 1217
+			add_state_core = 1231
+			add_state_core = 54
+			add_state_core = 1240
+			add_state_core = 1241
+			add_state_core = 1243
+			add_state_core = 1242
+			add_state_core = 60
+			add_state_core = 1221
+			add_state_core = 1236
+			add_state_core = 55
+			add_state_core = 1244
+			add_state_core = 1238
+			add_state_core = 1185
+			add_state_core = 1230
+			add_state_core = 1239
+			add_state_core = 1232
+			add_state_core = 51
+			add_state_core = 57
+			add_state_core = 1146
+			add_state_core = 1147
+			add_state_core = 42
+			add_state_core = 1178
+			add_state_core = 1229
+			add_state_core = 1177
+			add_state_core = 1213
+			add_state_core = 1212
+			add_state_core = 1214
+			add_state_core = 1215
+			add_state_core = 1223
+			add_state_core = 1248
+
+		
+			if = {
+			limit = {
+			owns_state = 8
+				}   
+			add_state_core = 8
+				}
+
+			if = {
+			limit = {
+			owns_state = 188
+			owns_state = 763
+			owns_state = 5
+			owns_state = 974
+				}   
+			add_state_core = 188
+			add_state_core = 763
+			add_state_core = 5
+			add_state_core = 974
+				}
+
+			if = {
+			limit = {
+			owns_state = 85
+			owns_state = 807
+			owns_state = 973
+			owns_state = 86
+				}   
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 973
+			add_state_core = 86			
+				}
+
+			if = {
+			limit = {
+			owns_state = 1159
+				}   
+			add_state_core = 1159
+				}
+
+			if = {
+			limit = {
+			owns_state = 28
+			owns_state = 1162
+				}   
+			add_state_core = 28
+			add_state_core = 1162
+
+				}
+		}
+
+		load_focus_tree = ger-u
+		}
+
+	}
+
+
+
+	la_solution_grandeallemande = {
+		icon = decision_icon_la_solution_grandeallemande
+		cost = 500
+
+		available = {
+			custom_trigger_tooltip = { 
+			tooltip = "sekifaufaire_grandeallemande" 
+			owns_state = 1226
+			owns_state = 52
+			owns_state = 53
+			owns_state = 50
+			owns_state = 61
+			owns_state = 64
+			owns_state = 65
+			owns_state = 63
+			owns_state = 66
+			owns_state = 67
+			owns_state = 1234
+			owns_state = 62
+			owns_state = 1181
+			owns_state = 972
+			owns_state = 1182
+			owns_state = 762
+			owns_state = 68
+			owns_state = 58
+			owns_state = 1183
+			owns_state = 1184
+			owns_state = 1222
+			owns_state = 1235
+			owns_state = 59
+			owns_state = 1218
+			owns_state = 1219
+			owns_state = 1220
+			owns_state = 56
+			owns_state = 1237
+			owns_state = 1233
+			owns_state = 1216
+			owns_state = 970
+			owns_state = 1225
+			owns_state = 1228
+			owns_state = 1227
+			owns_state = 1245
+			owns_state = 1224
+			owns_state = 1217
+			owns_state = 1231
+			owns_state = 54
+			owns_state = 1240
+			owns_state = 1241
+			owns_state = 1243
+			owns_state = 1242
+			owns_state = 60
+			owns_state = 1221
+			owns_state = 1236
+			owns_state = 55
+			owns_state = 1244
+			owns_state = 1238
+			owns_state = 1185
+			owns_state = 1230
+			owns_state = 1239
+			owns_state = 1232
+			owns_state = 51
+			owns_state = 57
+			owns_state = 1146
+			owns_state = 1147
+			owns_state = 42
+			owns_state = 1178
+			owns_state = 1229
+			owns_state = 1177
+			owns_state = 1213
+			owns_state = 1212
+			owns_state = 1214
+			owns_state = 1215
+			owns_state = 848
+			owns_state = 153
+			owns_state = 1246
+			owns_state = 1022
+			owns_state = 1023
+			owns_state = 4
+			owns_state = 152
+			owns_state = 977
+			owns_state = 69
+			owns_state = 9
+			owns_state = 74
+			owns_state = 75
+			owns_state = 736
+			owns_state = 853
+			owns_state = 102
+			owns_state = 1082
+			owns_state = 1223
+			owns_state = 1248
+			}
+
+		}	
+	
+		on_map_mode = decision_view_only
+	
+		highlight_states = { 
+			highlight_state_targets = {
+
+			state = 1226
+			state = 52
+			state = 53
+			state = 50
+			state = 61
+			state = 64
+			state = 65
+			state = 63
+			state = 66
+			state = 67
+			state = 1234
+			state = 62
+			state = 1181
+			state = 972
+			state = 1182
+			state = 762
+			state = 68
+			state = 58
+			state = 1183
+			state = 1184
+			state = 1222
+			state = 1235
+			state = 59
+			state = 1218
+			state = 1219
+			state = 1220
+			state = 56
+			state = 1237
+			state = 1233
+			state = 1216
+			state = 970
+			state = 1225
+			state = 1228
+			state = 1227
+			state = 1245
+			state = 1224
+			state = 1217
+			state = 1231
+			state = 54
+			state = 1240
+			state = 1241
+			state = 1243
+			state = 1242
+			state = 60
+			state = 1221
+			state = 1236
+			state = 55
+			state = 1244
+			state = 1238
+			state = 1185
+			state = 1230
+			state = 1239
+			state = 1232
+			state = 51
+			state = 57
+			state = 1146
+			state = 1147
+			state = 42
+			state = 1178
+			state = 1229
+			state = 1177
+			state = 1213
+			state = 1212
+			state = 1214
+			state = 1215
+			state = 848
+			state = 153
+			state = 1246
+			state = 1022
+			state = 1023
+			state = 4
+			state = 152
+			state = 977
+			state = 69
+			state = 9
+			state = 74
+			state = 75
+			state = 736
+			state = 853
+			state = 102
+			state = 1082
+			state = 1223
+			state = 1248
+
+			}
+		}
+	
+	
+    complete_effect = {	
+		custom_effect_tooltip = "alasuite2"
+		hidden_effect = {
+			add_state_core = 1226
+			add_state_core = 52
+			add_state_core = 53
+			add_state_core = 50
+			add_state_core = 61
+			add_state_core = 64
+			add_state_core = 65
+			add_state_core = 63
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 1234
+			add_state_core = 62
+			add_state_core = 1181
+			add_state_core = 972
+			add_state_core = 1182
+			add_state_core = 762
+			add_state_core = 68
+			add_state_core = 58
+			add_state_core = 1183
+			add_state_core = 1184
+			add_state_core = 1222
+			add_state_core = 1235
+			add_state_core = 59
+			add_state_core = 1218
+			add_state_core = 1219
+			add_state_core = 1220
+			add_state_core = 56
+			add_state_core = 1237
+			add_state_core = 1233
+			add_state_core = 1216
+			add_state_core = 970
+			add_state_core = 1225
+			add_state_core = 1228
+			add_state_core = 1227
+			add_state_core = 1245
+			add_state_core = 1224
+			add_state_core = 1217
+			add_state_core = 1231
+			add_state_core = 54
+			add_state_core = 1240
+			add_state_core = 1241
+			add_state_core = 1243
+			add_state_core = 1242
+			add_state_core = 60
+			add_state_core = 1221
+			add_state_core = 1236
+			add_state_core = 55
+			add_state_core = 1244
+			add_state_core = 1238
+			add_state_core = 1185
+			add_state_core = 1230
+			add_state_core = 1239
+			add_state_core = 1232
+			add_state_core = 51
+			add_state_core = 57
+			add_state_core = 1146
+			add_state_core = 1147
+			add_state_core = 42
+			add_state_core = 1178
+			add_state_core = 1229
+			add_state_core = 1177
+			add_state_core = 1213
+			add_state_core = 1212
+			add_state_core = 1214
+			add_state_core = 1215
+			add_state_core = 848
+			add_state_core = 153
+			add_state_core = 1246
+			add_state_core = 1022
+			add_state_core = 1023
+			add_state_core = 4
+			add_state_core = 152
+			add_state_core = 977
+			add_state_core = 69
+			add_state_core = 9
+			add_state_core = 74
+			add_state_core = 75
+			add_state_core = 736
+			add_state_core = 853
+			add_state_core = 102
+			add_state_core = 1082
+			add_state_core = 1223
+			add_state_core = 1248
+		
+			if = {
+			limit = {
+			owns_state = 1159
+				}   
+			add_state_core = 1159
+				}
+
+			if = {
+			limit = {
+			owns_state = 188
+			owns_state = 763
+			owns_state = 5
+			owns_state = 974
+				}   
+			add_state_core = 188
+			add_state_core = 763
+			add_state_core = 5
+			add_state_core = 974
+				}
+
+			if = {
+			limit = {
+			owns_state = 85
+			owns_state = 807
+			owns_state = 973
+			owns_state = 86
+				}   
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 973
+			add_state_core = 86			
+				}
+
+			if = {
+			limit = {
+			owns_state = 8
+				}   
+			add_state_core = 8
+				}
+
+			if = {
+			limit = {
+			owns_state = 28
+			owns_state = 1162
+				}   
+			add_state_core = 28
+			add_state_core = 1162
+				}
+
+			if = {
+			limit = {
+			owns_state = 3
+			owns_state = 151
+				}   
+			add_state_core = 3
+			add_state_core = 151
+				}
+
+			if = {
+			limit = {
+			owns_state = 36
+			owns_state = 1176
+			owns_state = 1175
+			owns_state = 7
+			owns_state = 1174
+			owns_state = 35
+			owns_state = 1173
+				}   
+			add_state_core = 36
+			add_state_core = 1176
+			add_state_core = 1175
+			add_state_core = 7
+			add_state_core = 1174
+			add_state_core = 35
+			add_state_core = 1173
+				}
+			}		
+			64 = { set_state_owner_to = GER }
+			GER = { change_tag_from = ROOT }
+			GER = { annex_country = {
+					target = ROOT
+					transfer_troops = yes
+					}
+				}
+			load_focus_tree = ger-u
+
+		}	
+
+	}
+
+}

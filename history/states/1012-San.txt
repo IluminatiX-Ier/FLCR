@@ -1,0 +1,29 @@
+state={
+	id=1012
+	name="STATE_1012"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			6785 = {
+				naval_base = 3
+			}
+
+
+		}
+		owner = MEX
+		add_core_of = TEX
+
+	}
+
+	provinces={
+		5061 6785 12369
+	}
+	manpower=952000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

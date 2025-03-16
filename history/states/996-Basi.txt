@@ -1,0 +1,22 @@
+state={
+	id=996
+	name="Basilicate"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = TTS
+		add_core_of = TTS
+
+	}
+
+	provinces={
+		3958 3968 6972 9856
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

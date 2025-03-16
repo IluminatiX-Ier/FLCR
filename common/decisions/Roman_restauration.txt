@@ -1,0 +1,530 @@
+Roman_restauration = {
+
+	intra_anatolia = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	armenia = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	lazic = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	taurid = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	syria = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	palestine = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	aegyptus = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	tripoli = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	danubian_frontier_1 = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	danubian_frontier_2 = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	carthage = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	mauretania_1 = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	mauretania_2 = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	north_italia = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	rome = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+	
+	south_italia = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	south_hispania = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	north_hispania = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	Gaule = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	Brittonic = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	german_frontier = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	Assyrian_frontier = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}
+
+	liberate_roumanian_population = {
+		icon = decision_icon_glorious_rome
+		cost = 500
+
+		available = {
+			owns_state = 1215
+			owns_state = 1223
+			owns_state = 1248
+		}	
+
+		on_map_mode = decision_view_only
+
+		highlight_states = { 
+			highlight_state_targets = {
+			}
+		}
+
+
+		complete_effect = {	
+		}
+
+	}

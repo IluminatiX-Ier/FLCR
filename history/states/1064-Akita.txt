@@ -1,0 +1,22 @@
+state={
+	id=1064
+	name="Fukushima"
+
+	history={
+			buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			}
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1063 3848 9865 12056
+	}
+	manpower=1600000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

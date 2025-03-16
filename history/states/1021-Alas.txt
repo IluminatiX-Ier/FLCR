@@ -1,0 +1,33 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			10707 = {
+				naval_base = 1
+
+			}
+
+
+		}
+		owner = ALK
+		add_core_of = ALK
+
+		victory_points = {
+			13203 5
+		}
+
+	}
+
+	provinces={
+		3606 4848 7869 10707 13069 13202 13203 13636 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

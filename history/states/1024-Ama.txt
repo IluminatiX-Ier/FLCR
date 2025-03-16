@@ -1,0 +1,33 @@
+
+state={
+	id=1024
+	name="STATE_1024"
+
+	history={
+		buildings = {
+			infrastructure = 1
+			13290 = {
+				naval_base = 1
+
+			}
+
+		}
+
+		victory_points = {
+			13276 1 
+		}
+
+		owner = FRA
+		add_core_of = FRA
+		add_claim_by = BRA
+
+	}
+
+	provinces={
+		13276 13401
+	}
+	manpower=250140
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

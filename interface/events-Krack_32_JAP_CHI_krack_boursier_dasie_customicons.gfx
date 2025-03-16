@@ -1,0 +1,39 @@
+spriteTypes = { 
+	##Icon For: Un Silence etrange...
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_un_silence_etrange-588"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_un_silence_etrange-588.dds"
+	}
+
+	##Icon For: L'Effondrement de la Bourse de Beijing
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_leffondrement_de_la_bourse_de_beijing-699"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_leffondrement_de_la_bourse_de_beijing-699.dds"
+	}
+
+	##Icon For: Un choix Horrible...
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_un_choix_horrible-879"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_un_choix_horrible-879.dds"
+	}
+
+	##Icon For: Krack de la Bourse de Kyoto
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_krack_de_la_bourse_de_kyoto-776"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_krack_de_la_bourse_de_kyoto-776.dds"
+	}
+
+	##Icon For: Krack Boursier en Asie !
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_krack_boursier_en_asie_-450"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_krack_boursier_en_asie_-450.dds"
+	}
+
+	##Icon For: L'asie sombre dans l'effondrement économique !
+	SpriteType = { 
+		name = "Krack_32_JAP_CHI_lasie_sombre_dans_leffondrement_conomique_-992"
+		texturefile = "gfx/interface/events/krack_boursier_dasie-event/Krack_32_JAP_CHI_lasie_sombre_dans_leffondrement_conomique_-992.dds"
+	}
+
+ 
+ }

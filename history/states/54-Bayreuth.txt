@@ -1,0 +1,40 @@
+
+state={
+	id=54
+	name="STATE_54"
+
+	history={
+		owner = BAM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			11544 10 
+		}
+		add_core_of = BAM
+
+		victory_points = {
+			3474 3 
+		}
+
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3474 9416 
+	}
+	manpower=1208159
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

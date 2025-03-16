@@ -1,0 +1,33 @@
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+
+
+		}
+
+
+		victory_points = {
+			11580 1
+		}
+
+		owner = HUN
+		add_core_of = SER
+		add_core_of = CRO
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		11577 11580
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

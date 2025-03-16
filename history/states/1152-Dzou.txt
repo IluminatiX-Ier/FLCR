@@ -1,0 +1,24 @@
+state={
+	id=1152
+	name="Dzoungarie-occidentale"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KAZ
+		add_core_of = CHI
+		add_core_of = SIK
+
+	}
+
+	provinces={
+		1749 1818 10610 12662 
+	}
+	manpower=217012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

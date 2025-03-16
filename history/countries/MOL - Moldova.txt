@@ -1,0 +1,27 @@
+﻿capital = 79
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 40
+	moderate_right = 10
+	liberalism = 10
+    centrism = 10
+	fascism = 10
+	communism = 10
+	neutral_and_specific = 10
+}
+
+create_country_leader = {
+	name = "Conseil des cités unies"
+	desc = "Council_city_DESC"
+	picture = "Council_city.dds"
+	expire = "1940.1.1"
+	ideology = social_democratism
+	traits = { }
+}

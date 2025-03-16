@@ -1,0 +1,25 @@
+
+state={
+	id=1109
+	name="STATE_1109"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = LBA
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		1057 4191 10104 10785 13450
+	}
+	manpower=7500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

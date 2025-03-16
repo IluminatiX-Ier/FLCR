@@ -1,0 +1,91 @@
+#	Example:
+#
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#       attacker_modifier = no  # if yes this modifier will also be read in combat for
+#                               # people engaging in the combat even if not in the state
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states or unit leaders
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+
+
+FRA_sahara_impassable1 = {
+	enable = { always = yes }
+	icon = GFX_modifiers_conscription_exemptions_granted
+
+		army_speed_factor = -1.0
+		attrition = 5.0
+		supply_consumption_factor = 1.0
+		disable_strategic_redeployment = 1
+	remove_trigger = {
+
+	}
+}
+
+FRA_sahara_impassable2 = {
+	enable = { always = yes }
+	icon = GFX_modifiers_conscription_exemptions_granted
+
+		army_speed_factor = -1.0
+		attrition = 2.5
+		disable_strategic_redeployment = 1
+	remove_trigger = {
+
+	}
+}
+
+FRA_sahara_impassable3 = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_railways
+
+		army_speed_factor = -0.5
+		attrition = 0.8
+		disable_strategic_redeployment = 1
+	remove_trigger = {
+
+	}
+}
+
+
+FRA_sahara_passable = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_immigration_promoted
+
+	army_speed_factor = 2.0
+
+	remove_trigger = {
+	}
+}
+
+FRA_sahara_passable_war = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_plans
+
+	army_speed_factor = 1.0	
+	enemy_army_speed_factor = -5.0
+	enemy_local_supplies = -1.0
+	enemy_attrition = 3.0
+	enemy_truck_attrition_factor = 3.0
+	disable_strategic_redeployment_for_controller = 1
+
+	remove_trigger = {
+	}
+}

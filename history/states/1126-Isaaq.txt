@@ -1,0 +1,22 @@
+state={
+	id=1126
+	name="Isaaq"
+
+	history={
+		owner = SML
+			buildings = {
+			infrastructure = 1
+			dockyard = 1
+			}
+		add_core_of = SML
+
+	}
+
+	provinces={
+		5068 8094 10777 12759  
+	}
+	manpower=403974
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

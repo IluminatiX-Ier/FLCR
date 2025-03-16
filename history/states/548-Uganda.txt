@@ -1,0 +1,29 @@
+
+state={
+	id=548
+	name="STATE_548"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = NAN
+		add_core_of = NAN
+		victory_points = {
+			12989 1 
+		}
+
+	}
+
+	provinces={
+		7133 8223 12929 
+	}
+	manpower=1515625
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+﻿capital = 219
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    centrism = 5
+    liberalism = 2
+    market_liberalism = 0	
+    anar_liberalism = 0	
+    social_liberalism = 5	
+    social_democracy = 2	
+    radical_socialism = 3	
+    marxism = 3	
+    totalism = 0	
+    anarchism = 0
+    conservatism = 5
+    nationalism = 5
+    paternalism = 10
+    chauvinism = 2	
+    populism = 0
+    autocracy = 60	
+}
+
+
+
+create_country_leader = {
+	name = "Pierre IV Romanov"
+	desc = "Pierre_IV_DESC"
+	picture = "Pierre_IV.dds"
+	expire = "1940.1.1"
+	ideology = absolutism
+	traits = { }
+}
+
+set_autonomy = {
+		target = ALK
+		autonomous_state = autonomy_personal_union
+			}

@@ -1,0 +1,29 @@
+state={
+	id=1016
+	name="STATE_1016"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			4166 5
+		}
+
+		owner = CAN
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		703 1719 1734 1849 3699 4029 4166 4738 4834 6767 6827 7776 7829 7896 9678 12550 12588  
+	}
+	manpower=5462000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

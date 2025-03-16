@@ -1,0 +1,23 @@
+
+state={
+	id=888
+	name="STATE_888"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		1929 9986 12907 
+	}
+	manpower=885237
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

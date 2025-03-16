@@ -1,0 +1,33 @@
+
+state={
+	id=513
+	name="STATE_513" # Tlmecen
+	manpower = 811486
+	
+	state_category = rural
+
+	history={
+		owner = C01
+		add_core_of = C01
+		add_core_of = ALG
+
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			3991 3 
+		}
+
+
+	}
+
+	provinces={
+		3991 4150 7008 10045 12018 13074 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=1158
+	name="Gujarat-sud"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+		9975 = {
+				naval_base = 3
+				}
+			}
+		owner = RAJ
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		4187 7150 7165 9975 11952 12092 
+	}
+	manpower=17000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

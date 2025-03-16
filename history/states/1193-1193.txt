@@ -1,0 +1,30 @@
+
+state={
+	id=1193
+	name="Ormuz"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			13326 = {
+				naval_base = 4
+
+			}
+
+		}
+		owner = PER
+		add_core_of = PER
+
+	}
+
+	provinces={
+		13452 
+	}
+	manpower=45700
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

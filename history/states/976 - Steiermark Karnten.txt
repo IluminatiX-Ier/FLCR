@@ -1,0 +1,31 @@
+state={
+	id=976
+	name="STATE_976"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+
+		}
+
+		victory_points = {
+			6761 1
+		}
+
+
+		owner = BUC
+		add_core_of = BUC
+		add_core_of = MOL
+
+	}
+
+	provinces={
+		6761 11689
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

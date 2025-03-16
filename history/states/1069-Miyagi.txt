@@ -1,0 +1,29 @@
+
+state={
+	id=1069
+	name="Miyagi"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			7169 = {
+				naval_base = 4
+
+			}
+
+		}
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		7169 13505
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

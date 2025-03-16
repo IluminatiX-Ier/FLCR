@@ -1,0 +1,25 @@
+state={
+	id=982
+	name="STATE_982"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+
+		}
+		owner = ALB
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		9780 9914 13255
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

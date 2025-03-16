@@ -1,0 +1,118 @@
+﻿capital = 26
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 5
+	liberalism = 20
+    centrism = 55
+	fascism = 0
+	communism = 10
+	neutral_and_specific = 10
+}
+
+
+############DIRIGEANT#################
+
+create_country_leader = {
+	name = "Guillaume V of Hanover"
+	desc = "Guillaume_V_DESC"
+	picture = "Guillaume_V.dds"
+	expire = "1940.1.1"
+	ideology = central_monarchism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Gilles Leroy"
+	desc = "Gilles_Leroy_DESC"
+	picture = "Gilles_Leroy.dds"
+	expire = "1940.1.1"
+	ideology = market_liberalism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Andrew_Taylor"
+	desc = "Henri_Rasoult_DESC"
+	picture = "Andrew_Taylor.dds"
+	expire = "1940.1.1"
+	ideology = social_democratism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Emile Calmenberg"
+	desc = "Emile_Calmenberg_DESC"
+	picture = "Emile_Calmenberg.dds"
+	expire = "1940.1.1"
+	ideology = nationalism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Commandant Etienne Alumette"
+	desc = "Etienne_Alumette_DESC"
+	picture = "Etienne_Alumette.dds"
+	expire = "1940.1.1"
+	ideology = ultra_nationalism
+	traits = { }
+}
+
+
+create_country_leader = {
+	name = "Jeanne Dubreuil"
+	desc = "Jeanne_Dubreuil_DESC"
+	picture = "Jeanne_Dubreuil.dds"
+	expire = "1940.1.1"
+	ideology = marxism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Henri V"
+	desc = "Henri_V_DESC"
+	picture = "Henri_V.dds"
+	expire = "1940.1.1"
+	ideology = absolutism
+	traits = { }
+}
+
+######################################
+
+
+set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+			}
+			
+set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+			}
+
+set_autonomy = {
+		target = C04
+		autonomous_state = autonomy_colony
+			}
+			
+set_autonomy = {
+		target = C05
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = C06
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = C07
+		autonomous_state = autonomy_colony
+			}

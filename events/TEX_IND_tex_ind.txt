@@ -1,0 +1,46 @@
+add_namespace = TEX_IND_tex_ind
+
+#L'indépendance du Texas !
+country_event = {
+	id = TEX_IND_tex_ind.1
+	title = TEX_IND_tex_ind.1.t
+	desc = TEX_IND_tex_ind.1.d
+
+	picture = TEX_IND_lindpendance_du_texas_-527437
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TEX_IND_tex_ind.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+		hidden_effect = {
+			news_event = { id = TEX_IND_tex_ind.2 }			
+		}
+	}
+}
+
+#La Guerre Mexicano-Texane
+news_event = {
+	id = TEX_IND_tex_ind.2
+	title = TEX_IND_tex_ind.2.t
+	desc = TEX_IND_tex_ind.2.d
+	is_triggered_only = yes
+	major = yes
+	
+	picture = TEX_IND_la_guerre_mexicanotexane-478
+	option = {
+		name = TEX_IND_tex_ind.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

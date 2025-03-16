@@ -1,0 +1,28 @@
+state={
+	id=1231
+	name="STATE_1231"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+
+		}
+
+		victory_points = {
+			11404 3 
+		}
+
+		owner = BYR
+		add_core_of = BYR
+
+	}
+
+	provinces={
+		11404
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

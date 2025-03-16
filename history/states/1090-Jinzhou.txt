@@ -1,0 +1,27 @@
+state={
+	id=1090
+	name="Jinzhou"
+
+	history={
+			buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		11886 = {
+				naval_base = 2
+				}
+			}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = MAN
+
+	}
+
+	provinces={
+		934 3814 3934 6837 6898 9905 11886 
+	}
+	manpower=2051000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

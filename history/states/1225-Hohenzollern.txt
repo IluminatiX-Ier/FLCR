@@ -1,0 +1,27 @@
+
+state={
+	id=1225
+	name="STATE_1225"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = PRE
+		add_core_of = PRE
+
+		victory_points = {
+			13577 3 
+		}
+
+	}
+
+	provinces={
+		13577 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,8 @@
+ideas = {
+	country = {
+
+		AUS_Empress_legacy = {
+			picture = AUS_Empress_legacy_gfx
+		}
+	}
+}

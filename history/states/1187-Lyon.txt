@@ -1,0 +1,27 @@
+state={
+	id=1187
+	name="STATE_1187"
+	provinces={
+		641 6613 6639 9590 11794 
+	}
+
+	history={
+
+		victory_points = {
+			6613 35
+		}
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 3
+			}
+		owner = FRA
+		add_core_of = FRA
+	}
+
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

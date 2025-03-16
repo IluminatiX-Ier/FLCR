@@ -1,0 +1,22 @@
+state={
+	id=1091
+	name="Chagai"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			}
+		owner = AFG
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		5075 8013 12761 
+	}
+	manpower=225080
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

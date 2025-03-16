@@ -1,0 +1,23 @@
+state={
+	id=1150
+	name="Och"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KYR
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		4224 4391 4768 4923 5062 12370 12511 13147 
+	}
+	manpower=127012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

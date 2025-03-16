@@ -1,0 +1,24 @@
+
+state={
+	id=1228
+	name="STATE_1228"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+
+		}
+		owner = ULM
+		add_core_of = ULM
+
+	}
+
+	provinces={
+		13578 
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=1020
+	name="STATE_1020"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			dockyard = 2
+			1338 = {
+				naval_base = 2
+			}
+
+		}
+		owner = CAN
+		add_core_of = CAN
+
+		victory_points = {
+			1338 1 
+		}
+
+	}
+
+	provinces={
+		1282 1338 1619 4287 10247 12221 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

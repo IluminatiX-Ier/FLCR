@@ -1,0 +1,27 @@
+state={
+	id=1128
+	name="Pountland"
+
+	history={
+		owner = MAJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		1966 = {
+				naval_base = 4
+				}
+			}
+		add_core_of = MAJ
+		add_claim_by = ETH
+
+	}
+
+	provinces={
+		1966 4909 10818 10891 
+	}
+	manpower=423974
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

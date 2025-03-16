@@ -1,0 +1,27 @@
+capital = 95
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 30
+	liberalism = 20
+    centrism = 50
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Friedrich IV von Hohenzollern"
+	desc = "Friedrich_IV_DESC"
+	picture = "Friedrich_IV.dds"
+	expire = "1940.1.1"
+	ideology = central_monarchism
+	traits = { }
+}

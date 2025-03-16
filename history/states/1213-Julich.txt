@@ -1,0 +1,27 @@
+state={
+	id=1213
+	name="STATE_1213"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		owner = KLN
+		add_core_of = KLN
+
+		victory_points = {
+			3547 3 
+		}
+
+	}
+
+	provinces={
+		3547 9522
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

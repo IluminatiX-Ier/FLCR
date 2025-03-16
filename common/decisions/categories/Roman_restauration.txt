@@ -1,0 +1,11 @@
+Roman_restauration = {
+	icon = decision_category_icon_Roman_restauration
+	picture = decision_category_picture_Roman_restauration
+	visible = {
+   
+		tag = GRE	
+		}
+	}
+
+}
+

@@ -1,0 +1,23 @@
+state={
+	id=1100
+	name="Madhya Pradesh"
+
+	history={
+			buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			}
+		owner = RAJ
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		1199 2054 4915 4971 7905 12743 12829 13437
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

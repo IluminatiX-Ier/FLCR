@@ -1,0 +1,30 @@
+﻿capital = 468
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 20
+	moderate_right = 20
+	liberalism = 20
+    centrism = 40
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Jacque-Baptiste Goureçac"
+	desc = "Jacque_Baptiste_DESC"
+	picture = "Jacque_Baptiste.dds"
+	expire = "1940.1.1"
+	ideology = egalitarian_democratism
+	traits = { }
+}
+
+set_cosmetic_tag = CAN_FRA_subject
+

@@ -1,0 +1,30 @@
+
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = ALK
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7884 10 
+		}
+
+	}
+
+	provinces={
+		1135 1830 4833 7855 7884 10679 10694 12661 13090 13091 
+	}
+	manpower=67500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

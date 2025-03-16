@@ -1,0 +1,22 @@
+state={
+	id=983
+	name="STATE_983"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = SER
+		add_core_of = SER
+
+	}
+
+	provinces={
+		833 867
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

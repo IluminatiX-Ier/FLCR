@@ -1,0 +1,28 @@
+
+state={
+	id=1122
+	name="Panowa"
+
+	history={
+			buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		13410 = {
+				naval_base = 2
+				}
+			}
+		owner = POR
+		add_core_of = BRM
+		add_core_of = BAN
+
+	}
+
+	provinces={
+		13430
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

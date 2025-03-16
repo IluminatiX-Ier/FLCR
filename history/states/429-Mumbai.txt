@@ -1,0 +1,18 @@
+
+state={
+	id=429
+	name="STATE_429"
+
+	history={
+		owner = RAJ
+
+	}
+
+	provinces={
+		4072 7060 7177 10019
+	}
+	manpower=17355600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

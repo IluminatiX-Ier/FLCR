@@ -1,0 +1,27 @@
+﻿capital = 531
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 5
+	liberalism = 15
+    centrism = 30
+	fascism = 2
+	communism = 3
+	neutral_and_specific = 40
+}
+
+create_country_leader = {
+	name = "Tokugawa Iesashi"
+	desc = "shogun_DESC"
+	picture = "shogun.dds"
+	expire = "1980.1.1"
+	ideology = absolutism
+	traits = { }
+}

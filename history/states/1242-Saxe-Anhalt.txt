@@ -1,0 +1,29 @@
+state={
+	id=1242
+	name="STATE_1242"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			3561 5 
+		}
+
+		owner = SXA
+		add_core_of = SXA
+
+	}
+
+	provinces={
+		425 3561
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

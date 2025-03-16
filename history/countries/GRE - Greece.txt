@@ -1,0 +1,28 @@
+﻿capital = 47
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1932.1.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Basileus Georgios Andrinopoulos"
+	desc = "Basileus_Georgios_DESC"
+	picture = "Basileus_Georgios.dds"
+	expire = "1980.1.1"
+	ideology = central_monarchism
+	traits = { }
+}
+
+set_popularities = {
+	moderate_left = 10
+	moderate_right = 20
+	liberalism = 20
+    centrism = 40
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 10
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=1023
+	name="STATE_1023"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		owner = AUS
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 11630 
+	}
+	manpower=470000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

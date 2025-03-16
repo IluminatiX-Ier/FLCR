@@ -1,0 +1,27 @@
+﻿l_french:
+la_lutte_pour_les_balkans:0 "§6La lutte pour les Balkans§!"
+la_lutte_pour_les_balkans_desc:0 "Au début du 20e siècle, les Balkans étaient une région instable, caractérisée par des tensions ethniques et des rivalités nationales. Les frontières floues et la fragilité des nouveaux États préfiguraient les bouleversements à venir, marquant le début de transformations historiques significatives."
+unir_les_slaves_du_sud:0 "§2Unir les Slaves du Sud§!"
+restaurationdelempireserbe:0 "§3Restauration de l'Empire Serbe§!"
+restauration_byzantine:0 "§0Restauration Byzantine§!"
+avenementduiiiemeempirebulgare:0 "§8Avènement du IIIeme Empire Bulgare§!"
+domination_des_illyriens:0 "§GDomination des Illyriens§!"
+retour_des_ottomans:0 "§7Retour des Ottomans§!"
+dominationdesdanslesbalkans:0 "§LDomination [ROOT.GetAdjective] dans les Balkans§!"
+
+##Tooltips##
+
+llplblk.1a:0 "Pour Former §Rl'État Slave des Balkans§!,vous devez posséder:\n§G-Ljubljana\n-la croatie à l'exeption du voïvodine croate\n-La Bosnie et l'Herzégovine\n-le Monténégro\n-la serbie actuelle sans sa partie macédonienne§!\n\nSi vous faites l'un des 2 premiers choix sur la formation du pays vous obtiendrez des §GÉtat-nationaux§! sur toute la yougoslavie historique."
+llplblk.1b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en créeant l'entitée régionale slave"
+llplblk.2a:0 "Pour Former §Rl'Empire Serbe§!,vous devez posseder:\n§G-la partie orientale de la Bosnie\n-l'Albanie\n-le nord de la grèce\n-Sofia et Plovdiv et la partie de la Serbie Bulgare\n-la macédoine Bulgare§!\n\nSur les 4 choix pour la formation du pays vous obtiendrez des §GÉtat-nationaux§! en fonction de l'avenir de votre pays."
+llplblk.2b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en créeant une entitée basé sur l'ancien Empire Serbe"
+llplblk.3a:0 "Pour Établir un controle totale dans la région vous devez:\n§G-Posséder l'intégralité des frontière bordant votre côté du Danube jusqu'a la hongrie\n-Puis suivre le tracé de la Yougoslavie§!\n\nSur les 3 choix pour la formation du pays vous obtiendrez des §GÉtat-nationaux§! ou non en fonction de l'avenir de votre pays."
+llplblk.3b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en imposant votre autorité millénaire dans la région"
+llplblk.4a:0 "Pour Former §Rl'Empire Bulgare§!,vous devez posséder:\n§G-la Serbie ormis l'état de belgrade\n-le Monténégro\n-le Sud de la Grèce\n-l'Albanie§!\n\nSur les 4 choix pour la formation du pays vous obtiendrez des §GÉtat-nationaux§! en fonction de l'avenir de votre pays."
+llplblk.4b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en créeant une entitée basé sur l'ancien Empire Bulgare"
+llplblk.5a:0 "Pour Former §Rl'État Albanais des Balkans§!,vous devez posséder:\n§G-la Serbie actuelle\n-le Monténégro\n-la côte adriatique de la Grèce\n-la Slovénie hormis sa région italophile\n-L'Ouest de la Macédoine\n-La Croatie et la Bosnie§!\n\nSur les 2 choix pour la formation du pays vous obtiendrez des §GÉtat-nationaux§! en fonction de l'avenir de votre pays."
+llplblk.5b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en créeant une entitée basé sur la culture albanaise"
+llplblk.6a:0 "Pour Établir un controle totale dans la région vous devez:\n§G-Posséder l'intégralité des Balkans jusqu'aux frontières bordant L'Empire d'Autriche§!\n\nInstantanément après cette décision,vous pourrez créer §7le Khédivat de Roumélie et les Vilayet de Bosnie et d'Herzégovine.§!"
+llplblk.6b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! en rétablissant votre autorité dans la région"
+llplblk.7a:0 "Pour Établir un controle totale dans la région vous devez:\n§G-Posséder l'intégralité des Balkans§!\n\nInstantanément après cette décision,vous pourrez effectuer le choix sur comment la région des §GBalkans§! doit être remanier"
+llplblk.7b:0 "Vous allez mettre fin à §6La lutte pour les Balkans§! restructurant la région"

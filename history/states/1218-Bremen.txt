@@ -1,0 +1,33 @@
+
+state={
+	id=1218
+	name="STATE_1218"
+
+	history={
+		victory_points = {
+			13613 30 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 4
+			13613 = {
+				naval_base = 10
+
+			}
+
+		}
+		owner = BRE
+		add_core_of = BRE
+
+	}
+
+	provinces={
+		13613
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

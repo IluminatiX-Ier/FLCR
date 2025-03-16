@@ -1,0 +1,28 @@
+
+state={
+	id=1047
+	name="Diu"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		13406 = {
+				naval_base = 2
+				}
+
+		}
+		owner = POR
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13424 
+	}
+	manpower=57000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

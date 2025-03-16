@@ -1,0 +1,30 @@
+
+state={
+	id=1208
+	name="Dejima"
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			13449 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = JAP
+		add_claim_by = HOL
+
+	}
+
+	provinces={
+		13480 
+	}
+	manpower=170000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

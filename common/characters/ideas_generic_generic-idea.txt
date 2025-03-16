@@ -1,0 +1,84 @@
+characters = {	generic_hritier_de_tocqueville = {
+		name = generic_hritier_de_tocqueville
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_hritier_de_tocqueville-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_hritier_de_tocqueville
+		}
+	}
+	generic_partisan_du_traditionalisme = {
+		name = generic_partisan_du_traditionalisme
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_partisan_du_traditionalisme-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_partisan_du_traditionalisme
+		}
+	}
+	generic_fasciste_notoire = {
+		name = generic_fasciste_notoire
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_fasciste_notoire-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_fasciste_notoire
+		}
+	}
+	generic_fils_de_la_de_rvolution = {
+		name = generic_fils_de_la_de_rvolution
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_fils_de_la_de_rvolution-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_fils_de_la_de_rvolution
+		}
+	}
+	generic_elite_galitaire = {
+		name = generic_elite_galitaire
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_elite_galitaire-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_elite_galitaire
+		}
+	}
+	generic_nationaliste_convaincu = {
+		name = generic_nationaliste_convaincu
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_nationaliste_convaincu-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_nationaliste_convaincu
+		}
+	}
+	generic_socialiste_convaincu = {
+		name = generic_socialiste_convaincu
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/generic-idea-ideas/generic_socialiste_convaincu-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = generic_socialiste_convaincu
+		}
+	}

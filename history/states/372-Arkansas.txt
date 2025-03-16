@@ -1,0 +1,33 @@
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		owner = LOU
+		add_core_of = LOU
+		victory_points = {
+			12489 1 
+		}
+
+		victory_points = {
+			1646 1 
+		}
+
+	}
+
+	provinces={
+		1646 4444 4449 4540 4597 4625 7586 10370 10477 12346 12463 
+	}
+	manpower=2854481
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
+}

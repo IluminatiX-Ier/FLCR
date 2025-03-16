@@ -1,0 +1,22 @@
+state={
+	id=1039
+	name="STATE_1039"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		owner = LOU
+		add_core_of = LOU
+
+	}
+
+	provinces={
+		1690 1832 3781 4747 4778 6742 10327 10693 12124 12673 12676 
+	}
+	manpower=2886100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

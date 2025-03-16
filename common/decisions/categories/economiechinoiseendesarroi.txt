@@ -1,0 +1,13 @@
+economiechinoiseendesarroi = {
+	icon = economiechinoiseendesarroi
+	picture = economiechinoiseendesarroi
+	allowed = {
+		original_tag = CHI
+	}
+
+	visible = {
+    is_subject = no
+	has_active_mission = eclatementimminent
+	}
+
+}

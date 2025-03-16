@@ -1,0 +1,126 @@
+spriteTypes = { 
+	##Icon For Category: Division Administrative Ottomane
+	SpriteType = { 
+		name = "decision_category_icon_division_administrative_ottomane"
+		texturefile = "gfx/interface/decisions/decision_category_icon_division_administrative_ottomane.dds"
+	}
+
+	##Picture For: Division Administrative Ottomane
+	SpriteType = { 
+		name = "decision_category_picture_division_administrative_ottomane"
+		texturefile = "gfx/interface/decisions/decision_category_picture_division_administrative_ottomane.dds"
+	}
+
+	##Icon For: Créer le Khédivat de Roumélie
+	SpriteType = { 
+		name = "decision_icon_creerlekhedivatderoumelie"
+		texturefile = "gfx/interface/decisionsdecision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Khédivat de Roumelie
+	SpriteType = { 
+		name = "decision_icon_dissoudrelekhedivatderoumelie"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Diviser le Khédivat d'Égypte
+	SpriteType = { 
+		name = "decision_icon_diviserlekhedivatdegypte"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Unir le Khédivat d'Égypte et du Soudan
+	SpriteType = { 
+		name = "decision_icon_unirlekhedivatdegypteetdusoudan"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Vilayet de Libye
+	SpriteType = { 
+		name = "decision_icon_dissoudre_le_vilayet_de_libye"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Khédivat d'Égypte
+	SpriteType = { 
+		name = "decision_icon_creerlekhedivatdegypte"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Khédivat d'Égypte
+	SpriteType = { 
+		name = "decision_icon_dissoudrelekhedivatdegypte"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Vilayet de Libye
+	SpriteType = { 
+		name = "decision_icon_creerlevilayetdelibye"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Restaurer les Vilayets de Bosnie et d'Herzégovine
+	SpriteType = { 
+		name = "decision_icon_restaurerlesvilayetsdebosnieetdherzegovine"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre les Vilayets de Bosnie et d'Herzégivine
+	SpriteType = { 
+		name = "decision_icon_dissoudrelesvilayetsdebosnieetdherzegivine"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Khédivat du Soudan
+	SpriteType = { 
+		name = "decision_icon_dissoudrelekhedivatdusoudan"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Khédivat du Soudan
+	SpriteType = { 
+		name = "decision_icon_creerlekhedivatdusoudan"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Vilayet d'Alger
+	SpriteType = { 
+		name = "decision_icon_creerlevilayetdalger"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Vilayet d'Alger
+	SpriteType = { 
+		name = "decision_icon_dissoudrelevilayetdalger"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Dissoudre le Beylicat de Tunis
+	SpriteType = { 
+		name = "decision_icon_dissoudre_le_beylicat_de_tunis"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Khédivat du Soudan
+	SpriteType = { 
+		name = "decision_icon_creerlekhedivatdusoudan"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	##Icon For: Créer le Beylicat de Tunis
+	SpriteType = { 
+		name = "dissoudre_le_vilayet_de_moree"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	SpriteType = { 
+		name = "decision_icon_creerlebeylicatdetunis"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+	SpriteType = { 
+		name = "creerlevilayetdemoree"
+		texturefile = "gfx/interface/decisions/decision_TUR_Admin.dds"
+	}
+
+}

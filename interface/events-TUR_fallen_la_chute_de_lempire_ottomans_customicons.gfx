@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: SYR_independant
+	SpriteType = { 
+		name = "TUR_fallen_syr_independant-475"
+		texturefile = "gfx/interface/events/la_chute_de_lempire_ottomans-event/TUR_fallen_syr_independant-475.dds"
+	}
+
+ 
+ }

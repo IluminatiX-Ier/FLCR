@@ -1,0 +1,33 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			13359 = {
+				naval_base = 5
+
+			}
+
+		}
+
+		victory_points = {
+			13488 2
+		}
+	
+		owner = SPR
+		add_core_of = SPR
+		add_claim_by = MOR
+	}
+
+	provinces={
+		13488 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

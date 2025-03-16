@@ -1,0 +1,31 @@
+
+state={
+	id=952
+	name="STATE_952"
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5228 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			5228 2 
+		}
+
+	}
+
+	provinces={
+		5228 12914 13310
+	}
+	manpower=283605
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

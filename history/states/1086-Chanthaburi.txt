@@ -1,0 +1,27 @@
+state={
+	id=1086
+	name="Chanthaburi"
+
+	history={
+			buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		1224 = {
+				naval_base = 4
+				}
+			}
+		owner = SIA
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1244 4433 7225 7292 10293 12224  
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,11 @@
+add_namespace = GRE_byzantine_heritage
+
+#Constantinople Question...
+country_event = {
+	id = Constantinople?.1
+	title = Constantinople?.1.t
+	desc = Constantinople?.1.d
+
+	picture = TUR_fallen_syr_independant-475
+	hidden = yes
+}

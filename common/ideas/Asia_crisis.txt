@@ -1,0 +1,172 @@
+ideas = {
+	country = {
+				asia_crisis_begin = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 3
+				consumer_goods_factor = 0.80
+				conscription_factor = -0.8
+				join_faction_tension = 0.50
+				local_resources_factor = -0.5
+			}
+		}
+
+				asia_crisis_upgrade_1 = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1.5
+				consumer_goods_factor = 0.80
+				conscription_factor = -0.7
+				join_faction_tension = 0.80
+				local_resources_factor = -0.8
+				monthly_population = -0.1
+				stability_factor = -0.3
+			}
+		}
+
+				asia_crisis_upgrade_2 = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.60
+				conscription_factor = -0.6
+				join_faction_tension = 0.30
+				local_resources_factor = -0.4
+				monthly_population = -0.08
+				stability_factor = -0.3
+			}
+		}
+
+				asia_crisis_upgrade_3 = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.40
+				conscription_factor = -0.4
+				join_faction_tension = 0.25
+				local_resources_factor = -0.3
+				monthly_population = -0.04
+				stability_factor = -0.2
+			}
+		}
+
+				asia_crisis_upgrade_4 = {
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.2
+				conscription_factor = -0.2
+				join_faction_tension = 0.10
+				local_resources_factor = -0.1
+				monthly_population = -0.02
+				stability_factor = -0.1
+			}
+		}
+
+				asia_crisis_JAP_1 = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 2
+				consumer_goods_factor = 0.60
+				join_faction_tension = 1
+				local_resources_factor = -0.2
+				monthly_population = -0.02
+				stability_factor = -0.1
+			}
+		}
+
+				asia_crisis_JAP_2 = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 3.5
+				consumer_goods_factor = 0.90
+				conscription_factor = -0.5
+				join_faction_tension = 1
+				local_resources_factor = -0.4
+				monthly_population = -0.07
+				stability_factor = -0.45
+				neutral_and_specific_drift = -0.01
+				centrism_drift = 0.01
+			}
+		}
+
+
+	}
+}

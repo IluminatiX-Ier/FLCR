@@ -1,0 +1,30 @@
+
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+		victory_points = {
+			10449 10
+		}
+
+		owner = LOU
+		add_core_of = LOU
+
+	}
+
+	provinces={
+		4510 4565 4650 7464 10410 10449 12328 
+	}
+	manpower=2009820
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

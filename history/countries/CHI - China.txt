@@ -1,0 +1,27 @@
+﻿capital = 1088
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 15
+	moderate_right = 15
+	liberalism = 5
+    centrism = 25
+	fascism = 0
+	communism = 10
+	neutral_and_specific = 30
+}
+
+create_country_leader = {
+	name = "Empereur Chen Hong Taiping"
+	desc = "Chen_Hong_Taiping_DESC"
+	picture = "Chen_Hong_Taiping.dds"
+	expire = "1943.11.27"
+	ideology = central_monarchism
+	traits = { }
+}

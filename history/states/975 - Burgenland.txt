@@ -1,0 +1,26 @@
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		owner = CRA
+		add_core_of = POL
+		add_core_of = GLD
+		add_core_of = CRA
+
+	}
+
+	provinces={
+		9427
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

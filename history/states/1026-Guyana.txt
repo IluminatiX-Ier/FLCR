@@ -1,0 +1,24 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = VEN
+
+	}
+
+	provinces={
+		12716 13301 13403 
+	}
+	manpower=98040
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

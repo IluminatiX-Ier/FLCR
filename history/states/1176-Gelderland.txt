@@ -1,0 +1,23 @@
+state={
+	id=1176
+	name="STATE_1176"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			dockyard = 2
+			}
+		owner = HOL
+		add_core_of = HOL
+
+	}
+
+	provinces={
+		6286 9363 9403
+	}
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

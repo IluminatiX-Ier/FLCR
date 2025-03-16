@@ -1,0 +1,24 @@
+
+state={
+	id=1144
+	name="Assab"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = AFA
+		add_core_of = AFA
+		add_core_of = ERI
+
+	}
+
+	provinces={
+		8043
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

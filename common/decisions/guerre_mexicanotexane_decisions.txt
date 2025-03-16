@@ -1,0 +1,50 @@
+guerre_mexicanotexane = {
+	larevolteapproche = {
+		icon = decision_icon_larevolteapproche
+    activation = {
+       NO = {
+	   country_exists = TEX
+	   fire_only_once = yes
+		}
+	}
+    available = {
+        has_civil_war = no
+        has_war = yes
+    }
+    cancel_trigger = {
+        has_war = yes
+    }
+
+    is_good = no
+    days_mission_timeout = 81
+    selectable_mission = no
+
+    timeout_effect = {
+		custom_effect_tooltip = "tex_ind"
+		hidden_effect = {
+		TEX = { remove_state_core = 1012 }
+		TEX = { remove_state_core = 1209 }
+		MEX = { release = TEX }
+		TEX = { set_capital = { state = 375 } }
+				}
+		TEX = {set_cosmetic_tag = TEX_IND}
+		TEX = { declare_war_on = {
+			type = independence_wargoal
+			target = MEX
+				}
+			}  
+
+		TEX = { add_state_core = 1012 }
+		TEX = { add_state_core = 1209 }
+		create_country_leader = {
+		name = "Gouvernement d'indépendance du Texas"
+		desc = "Gov_TEX_DESC"
+		picture ="Gov_TEX.dds"
+		expire = "1940.1.1"
+		ideology = market_liberalism
+		traits = { }
+			}
+	MEX = { country_event = { id = TEX_IND_tex_ind.1 } }
+		}
+    }
+}

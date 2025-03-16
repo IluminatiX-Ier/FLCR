@@ -1,0 +1,22 @@
+state={
+	id=1142
+	name="Uele"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		2073 2154 6027 12808 
+	}
+	manpower=470000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

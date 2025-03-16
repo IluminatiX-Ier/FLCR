@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: L'indépendance du Texas !
+	SpriteType = { 
+		name = "TEX_IND_lindpendance_du_texas_-527437"
+		texturefile = "gfx/interface/events/tex_ind-event/TEX_IND_lindpendance_du_texas_-527437.dds"
+	}
+
+	##Icon For: La Guerre Mexicano-Texane
+	SpriteType = { 
+		name = "TEX_IND_la_guerre_mexicanotexane-478"
+		texturefile = "gfx/interface/events/tex_ind-event/TEX_IND_la_guerre_mexicanotexane-478.dds"
+	}
+
+ 
+ }

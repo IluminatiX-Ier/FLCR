@@ -1,0 +1,28 @@
+state={
+	id=1056
+	name="STATE_1056"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+		3501 = {
+				naval_base = 5
+				}
+
+		}
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		3501 11446 13070 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

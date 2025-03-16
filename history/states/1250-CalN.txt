@@ -1,0 +1,45 @@
+state={
+	id=1250
+	name="STATE_1250"
+	provinces={
+		610 677 710 766 768 781 1601 3588 3644 3678 4331 4607 6482 6665 6681 6699 6745 6757 6772 9697 9713 9730 10159 10422 11658 11698 12134 
+	}
+
+	resources={
+		oil=180.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 10
+			9814 = {
+				naval_base = 5
+
+			}
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			9814 30 
+		}
+		victory_points = {
+			9713 1 
+		}
+
+	}
+
+	manpower=1544723
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

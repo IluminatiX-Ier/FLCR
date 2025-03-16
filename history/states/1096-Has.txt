@@ -1,0 +1,24 @@
+state={
+	id=1096
+	name="Hassaké"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		1549 1578 10882 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

@@ -1,0 +1,29 @@
+﻿capital = 65
+
+set_politics = {
+	ruling_party = moderate_right
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 45
+	liberalism = 20
+    centrism = 30
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 0
+}
+
+
+create_faction = Sax_dynastic_team
+
+add_to_faction = SXS
+
+add_to_faction = SXA
+
+add_to_faction = WEI
+
+add_to_faction = GOT

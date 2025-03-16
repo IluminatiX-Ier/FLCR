@@ -1,0 +1,22 @@
+state={
+	id=1076
+	name="Magwe"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1333 4019 4059 4541 7034 7163 7190 7534 
+	}
+	manpower=2755000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

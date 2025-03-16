@@ -1,0 +1,24 @@
+state={
+	id=1235
+	name="STATE_1235"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		owner = PRE
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		3522 6487 9375 9560 11359 11468
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,27 @@
+capital = 366
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 15
+	moderate_right = 5
+	liberalism = 15
+    centrism = 50
+	fascism = 0
+	communism = 15
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Pablo Micruz"
+	desc = "Pablo_Micruz_DESC"
+	picture ="Pablo_Micruz.dds"
+	expire = "1940.1.1"
+	ideology = egalitarian_democratism
+	traits = { }
+}

@@ -1,0 +1,22 @@
+state={
+	id=1253
+	name="STATE_1253"
+
+	history={
+		owner = HIL
+		buildings = {
+
+		}
+		add_core_of = HIL
+
+	}
+
+	provinces={
+		4974 8101 10815 10901 
+	}
+
+	manpower=57010
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

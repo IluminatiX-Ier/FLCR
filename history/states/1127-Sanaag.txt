@@ -1,0 +1,22 @@
+state={
+	id=1127
+	name="Sanaag"
+
+	history={
+		owner = SML
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SML
+
+	}
+
+	provinces={
+		1905 10921 12814 
+	}
+	manpower=223974
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

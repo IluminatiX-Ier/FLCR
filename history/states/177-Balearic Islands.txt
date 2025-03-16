@@ -1,0 +1,33 @@
+
+state={
+	id=177
+	name="STATE_177"
+
+	history={
+		victory_points = {
+			9793 1 
+		}
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			9793 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SPR
+		add_core_of = ARA
+		add_core_of = CAT
+
+	}
+
+	provinces={
+		9793 13260
+	}
+	manpower=365500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

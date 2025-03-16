@@ -1,0 +1,25 @@
+
+state={
+	id=1120
+	name="Désert du Soudan"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = SUD
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		13417 13422 
+	}
+	manpower=3500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

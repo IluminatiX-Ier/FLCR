@@ -1,0 +1,44 @@
+music = {
+	name = "Rule_Britannia"
+	file = "Rule_Britannia.ogg"
+}
+
+music = {
+	name = "Marseillaise"
+	file = "Marseillaise.ogg"
+}
+
+music = {
+	name = "A_la_claire_fontaine"
+	file = "A_la_claire_fontaine.ogg"
+}
+
+music = {
+	name = "A_la_claire_fontaine2"
+	file = "A_la_claire_fontaine2.ogg"
+}
+
+music = {
+	name = "reveillez_vous_picards"
+	file = "reveillez_vous_picards.ogg"
+}
+
+music = {
+	name = "Le_Roy_Engloys"
+	file = "Le_Roy_Engloys.ogg"
+}
+
+music = {
+	name = "A_l_entrada_del_temps_clar"
+	file = "A_l_entrada_del_temps_clar.ogg"
+}
+
+music = {
+	name = "Dio_vi_salvi_Regina"
+	file = "Dio_vi_salvi_Regina.ogg"
+}
+
+music = {
+	name = "Au_31_du_mois_d_août"
+	file = "Au_31_du_mois_d_août.ogg"
+}

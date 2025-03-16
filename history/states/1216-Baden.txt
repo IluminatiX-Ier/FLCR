@@ -1,0 +1,29 @@
+state={
+	id=1216
+	name="STATE_1216"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		owner = BAD
+		add_core_of = BAD
+
+		victory_points = {
+			6542 3 
+		}
+
+
+	}
+
+	provinces={
+		3530 3679 6542 6568 6712 11640 
+	}
+	manpower=2250000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

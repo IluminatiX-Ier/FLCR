@@ -1,0 +1,11 @@
+add_namespace = TUR_fallen_la_chute_de_lempire_ottomans
+
+#SYR_independant
+country_event = {
+	id = TUR_fallen_la_chute_de_lempire_ottomans.1
+	title = TUR_fallen_la_chute_de_lempire_ottomans.1.t
+	desc = TUR_fallen_la_chute_de_lempire_ottomans.1.d
+
+	picture = TUR_fallen_syr_independant-475
+	hidden = yes
+}

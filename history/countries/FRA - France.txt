@@ -1,0 +1,272 @@
+﻿capital = 1257
+
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    centrism = 20
+    liberalism = 8
+    market_liberalism = 10	
+    anar_liberalism = 0	
+    social_liberalism = 10	
+    social_democracy = 12	
+    radical_socialism = 5	
+    marxism = 6	
+    totalism = 0	
+    anarchism = 0
+    conservatism = 12
+    nationalism = 7
+    paternalism = 3
+    chauvinism = 4	
+    populism = 0	
+    autocracy = 3	
+}
+
+############DIRIGEANT#################
+
+create_country_leader = {
+	name = "Sénat:Palais du Luxembourg"
+	desc = "french_senate_DESC"
+	picture = "french_senate.dds"
+	expire = "1940.1.1"
+	ideology = Allycism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Gilles Leroy"
+	desc = "Gilles_Leroy_DESC"
+	picture = "Gilles_Leroy.dds"
+	expire = "1940.1.1"
+	ideology = liberal_interventionism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Henri Rasoult"
+	desc = "Henri_Rasoult_DESC"
+	picture = "Henri_Rasoult.dds"
+	expire = "1940.1.1"
+	ideology = egalitarism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Emile Calmenberg"
+	desc = "Emile_Calmenberg_DESC"
+	picture = "Emile_Calmenberg.dds"
+	expire = "1940.1.1"
+	ideology = patriotism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Commandant Etienne Alumette"
+	desc = "Etienne_Alumette_DESC"
+	picture = "Etienne_Alumette.dds"
+	expire = "1940.1.1"
+	ideology = militarism
+	traits = { }
+}
+
+
+create_country_leader = {
+	name = "Jeanne Dubreuil"
+	desc = "Jeanne_Dubreuil_DESC"
+	picture = "Jeanne_Dubreuil.dds"
+	expire = "1940.1.1"
+	ideology = councilism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Henri V"
+	desc = "Henri_V_DESC"
+	picture = "Henri_V.dds"
+	expire = "1940.1.1"
+	ideology = absolutism
+	traits = { }
+}
+
+######################################
+
+###DEPENDANCE CLASSIQUE###
+
+set_autonomy = {
+		target = LUX
+		autonomous_state = autonomy_integrated_puppet
+			}
+
+set_autonomy = {
+		target = HAI
+		autonomous_state = autonomy_integrated_puppet
+			}
+
+###DOMINION###
+
+set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_dominion
+			}
+set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+			}
+
+###PROTECTORAT COLONIAUX###
+
+set_autonomy = {
+		target = TUN
+		autonomous_state = autonomy_protectorat
+			}
+
+###COLONIES###
+
+set_autonomy = {
+		target = C01
+		autonomous_state = autonomy_colony
+			}
+set_autonomy = {
+		target = C02
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = C03
+		autonomous_state = autonomy_colony
+			}
+
+
+##################################
+
+set_oob = "FRA_1932"
+
+starting_train_buffer = 2
+
+set_research_slots = 3
+set_stability = 0.5
+add_command_power = 20
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		armor_tech_1 = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		basic_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_cruiser_armor_scheme = 1
+		mtg_transport = 1
+		basic_dp_light_battery = 1
+		cruiser_submarines = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_convoys = 300
+
+
+set_variable = {
+	var = SaharaOK
+	value = 0
+	tooltip = set_var_to_100_tt
+	}
+	
+	
+1203 = { add_dynamic_modifier = { modifier = FRA_sahara_impassable1 } }
+1204 = { add_dynamic_modifier = { modifier = FRA_sahara_impassable1 } }
+1205 = { add_dynamic_modifier = { modifier = FRA_sahara_impassable1 } }
+1206 = { add_dynamic_modifier = { modifier = FRA_sahara_impassable1 } }

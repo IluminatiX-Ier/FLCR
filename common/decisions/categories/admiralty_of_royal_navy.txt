@@ -1,0 +1,9 @@
+admiralty_of_royal_navy = {
+	icon = decision_category_icon_admiralty_of_royal_navy
+	picture = decision_category_picture_admiralty_of_royal_navy
+
+	visible = {    
+		tag = ENG		
+	}
+
+}

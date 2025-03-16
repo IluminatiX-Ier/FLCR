@@ -1,0 +1,29 @@
+state={
+	id=1221
+	name="STATE_1221"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		owner = HAN
+		add_core_of = HAN
+
+		victory_points = {
+			9524 1 
+		}
+
+
+	}
+
+	provinces={
+		9524
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

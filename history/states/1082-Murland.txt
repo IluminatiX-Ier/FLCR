@@ -1,0 +1,29 @@
+state={
+	id=1082
+	name="STATE_1082"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		victory_points = {
+			6672 1 
+		}
+
+		owner = AUS
+		add_core_of = HUN
+		add_core_of = SLV
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		6672
+	}
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

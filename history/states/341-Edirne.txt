@@ -1,0 +1,29 @@
+
+state={
+	id=341
+	name="STATE_341"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = GRE
+
+		victory_points = {
+			849 1 
+		}
+
+	}
+
+
+	provinces={
+		849 922 3879 6895 
+	}
+	manpower=363947
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

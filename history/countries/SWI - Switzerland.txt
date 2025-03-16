@@ -1,0 +1,28 @@
+﻿capital = 3
+
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 0
+	liberalism = 0
+    centrism = 100
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Conseil federal"
+	desc = "conseil_federal_DESC"
+	picture = "conseil_federal.dds"
+	expire = "1990.1.1"
+	ideology = egalitarian_democratism
+	traits = { }
+}

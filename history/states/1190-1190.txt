@@ -1,0 +1,20 @@
+
+state={
+	id=1190
+	name="Haut-Karabagh"
+
+	history={
+		owner = RUS
+		add_core_of = ARM
+		add_core_of = AZR
+
+	}
+
+	provinces={
+		13515 13520 
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

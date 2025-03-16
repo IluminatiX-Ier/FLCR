@@ -1,0 +1,28 @@
+capital = 1140
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1932.1.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Seul mère nature règne ici"
+	desc = "gaia_DESC"
+	picture = "portrait_mere_nature.dds"
+	expire = "2023.1.1"
+	ideology = no_governement
+	traits = { }
+}
+
+set_popularities = {
+	moderate_left = 0
+	moderate_right = 0
+	liberalism = 0
+    centrism = 0
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 100
+}

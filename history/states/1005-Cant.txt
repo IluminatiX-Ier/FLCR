@@ -1,0 +1,27 @@
+state={
+	id=1005
+	name="STATE_1005"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		owner = SPR
+		add_core_of = SPR
+
+		victory_points = {
+			11688 1 
+		}
+
+	}
+
+	provinces={
+		738 9703 11688 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

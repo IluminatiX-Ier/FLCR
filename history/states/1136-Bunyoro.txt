@@ -1,0 +1,22 @@
+state={
+	id=1136
+	name="Bunyoro"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = BYN
+		add_core_of = BYN
+
+	}
+
+	provinces={
+		3854 7088 13177  
+	}
+	manpower=1405000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

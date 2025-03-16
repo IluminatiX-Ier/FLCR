@@ -1,0 +1,24 @@
+state={
+	id=1151
+	name="Almaty"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KAZ
+		add_core_of = CHI
+		add_core_of = SIK
+
+	}
+
+	provinces={
+		1591 1840 4845 10547 10550 10619 12529 13197 
+	}
+	manpower=807012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=1.000
+}

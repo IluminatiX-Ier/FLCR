@@ -1,0 +1,29 @@
+﻿capital = 448
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 5
+	liberalism = 10
+    centrism = 50
+	fascism = 8
+	communism = 22
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Hans Von Klagenfurt"
+	desc = "Hans_Von_Klagenfurt_DESC"
+	picture = "Hans_Von_Klagenfurt.dds"
+	expire = "1940.1.1"
+	ideology = central_monarchism
+	traits = { }
+}
+
+set_cosmetic_tag = LBA_AUS_subject

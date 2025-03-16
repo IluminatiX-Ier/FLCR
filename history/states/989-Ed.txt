@@ -1,0 +1,33 @@
+
+state={
+	id=989
+	name="STATE_989"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+
+		}
+
+		victory_points = {
+			11842 5 
+		}
+
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = BUL
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		3893 11842 13523 13525 13527 13528
+	}
+	manpower=180000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

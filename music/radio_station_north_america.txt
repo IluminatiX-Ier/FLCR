@@ -1,0 +1,90 @@
+music_station = "radio_station_north_america"
+music = {
+	song = "Rule_Britannia"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Marseillaise"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "A_la_claire_fontaine"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "A_la_claire_fontaine2"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "A_l_entrada_del_temps_clar"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Au_31_du_mois_d_août"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Dio_vi_salvi_Regina"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Le_Roy_Engloys"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "reveillez_vous_picards"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

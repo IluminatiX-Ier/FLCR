@@ -1,0 +1,23 @@
+state={
+	id=1077
+	name="Bago"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1417 1650 4626 4654 7441 10283 10344 12256
+	}
+	manpower=2480000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

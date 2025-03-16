@@ -1,0 +1,25 @@
+
+state={
+	id=1230
+	name="STATE_1230"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		owner = MAI
+		add_core_of = MAI
+
+	}
+
+	provinces={
+		6488 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

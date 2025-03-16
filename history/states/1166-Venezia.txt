@@ -1,0 +1,33 @@
+
+state={
+	id=1166
+	name="STATE_1166"
+
+	history={
+		victory_points = {
+			13562 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+			13429 = {
+				naval_base = 10
+
+			}
+
+		}
+		owner = VNS
+		add_core_of = VNS
+
+	}
+
+	provinces={
+		13562 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

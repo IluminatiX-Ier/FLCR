@@ -1,0 +1,23 @@
+state={
+	id=1281
+	name="STATE_1281"
+
+	history={
+		owner = C01
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = C01
+		add_core_of = ALG
+	}
+
+	provinces={
+		1013 4116 7132 11923 12760
+	}
+
+	manpower= 2400000
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

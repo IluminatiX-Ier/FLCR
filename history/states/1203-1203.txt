@@ -1,0 +1,23 @@
+
+state={
+	id=1203
+	name="STATE_1203"
+
+	history={
+		owner = C01
+		add_core_of = C01
+		add_core_of = ALG
+
+	}
+
+	add_province_modifier = {
+		static_modifiers = { Sahara_impassable  }
+	}
+	provinces={
+		13440 13445 13447 13448 13453 13455 13456 13458 13459 13467 13471
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1106
+	name="Ukéréoué"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		2308 5160 10860 11017 
+	}
+	manpower=417000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

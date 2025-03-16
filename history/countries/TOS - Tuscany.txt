@@ -1,0 +1,28 @@
+﻿capital = 162
+
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 10
+	moderate_right = 10
+	liberalism = 10
+    centrism = 0
+	fascism = 0
+	communism = 0
+	neutral_and_specific = 70
+}
+
+create_country_leader = {
+	name = "Ferdinand VI Von Habsbourg"
+	desc = "Ferdinand_VI_DESC"
+	picture = "Ferdinand_VI.dds"
+	expire = "1940.1.1"
+	ideology = absolutism
+	traits = { }
+}

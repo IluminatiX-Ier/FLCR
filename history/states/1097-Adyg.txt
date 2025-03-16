@@ -1,0 +1,25 @@
+
+state={
+	id=1097
+	name="Adyguée"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = ADY
+
+	}
+
+	provinces={
+		13546 13553 13556 
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

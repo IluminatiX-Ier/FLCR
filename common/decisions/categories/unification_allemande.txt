@@ -1,0 +1,63 @@
+unification_allemande = {
+	icon = decision_category_icon_unification_allemande
+	picture = decision_category_picture_unification_allemande
+	visible = {
+
+		NOT = {
+		has_cosmetic_tag = GER
+			}
+
+		OR = {
+		tag = PRE
+		tag = POM
+		tag = MKZ
+		tag = MEK
+		tag = LUB
+		tag = HLS
+		tag = SCH
+		tag = HAM  
+		tag = HAN  
+		tag = OLD  
+		tag = BRE  
+		tag = SAX  
+		tag = MUN  
+		tag = DRT  
+		tag = PDB  
+		tag = BRW  
+		tag = BRG  
+		tag = MRK   
+		tag = CLE   
+		tag = HES   
+		tag = SXA
+		tag = SXS
+		tag = SIL
+		tag = WEI
+		tag = GOT
+		tag = NSS
+		tag = SAY  
+		tag = PRE  
+		tag = KLN  
+		tag = KOL  
+		tag = TRE  
+		tag = MAI   
+		tag = FRC   
+		tag = PLT  		
+		tag = DST  
+		tag = SPI  
+		tag = NUR   
+		tag = BAM   
+		tag = BYR     
+		tag = BAY    
+		tag = PSS  
+		tag = WUR         
+		tag = AUG     
+		tag = ULM      
+		tag = BAD      
+		tag = LUX       
+		tag = AUS		
+		}
+		is_subject = no
+	}
+
+}
+

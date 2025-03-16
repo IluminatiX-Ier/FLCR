@@ -1,0 +1,23 @@
+
+state={
+	id=1054
+	name="Corée du sud-nord"
+
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = KOR
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		13497 13498 13499
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

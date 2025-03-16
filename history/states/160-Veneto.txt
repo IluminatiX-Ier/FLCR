@@ -1,0 +1,49 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		steel=20.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = VNS
+		victory_points = {
+			3604 3 
+		}
+		victory_points = {
+			603 1 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 1
+			11584 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = VNS
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		603 3604 6656 9582 11584 
+	}
+	manpower=2963151
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=5.000
+}

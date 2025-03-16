@@ -1,0 +1,34 @@
+
+state={
+	id=1060
+	name="Sebastopol"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 3
+			13419 = {
+				naval_base = 6
+
+			}
+
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = CRI
+		victory_points = {
+			13552 20 
+		}
+
+	}
+
+	provinces={
+		13552 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

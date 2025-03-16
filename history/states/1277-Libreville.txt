@@ -1,0 +1,23 @@
+state={
+	id=1277
+	name="STATE_1277"
+
+	history={
+		owner = C02
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GAB
+		add_core_of = C02
+	}
+
+	provinces={
+		13363
+	}
+
+	manpower= 4000
+	state_category = enclave
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

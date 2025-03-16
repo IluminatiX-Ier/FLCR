@@ -1,0 +1,30 @@
+
+state={
+	id=1241
+	name="STATE_1241"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		owner = GOT
+		add_core_of = GOT
+
+		victory_points = {
+			13595 5 
+		}
+
+
+	}
+
+	provinces={
+		13595 
+	}
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

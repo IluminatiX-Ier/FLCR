@@ -1,0 +1,27 @@
+﻿capital = 358
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1932.6.1"
+	election_frequency = 6
+	elections_allowed = yes
+}
+
+set_popularities = {
+	moderate_left = 30
+	moderate_right = 0
+	liberalism = 10
+    centrism = 5
+	fascism = 5
+	communism = 50
+	neutral_and_specific = 0
+}
+
+create_country_leader = {
+	name = "Centre de L'Internationale du Travail de New-York"
+	desc = "NYC_DESC"
+	picture = "NYC.dds"
+	expire = "1940.1.1"
+	ideology = marxism
+	traits = { }
+}

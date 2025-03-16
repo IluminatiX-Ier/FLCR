@@ -1,0 +1,29 @@
+
+state={
+	id=1049
+	name="Bombay"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+		13401 = {
+				naval_base = 4
+				}
+
+		}
+		owner = ENG
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13418
+	}
+	manpower=4250000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

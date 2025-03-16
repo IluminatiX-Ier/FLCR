@@ -1,0 +1,22 @@
+state={
+	id=1075
+	name="Chin"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		3999 4147 10033 11966 
+	}
+	manpower=109000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

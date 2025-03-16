@@ -1,0 +1,29 @@
+
+state={
+	id=1045
+	name="Surate"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		13408 = {
+				naval_base = 3
+				}
+
+		}
+		owner = ENG
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		13427 
+	}
+	manpower=3100000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

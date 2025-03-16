@@ -1,0 +1,28 @@
+state={
+	id=1288
+	name="STATE_1288"
+
+	history={
+		owner = VNS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MLKO
+		add_claim_by = VNS
+
+
+		victory_points = {
+			11568 1
+		}
+	}
+
+	provinces={
+		11568 11587
+	}
+
+	manpower= 840000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1085
+	name="Sayaboury"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = SIA
+		add_core_of = LAO
+
+	}
+
+	provinces={
+		10330 10356 10456 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

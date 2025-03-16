@@ -1,0 +1,34 @@
+state={
+	id=986
+	name="STATE_986"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			4507 = {
+				naval_base = 5
+			}
+
+
+		}
+		owner = LOU
+		add_core_of = LOU
+
+
+		victory_points = {
+			12313 5
+		}
+
+	}
+
+	provinces={
+		1528 1643 4507 12313 12401
+	}
+	manpower=4700000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

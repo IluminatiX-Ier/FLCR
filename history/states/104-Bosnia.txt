@@ -1,0 +1,34 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = BOS
+		victory_points = {
+			11899 5 
+		}
+		victory_points = {
+			6983 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		953 3985 6614 6799 6957 9586 9922 11574 11872 11899 
+	}
+	manpower=1210200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=7.000
+}

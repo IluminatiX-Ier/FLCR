@@ -1,0 +1,20 @@
+﻿capital = 318
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 5
+	moderate_right = 5
+	liberalism = 25
+    centrism = 60
+	fascism = 3
+	communism = 2
+	neutral_and_specific = 0
+}
+
+set_cosmetic_tag = HAI_FRA_subject

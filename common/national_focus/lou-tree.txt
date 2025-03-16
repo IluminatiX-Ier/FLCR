@@ -1,0 +1,23 @@
+focus_tree = {
+	id = lou-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LOU
+		}
+	}
+	#TEST
+	focus = {
+		id = LOU_test
+		icon = GFX_focus_generic_aluminum
+		x = 0
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+}

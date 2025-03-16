@@ -1,0 +1,30 @@
+
+state={
+	id=1219
+	name="STATE_1219"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			241 = {
+				naval_base = 4
+
+			}
+
+		}
+		owner = OLD
+		add_core_of = OLD
+
+	}
+
+	provinces={
+		241 247 13612
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

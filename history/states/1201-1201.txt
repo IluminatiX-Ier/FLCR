@@ -1,0 +1,29 @@
+
+state={
+	id=1201
+	name="Chypre-Nord"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			13357 = {
+				naval_base = 4
+
+			}
+
+		}
+		owner = TUR
+		add_core_of = GRE
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		13486 13487 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

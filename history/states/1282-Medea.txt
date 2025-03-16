@@ -1,0 +1,29 @@
+state={
+	id=1282
+	name="STATE_1282"
+
+	history={
+		owner = C01
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = C01
+		add_core_of = ALG
+
+		victory_points = {
+			1128 3 
+		}
+
+
+	}
+
+	provinces={
+		1128 1141 4018 7033 7040 7149 9960 10059 12020 12034 13077
+	}
+
+	manpower= 100000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

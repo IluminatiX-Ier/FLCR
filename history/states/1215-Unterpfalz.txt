@@ -1,0 +1,29 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		owner = PLT
+		add_core_of = PLT
+
+		victory_points = {
+			13587 3 
+		}
+
+	}
+
+	provinces={
+		13587
+	}
+	manpower=280000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

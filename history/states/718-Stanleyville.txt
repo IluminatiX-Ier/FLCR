@@ -1,0 +1,25 @@
+
+state={
+	id=718
+	name="Congo-nord"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = NAN
+	}
+
+	provinces={
+		2034 11934
+	}
+	manpower=1656749
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=2.000
+}

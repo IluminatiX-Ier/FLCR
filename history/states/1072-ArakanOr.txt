@@ -1,0 +1,27 @@
+state={
+	id=1072
+	name="Arakan-Orientale"
+
+	history={
+			buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		12090 = {
+				naval_base = 2
+				}
+			}
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1014 1142 3651 12090 
+	}
+	manpower=1289000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=1233
+	name="STATE_1233"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+		victory_points = {
+			11233 1
+		}
+
+		owner = MUN
+		add_core_of = MUN
+
+	}
+
+	provinces={
+		6535 6622 11233 11346 
+	}
+	manpower=480000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,347 @@
+la_lutte_pour_les_balkans = {
+
+	unir_les_slaves_du_sud = {
+    available = {
+		custom_trigger_tooltip = { 
+		tooltip = "llplblk.1a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 105
+		owns_state = 981
+		owns_state = 104
+		owns_state = 980
+		owns_state = 804
+		owns_state = 103
+		owns_state = 109
+		owns_state = 853
+		owns_state = 107
+		owns_state = 108
+		owns_state = 802
+		owns_state = 979
+		}
+    }
+
+visible = {
+	OR {
+		tag = SLV
+		tag = CRO
+		tag = BOS
+		tag = HRZ
+		tag = MNT
+		tag = SER
+		}
+	}
+
+    ai_will_do = { factor = 40 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.1b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.1 }
+		}
+	}
+}
+	restaurationdelempireserbe = {
+   available = {
+		custom_trigger_tooltip = { 
+		tooltip = "llplblk.2a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 107
+		owns_state = 981
+		owns_state = 108
+		owns_state = 105
+		owns_state = 802
+		owns_state = 803
+		owns_state = 48
+		owns_state = 212
+		owns_state = 184 
+		owns_state = 731
+		owns_state = 106
+		owns_state = 983
+		owns_state = 934
+		owns_state = 44
+		owns_state = 982
+		owns_state = 805
+		owns_state = 185
+		owns_state = 991
+			tag = SER
+		}
+	}
+   ai_will_do = { factor = 40 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.2b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.2 }
+		}
+	}
+}
+	restauration_byzantine = {
+   available = {
+		custom_trigger_tooltip = { 
+		tooltip = "llplblk.3a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 804
+		owns_state = 852
+		owns_state = 163
+		owns_state = 103
+		owns_state = 109
+		owns_state = 1167
+		owns_state = 736
+		owns_state = 1082
+		owns_state = 102
+		owns_state = 853
+		owns_state = 104
+		owns_state = 980
+		owns_state = 979
+		owns_state = 107
+		owns_state = 981
+		owns_state = 108
+		owns_state = 105
+		owns_state = 802
+		owns_state = 803
+		owns_state = 48
+		owns_state = 211
+		owns_state = 184
+		owns_state = 731
+		owns_state = 106
+		owns_state = 983
+		owns_state = 934
+		owns_state = 44
+		owns_state = 982
+		owns_state = 805
+		owns_state = 185
+		owns_state = 991
+		owns_state = 992
+		owns_state = 47
+		owns_state = 182
+		owns_state = 187
+		owns_state = 990
+		owns_state = 989
+		owns_state = 341
+		owns_state = 797
+		owns_state = 211
+		owns_state = 801
+		owns_state = 77
+		owns_state = 1007
+		owns_state = 164
+			tag = GRE
+		}
+	}
+   ai_will_do = { factor = 40 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.3b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.3 }
+		}
+	}
+}
+	avenementduiiiemeempirebulgare = {
+   available = {
+		custom_trigger_tooltip = { 
+		tooltip = "llplblk.4a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 1007
+		owns_state = 77
+		owns_state = 801
+		owns_state = 211
+		owns_state = 212
+		owns_state = 48
+		owns_state = 989
+		owns_state = 341
+		owns_state = 797
+		owns_state = 184
+		owns_state = 803
+		owns_state = 106
+		owns_state = 731
+		owns_state = 990
+		owns_state = 983
+		owns_state = 802
+		owns_state = 108
+		owns_state = 105
+		owns_state = 934
+		owns_state = 982
+		owns_state = 44
+		owns_state = 805
+		owns_state = 185
+			tag = BUL
+		}
+	}
+   ai_will_do = { factor = 40 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.4b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.4 }
+		}
+	}
+}
+
+	domination_des_illyriens = {
+   available = {
+		custom_trigger_tooltip = {
+		tooltip = "llplblk.5a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 982
+		owns_state = 934
+		owns_state = 44
+		owns_state = 805
+		owns_state = 185
+		owns_state = 992
+		owns_state = 983
+		owns_state = 802
+		owns_state = 105
+		owns_state = 981
+		owns_state = 108
+		owns_state = 107
+		owns_state = 804
+		owns_state = 104
+		owns_state = 980
+		owns_state = 979
+		owns_state = 103
+		owns_state = 163
+		owns_state = 109
+		owns_state = 853
+		owns_state = 102
+		owns_state = 1082
+			tag = ALB
+		}
+	}
+   ai_will_do = { factor = 40 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.5b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.5 }
+		}
+	}
+}
+	retour_des_ottomans = {
+   available = {
+		custom_trigger_tooltip = {
+		tooltip = "llplblk.6a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 804
+		owns_state = 104
+		owns_state = 980
+		owns_state = 107
+		owns_state = 981
+		owns_state = 108
+		owns_state = 105
+		owns_state = 802
+		owns_state = 803
+		owns_state = 48
+		owns_state = 211
+		owns_state = 184
+		owns_state = 731
+		owns_state = 106
+		owns_state = 983
+		owns_state = 934
+		owns_state = 44
+		owns_state = 982
+		owns_state = 805
+		owns_state = 185
+		owns_state = 991
+		owns_state = 992
+		owns_state = 47
+		owns_state = 182
+		owns_state = 187
+		owns_state = 990
+		owns_state = 989
+		owns_state = 341
+		owns_state = 797
+		owns_state = 211
+		owns_state = 801
+		owns_state = 77 
+		owns_state = 1007
+		owns_state = 164
+			tag = TUR
+		}
+	}
+
+	ai_will_do = { factor = 4000 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.6b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.6 }
+		}
+	}
+}
+	dominationdesdanslesbalkans = {
+   available = {
+		custom_trigger_tooltip = { 
+		tooltip = "llplblk.7a" 
+        has_war = no
+		has_civil_war = no
+		owns_state = 804
+		owns_state = 852
+		owns_state = 163
+		owns_state = 103 
+		owns_state = 109 
+		owns_state = 1167
+		owns_state = 736
+		owns_state = 1082
+		owns_state = 102
+		owns_state = 853
+		owns_state = 104
+		owns_state = 980
+		owns_state = 979
+		owns_state = 107
+		owns_state = 981
+		owns_state = 108
+		owns_state = 105
+		owns_state = 802
+		owns_state = 803
+		owns_state = 48
+		owns_state = 211
+		owns_state = 184
+		owns_state = 731
+		owns_state = 106
+		owns_state = 983
+		owns_state = 934
+		owns_state = 44
+		owns_state = 982
+		owns_state = 805
+		owns_state = 185
+		owns_state = 991
+		owns_state = 992
+		owns_state = 47
+		owns_state = 182
+		owns_state = 187
+		owns_state = 990
+		owns_state = 989
+		owns_state = 341
+		owns_state = 797
+		owns_state = 211
+		owns_state = 801
+		owns_state = 77
+		owns_state = 1007
+		owns_state = 164
+		}
+	}
+
+visible = {
+	NOT { 
+		tag = SLV
+		tag = CRO
+		tag = BOS
+		tag = HRZ
+		tag = MNT
+		tag = SER
+		tag = ALB
+		tag = BUL
+		tag = GRE
+		tag = TUR
+		}
+	}
+
+   ai_will_do = { factor = 100 }
+   complete_effect = {	
+	custom_effect_tooltip = "llplblk.7b" 	
+    hidden_effect = {
+		country_event = { id = balkanic_endings.7 }
+			}
+		}
+	}
+}

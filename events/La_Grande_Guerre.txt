@@ -1,0 +1,103 @@
+add_namespace = La_Grande_Guerre
+
+#Annonce de la Guerre
+
+news_event = {
+	id = La_Grande_Guerre.1
+	title = La_Grande_Guerre.1.t
+	desc = La_Grande_Guerre.1.d
+	picture = gfngfg
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		AND = {
+			FRA = { has_war_with = ENG }
+			}
+	}
+
+
+	option = {
+		name = La_Grande_Guerre.1.o1
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		}
+	}
+
+}
+
+#Capitulation de l'Angleterre
+
+country_event = {
+	id = La_Grande_Guerre.2
+	title = La_Grande_Guerre.2.t
+	desc = La_Grande_Guerre.2.d
+	picture = gfngfg
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		FRA = {	controls_state = 126 }
+		FRA = {	controls_state = 129 }
+		FRA = {	controls_state = 132 }
+		FRA = {	controls_state = 123 }
+		FRA = {	controls_state = 125 }
+		FRA = { has_war_with = ENG }
+	}
+
+
+	option = {
+		name = La_Grande_Guerre.2.o1
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			white_peace = {
+			tag = FRA
+			message = Traitée_de_Versailles
+				}
+
+		}
+	}
+
+	option = {
+		name = La_Grande_Guerre.2.o2
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			white_peace = {
+			tag = FRA
+			message = Traitée de Versailles
+				}
+
+		}
+	}
+
+	option = {
+		name = La_Grande_Guerre.2.o3
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 } +
+		
+		hidden_effect = {
+			white_peace = {
+			tag = FRA
+			message = Traitée de Versailles
+				}
+
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+state={
+	id=1098
+	name="Pavlohrad"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			}
+		owner = RUS
+		add_core_of = UKR
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		453 472 486 9463 9479 11452 
+	}
+	manpower=460000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

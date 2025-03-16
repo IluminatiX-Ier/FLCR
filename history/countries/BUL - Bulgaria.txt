@@ -1,0 +1,28 @@
+﻿capital = 48
+
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 3
+	moderate_right = 0
+	liberalism = 5
+    centrism = 13
+	fascism = 20
+	communism = 12
+	neutral_and_specific = 47
+}
+
+create_country_leader = {
+	name = "Ivan Angelov"
+	desc = "Ivan_Angelov_DESC"
+	picture = "Ivan_Angelov.dds"
+	expire = "1940.1.1"
+	ideology = despotism
+	traits = { }
+}

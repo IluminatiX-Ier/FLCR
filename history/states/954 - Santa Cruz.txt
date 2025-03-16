@@ -1,0 +1,33 @@
+
+state={
+	id=954
+	name="STATE_954"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = WLA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		set_demilitarized_zone = yes
+
+		victory_points = {
+			5173 1 
+		}
+
+	}
+
+	provinces={
+		2169 5173 12946 12952 13305 
+	}
+	manpower=132000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=999
+	name="STATE_999"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			1048 = {
+				naval_base = 8
+
+			}
+
+		}
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = ADU
+
+	}
+
+	provinces={
+		1048 10094 13228 13491
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

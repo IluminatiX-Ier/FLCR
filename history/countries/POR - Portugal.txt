@@ -1,0 +1,52 @@
+﻿capital = 112
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 25
+	moderate_right = 5
+	liberalism = 20
+    centrism = 40
+	fascism = 0
+	communism = 5
+	neutral_and_specific = 5
+}
+
+create_country_leader = {
+	name = "Enrique de Hermaho"
+	desc = "Enrique_de_DESC"
+	picture = "Enrique_de.dds"
+	expire = "1940.1.1"
+	ideology = social_democratism
+	traits = { }
+}
+
+set_autonomy = {
+		target = C12
+		autonomous_state = autonomy_colony
+			}
+			
+set_autonomy = {
+		target = C13
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = C14
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = C15
+		autonomous_state = autonomy_colony
+			}
+
+set_autonomy = {
+		target = GNB
+		autonomous_state = autonomy_protectorat
+			}

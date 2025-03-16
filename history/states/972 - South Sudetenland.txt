@@ -1,0 +1,30 @@
+
+state={
+	id=972
+	name="STATE_972"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		victory_points = {
+			13611 1
+		}
+
+
+		owner = SIL
+		add_core_of = SIL
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		13611
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

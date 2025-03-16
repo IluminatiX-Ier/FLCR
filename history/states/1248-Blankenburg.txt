@@ -1,0 +1,28 @@
+state={
+	id=1248
+	name="STATE_1248"
+	provinces={
+		13605 
+	}
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+
+		victory_points = {
+			13605 5 
+		}
+
+
+		owner = BRW
+		add_core_of = BRW
+
+	}
+
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

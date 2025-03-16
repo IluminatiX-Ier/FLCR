@@ -1,0 +1,28 @@
+
+state={
+	id=1232
+	name="STATE_1232"
+
+	history={
+		victory_points = {
+			13604 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 1
+
+		}
+		owner = DRT
+		add_core_of = DRT
+
+	}
+
+	provinces={
+		13604 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

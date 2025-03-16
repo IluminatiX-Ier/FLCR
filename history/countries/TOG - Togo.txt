@@ -1,0 +1,4 @@
+﻿capital = 1
+
+
+set_cosmetic_tag = TOG_DEN_subject

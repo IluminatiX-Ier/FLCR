@@ -1,0 +1,27 @@
+capital = 1113
+
+set_politics = {
+	ruling_party = neutral_and_specific
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 2
+	moderate_right = 2
+	liberalism = 0
+    centrism = 2
+	fascism = 2
+	communism = 2
+	neutral_and_specific = 90
+}
+
+create_country_leader = {
+	name = "Peuples Touaregs"
+	desc = "Peuples_Touaregs_DESC"
+	picture = "TRG_no.dds"
+	expire = "1940.1.1"
+	ideology = no_governement
+	traits = { }
+}

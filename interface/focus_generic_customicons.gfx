@@ -1,0 +1,85 @@
+spriteTypes = {	
+
+	SpriteType = { 
+		name = "GFX_ generic_etablirlaglorieuserootgetname"
+		texturefile = "gfx/interface/goals/GFX_ generic_etablirlaglorieuserootgetname.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_generic_traditionalisme"
+		texturefile = "gfx/interface/goals/GFX_goal_generic_traditionalisme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_generic_modernisation"
+		texturefile = "gfx/interface/goals/GFX_goal_generic_modernisation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_reaffirmerlestraditions"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_reaffirmerlestraditions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_venerationdesanciens"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_venerationdesanciens.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_generic_transition_radicale"
+		texturefile = "gfx/interface/goals/GFX_generic_transition_radicale.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_transitiondemocratique"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_transitiondemocratique.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_eng_concessions_to_the_trade_unions"
+		texturefile = "gfx/interface/goals/GFX_focus_eng_concessions_to_the_trade_unions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_transitiondemocratique"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_transitiondemocratique.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_communisme"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_communisme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_fascisme"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_fascisme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_socialist_science"
+		texturefile = "gfx/interface/goals/GFX_focus_generic_socialist_science.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_generic_centrisme"
+		texturefile = "gfx/interface/goals/GFX_goal_generic_centrisme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_generic_nationalisme"
+		texturefile = "gfx/interface/goals/GFX_goal_generic_nationalisme.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_goal_generic_liberalisme"
+		texturefile = "gfx/interface/goals/GFX_goal_generic_liberalisme.dds"
+	}
+
+
+
+
+
+
+
+
+}

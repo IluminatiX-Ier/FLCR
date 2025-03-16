@@ -1,0 +1,25 @@
+state={
+	id=1013
+	name="Rivière-rouge"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+
+		}
+		owner = LOU
+		add_core_of = LOU
+
+	}
+
+	provinces={
+		2082 3960 5001 6968 9829 
+	}
+	manpower=2580000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

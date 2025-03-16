@@ -1,0 +1,23 @@
+
+state={
+	id=1202
+	name="STATE_1202"
+
+	impassable = yes
+
+	history={
+		owner = C08
+		add_core_of = C08
+		add_core_of = WES
+		add_claim_by = MOR
+
+	}
+
+	provinces={
+		4920 7979 13429 13439
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

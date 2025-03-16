@@ -1,0 +1,18 @@
+capital = 929
+
+set_politics = {
+	ruling_party = moderate_left
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	moderate_left = 35
+	moderate_right = 5
+	liberalism = 0
+    centrism = 35
+	fascism = 5
+	communism = 5
+	neutral_and_specific = 5
+}

@@ -1,0 +1,23 @@
+state={
+	id=1157
+	name="Himachal Pradesh"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			}
+		owner = PAK
+		add_core_of = PAK
+
+	}
+
+	provinces={
+		1129 2002 2032 2076 7106 10729 12708 12868 
+	}
+	manpower=7750400
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

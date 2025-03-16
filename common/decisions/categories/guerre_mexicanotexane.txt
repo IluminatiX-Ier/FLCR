@@ -1,0 +1,12 @@
+guerre_mexicanotexane = {
+	icon = decision_category_icon_guerre_mexicanotexane
+	picture = decision_category_picture_guerre_mexicanotexane
+	allowed = {
+		original_tag = MEX
+	}
+
+visible = {
+    is_subject = no
+}
+
+}

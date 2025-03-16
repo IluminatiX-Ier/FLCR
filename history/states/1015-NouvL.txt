@@ -1,0 +1,30 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+
+		victory_points = {
+			13624 1
+		}
+
+		owner = CAN
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		11667 12597 13624 13625 
+	}
+	manpower=2722000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

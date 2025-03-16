@@ -1,0 +1,26 @@
+
+state={
+	id=890
+	name="Kivu"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = NAN
+		add_core_of = NAN
+
+	}
+
+	provinces={
+		1181 4201 12783 13176 
+	}
+	manpower=710035
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

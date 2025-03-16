@@ -1,0 +1,32 @@
+state={
+	id=1058
+	name="STATE_1058"
+
+	history={
+		victory_points = {
+			11293 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+		11293 = {
+				naval_base = 5
+				}
+
+		}
+		owner = ENG
+		add_core_of = IRE
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		13259
+	}
+	manpower=280000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

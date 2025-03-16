@@ -1,0 +1,29 @@
+
+state={
+	id=1236
+	name="STATE_1236"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		owner = BRW
+		add_core_of = BRW
+
+		victory_points = {
+			11402 1 
+		}
+
+
+	}
+
+	provinces={
+		6513 11402 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

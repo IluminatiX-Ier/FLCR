@@ -1,0 +1,21 @@
+admiralty_of_royal_navy = {
+	creerlafleetairarmoftheroyalairforce = {
+		icon = decision_icon_creerlafleetairarmoftheroyalairforce
+	}
+	choisir_le_first_sea_lord = {
+	}
+	augmenter_le_budget_de_la_navy = {
+	}
+	baisser_le_budget_de_la_navy = {
+	}
+	augmenterleniveauxdexigence = {
+	}
+	baisserleniveauxdexigence = {
+	}
+	privilegierlaguerresousmarine = {
+	}
+	privilegierlaguerredesurface = {
+	}
+	privilegierlaguerresurlesoutienaeriens = {
+	}
+}

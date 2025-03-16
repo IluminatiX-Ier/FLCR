@@ -1,0 +1,28 @@
+state={
+	id=1066
+	name="Champa"
+
+	history={
+			buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		4405 = {
+				naval_base = 1
+				}
+			}
+		owner = CHP
+		add_core_of = VIN
+		add_core_of = CHP
+
+	}
+
+	provinces={
+		1285 1300 1328 4255 4334 4405 7271 7380 10137 10162 10180 10232 10309 12109 12176 12204 
+	}
+	manpower=5410000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=1121
+	name="Aksai Chin"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = TIB
+
+	}
+
+	provinces={
+		13485 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

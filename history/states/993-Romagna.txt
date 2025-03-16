@@ -1,0 +1,23 @@
+state={
+	id=993
+	name="STATE_993"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		owner = PAP
+		add_core_of = PAP
+
+	}
+
+	provinces={
+		782 6606 6793 9924 13550
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

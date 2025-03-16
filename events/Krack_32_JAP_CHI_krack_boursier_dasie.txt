@@ -1,0 +1,408 @@
+add_namespace = Krack_32_JAP_CHI_krack_boursier_dasie
+
+#Un Silence etrange...
+country_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.1
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.1.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	picture = Krack_32_JAP_CHI_un_silence_etrange-588
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+		hidden_effect = {
+			news_event = { id = Krack_32_JAP_CHI_krack_boursier_dasie.2 }
+			CHI = { add_ideas = asia_crisis_begin }
+			KOR = { country_event = id = Krack_32_voisin.1 days = 2 }
+			VIN = { country_event = id = Krack_32_voisin.1 days = 2 }			
+			LAO = { country_event = id = Krack_32_voisin.1 days = 5 }
+			RYU = { country_event = id = Krack_32_voisin.1 days = 5 }
+			BRM = { country_event = id = Krack_32_voisin.1 days = 14 }
+			SIA = { country_event = id = Krack_32_voisin.1 days = 14 }
+			PHI = { country_event = id = Krack_32_voisin.1 days = 14 }
+			CHP = { country_event = id = Krack_32_voisin.1 days = 21 }
+			CAM = { country_event = id = Krack_32_voisin.1 days = 21 }
+			INS = { country_event = id = Krack_32_voisin.1 days = 35 }
+			BAN = { country_event = id = Krack_32_voisin.1 days = 35 }
+			HOK = { country_event = id = Krack_32_voisin.1 days = 35 }
+			CHI = { country_event = id = Krack_32_voisin.2 days = 30 }
+		}
+	}
+}
+
+#L'Effondrement de la Bourse de Beijing
+news_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.2
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.2.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.2.d
+	major = yes
+	is_triggered_only = yes
+
+	picture = Krack_32_JAP_CHI_leffondrement_de_la_bourse_de_beijing-699
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.2.a
+		trigger = {
+			NOT = {
+			TAG = CHI
+				}			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			}
+
+	}
+	
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.2.b
+		trigger = {
+			YES = {
+			TAG = CHI
+				}	
+		}
+		ai_chance = { factor = 100 }
+		
+		hidden_effect = {
+			JAP = { country_event = id = Krack_32_JAP_CHI_krack_boursier_dasie.3 days = 5 } 
+			}
+	}
+	
+}
+#LA CRISE chez les voisins
+country_event = {
+	id = Krack_32_voisin.1
+	title = Krack_32_voisin.1.t
+	desc = Krack_32_voisin.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	picture = Krack_32_JAP_CHI_un_silence_etrange-588
+	option = {
+		name = Krack_32_voisin.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+			ROOT = { add_ideas = asia_crisis_begin }
+	}
+}
+
+#LA CRISE chez les voisins
+country_event = {
+	id = Krack_32_voisin.2
+	title = Krack_32_voisin.2.t
+	desc = Krack_32_voisin.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	picture = Krack_32_JAP_CHI_un_silence_etrange-588
+	option = {
+		name = Krack_32_voisin.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 100 }
+		
+			ROOT = { swap_ideas = {
+					remove_idea = asia_crisis_begin
+					add_idea = asia_crisis_upgrade_1
+						}
+				}
+	}
+}
+
+
+
+
+#Un choix Horrible...
+country_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.3
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.3.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.3.d
+	is_triggered_only = yes
+
+	picture = Krack_32_JAP_CHI_un_choix_horrible-879
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		news_event = { id = Krack_32_JAP_CHI_krack_boursier_dasie.5 }
+		}
+	}
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		news_event = { id = Krack_32_JAP_CHI_krack_boursier_dasie.4 }	
+		news_event = {
+			id = Krack_32_JAP_CHI_krack_boursier_dasie.6
+				days = 5 }
+		}
+	}
+}
+
+#Krack de la Bourse de Kyoto
+news_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.4
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.4.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.4.d
+	major = yes
+	is_triggered_only = yes
+
+	picture = Krack_32_JAP_CHI_krack_de_la_bourse_de_kyoto-776
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Krack Boursier en Asie !
+news_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.5
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.5.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.5.d
+	major = yes
+	is_triggered_only = yes
+	
+	picture = Krack_32_JAP_CHI_krack_boursier_en_asie_-450
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.5.a
+		trigger = {
+			NOT = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.5.b
+		trigger = {
+			YES = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			}
+			NOT = {
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.5.c
+		trigger = {
+			YES = {
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}
+			NOT = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			}			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#L'asie sombre dans l'effondrement économique !
+news_event = {
+	id = Krack_32_JAP_CHI_krack_boursier_dasie.6
+	title = Krack_32_JAP_CHI_krack_boursier_dasie.6.t
+	desc = Krack_32_JAP_CHI_krack_boursier_dasie.6.d
+	major = yes
+	is_triggered_only = yes
+
+	picture = Krack_32_JAP_CHI_lasie_sombre_dans_leffondrement_conomique_-992
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.6.a
+		trigger = {
+			NOT = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.6.b
+		trigger = {
+			YES = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			}
+			NOT = {
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = Krack_32_JAP_CHI_krack_boursier_dasie.6.c
+		trigger = {
+			YES = {
+			TAG = FRA
+			TAG = ENG
+			TAG = AUS
+			TAG = TUR
+			TAG = SOV
+			TAG = MEX
+			}
+			NOT = {
+			TAG = CHI
+			TAG = JAP
+			TAG = KOR
+			TAG = VIN
+			TAG = RYU
+			TAG = HOK
+			TAG = CAM
+			TAG = SIA
+			TAG = BHU
+			TAG = NEP
+			TAG = LAO
+			TAG = BRM
+			TAG = PAK
+			TAG = AFG
+			TAG = BAN
+			}
+	   fire_only_once = yes
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

@@ -1,0 +1,81 @@
+spriteTypes = { 
+	##Icon For: Unir les Slaves du Sud
+	SpriteType = { 
+		name = "unir_les_slaves_du_sud-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/unir_les_slaves_du_sud-1.dds"
+	}
+
+	##Icon For: L'Empire Serbe restauré
+	SpriteType = { 
+		name = "lempire_serbe_restaur-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/lempire_serbe_restaur-1.dds"
+	}
+
+	##Icon For: Le Phoenix Audacieux
+	SpriteType = { 
+		name = "le_phoenix_audacieux-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/le_phoenix_audacieux-1.dds"
+	}
+
+	##Icon For: Nouvel Empire Bulgare ?
+	SpriteType = { 
+		name = "nouvel_empire_bulgare_-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/nouvel_empire_bulgare_-1.dds"
+	}
+
+	##Icon For: Il nous ont sous-estimé
+	SpriteType = { 
+		name = "il_nous_ont_sousestim-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/il_nous_ont_sousestim-1.dds"
+	}
+
+	##Icon For: Le Retour des Ottomans dans les Balkans
+	SpriteType = { 
+		name = "le_retour_des_ottomans_dans_les_balkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/le_retour_des_ottomans_dans_les_balkans-1.dds"
+	}
+
+	##Icon For: Nouvelle Administration dans les Balkans ?
+	SpriteType = { 
+		name = "nouvelle_administration_dans_les_balkans_-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/nouvelle_administration_dans_les_balkans_-1.dds"
+	}
+
+	##Icon For: Formation du [---] dans les Balkans
+	SpriteType = { 
+		name = "formationdudanslesbalkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/formationdudanslesbalkans-1.dds"
+	}
+
+	##Icon For: Domination Serbe dans les Balkans
+	SpriteType = { 
+		name = "domination_serbe_dans_les_balkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/domination_serbe_dans_les_balkans-1.dds"
+	}
+
+	##Icon For: Byzance Impose sa loi dans les Balkans
+	SpriteType = { 
+		name = "byzance_impose_sa_loi_dans_les_balkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/byzance_impose_sa_loi_dans_les_balkans-1.dds"
+	}
+
+	##Icon For: Domination Bulgare dans les Balkans
+	SpriteType = { 
+		name = "domination_bulgare_dans_les_balkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/domination_bulgare_dans_les_balkans-1.dds"
+	}
+
+	##Icon For: Domination des [---] Dans les Balkans
+	SpriteType = { 
+		name = "dominationdesdanslesbalkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/dominationdesdanslesbalkans-1.dds"
+	}
+
+	##Icon For: [----] Restructure les Balkans
+	SpriteType = { 
+		name = "_restructure_les_balkans-1"
+		texturefile = "gfx/interface/events/balkanic_endings-event/_restructure_les_balkans-1.dds"
+	}
+
+ 
+ }

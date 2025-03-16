@@ -1,0 +1,1039 @@
+add_namespace = balkanic_endings
+
+#Unir les Slaves du Sud
+country_event = {
+	id = balkanic_endings.1
+	title = balkanic_endings.1.t
+	desc = balkanic_endings.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = unir_les_slaves_du_sud-1
+	option = {
+		name = balkanic_endings.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = YUGB
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 804
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 107
+		add_state_core = 108
+		add_state_core = 802
+		add_state_core = 979
+		add_state_core = 983
+		add_state_core = 106
+		add_state_core = 803
+		add_state_core = 764
+		add_state_core = 45
+		add_state_core = 978
+		add_state_core = 163
+		add_state_core = 852
+		add_state_core = 736
+		add_state_core = 1167
+		add_state_core = 102
+		add_state_core = 1082
+		news_event = { id = balkanic_endings.8 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = YUG	
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 804
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 107
+		add_state_core = 108
+		add_state_core = 802
+		add_state_core = 979
+		add_state_core = 983
+		add_state_core = 106
+		add_state_core = 803
+		add_state_core = 764
+		add_state_core = 45
+		add_state_core = 978
+		add_state_core = 163
+		add_state_core = 852
+		add_state_core = 736
+		add_state_core = 1167
+		add_state_core = 102
+		add_state_core = 1082
+		news_event = { id = balkanic_endings.8 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 30 }
+		
+		hidden_effect = {
+		create_faction = YUG_Faction
+		release_puppet = HRZ
+		release_puppet = BOS
+		release_puppet = SLV
+		release_puppet = MNT
+		release_puppet = CRO
+		release_puppet = SER
+		news_event = { id = balkanic_endings.8 days = 2 }
+		}
+	}
+}
+
+#L'Empire Serbe restauré
+country_event = {
+	id = balkanic_endings.2
+	title = balkanic_endings.2.t
+	desc = balkanic_endings.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = lempire_serbe_restaur-1
+	option = {
+		name = balkanic_endings.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = BALKA
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 804
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 107
+		add_state_core = 108
+		add_state_core = 802
+		add_state_core = 979
+		add_state_core = 983
+		add_state_core = 106
+		add_state_core = 803
+		add_state_core = 764
+		add_state_core = 45
+		add_state_core = 978
+		add_state_core = 163
+		add_state_core = 852
+		add_state_core = 736
+		add_state_core = 1167
+		add_state_core = 102
+		add_state_core = 1082
+		add_state_core = 801
+		add_state_core = 221
+		add_state_core = 1007
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 990
+		add_state_core = 47
+		add_state_core = 992
+		add_state_core = 186
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 77
+		add_state_core = 212
+		news_event = { id = balkanic_endings.9 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = BYZ_BALKA
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 164
+		set_capital = {state = 797 }
+		news_event = { id = balkanic_endings.9 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.2.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = SER_BUL
+		annex_country = {
+			target = BUL
+			transfer_troops = yes 
+		}
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 801
+		add_state_core = 211
+		add_state_core = 77
+		add_state_core = 1007		
+		news_event = { id = balkanic_endings.9 days = 2 }			
+		}
+	}
+	option = {
+		name = balkanic_endings.2.e
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = SER_Empire
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		news_event = { id = balkanic_endings.9 days = 2 }			
+		}
+	}
+}
+
+#Le Phoenix Audacieux
+country_event = {
+	id = balkanic_endings.3
+	title = balkanic_endings.3.t
+	desc = balkanic_endings.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = le_phoenix_audacieux-1
+	option = {
+		name = balkanic_endings.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		add_state_core = 804
+		add_state_core = 852
+		add_state_core = 163
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 1167
+		add_state_core = 736
+		add_state_core = 1082
+		add_state_core = 102
+		add_state_core = 853
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 164		
+		news_event = { id = balkanic_endings.9 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		add_state_core = 804
+		add_state_core = 852
+		add_state_core = 163
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 1167
+		add_state_core = 736
+		add_state_core = 1082
+		add_state_core = 102
+		add_state_core = 853
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 164	
+		news_event = { id = balkanic_endings.9 days = 2 }			
+		}
+	}
+	option = {
+		name = balkanic_endings.3.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		add_state_core = 804
+		add_state_core = 852
+		add_state_core = 163
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 1167
+		add_state_core = 736
+		add_state_core = 1082
+		add_state_core = 102
+		add_state_core = 853
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 164		
+		news_event = { id = balkanic_endings.9 days = 2 }			
+		}
+	}
+}
+
+#Nouvel Empire Bulgare ? 
+country_event = {
+	id = balkanic_endings.4
+	title = balkanic_endings.4.t 
+	desc = balkanic_endings.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = nouvel_empire_bulgare_-1
+	option = {
+		name = balkanic_endings.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {			
+		set_cosmetic_tag = BALKA
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 804
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 107
+		add_state_core = 108
+		add_state_core = 802
+		add_state_core = 979
+		add_state_core = 983
+		add_state_core = 106
+		add_state_core = 803
+		add_state_core = 764
+		add_state_core = 45
+		add_state_core = 978
+		add_state_core = 163
+		add_state_core = 852
+		add_state_core = 736
+		add_state_core = 1167
+		add_state_core = 102
+		add_state_core = 1082
+		add_state_core = 801
+		add_state_core = 221
+		add_state_core = 1007
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 990
+		add_state_core = 47
+		add_state_core = 992
+		add_state_core = 186
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 77
+		add_state_core = 212
+		news_event = { id = balkanic_endings.11 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = BYZ_BALKA
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 164
+		set_capital = {state = 797 }
+		news_event = { id = balkanic_endings.11 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.4.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = BUL_SER
+		annex_country = {
+			target = SER
+			transfer_troops = yes 
+		}
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108 
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 801
+		add_state_core = 211
+		add_state_core = 77
+		add_state_core = 1007		
+		news_event = { id = balkanic_endings.11 days = 2 }			
+		}
+	}
+	option = {
+		name = balkanic_endings.4.e
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = BUL_Empire
+		add_state_core = 1007
+		add_state_core = 77
+		add_state_core = 801
+		add_state_core = 211
+		add_state_core = 212
+		add_state_core = 48
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 184
+		add_state_core = 803
+		add_state_core = 106
+		add_state_core = 731
+		add_state_core = 990
+		add_state_core = 983
+		add_state_core = 802
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 934
+		add_state_core = 982
+		add_state_core = 44
+		add_state_core = 805
+		add_state_core = 185			
+		news_event = { id = balkanic_endings.11 days = 2 }
+		}
+	}
+}
+
+#Il nous ont sous-estimé
+country_event = {
+	id = balkanic_endings.5
+	title = balkanic_endings.5.t
+	desc = balkanic_endings.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = il_nous_ont_sousestim-1
+	option = {
+		name = balkanic_endings.5.a
+		trigger = {			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = ALB_Illyrie
+		add_state_core = 982
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 992
+		add_state_core = 983
+		add_state_core = 802
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 107
+		add_state_core = 804
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 103
+		add_state_core = 163
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 102
+		add_state_core = 1082			
+		news_event = { id = balkanic_endings.12 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		set_cosmetic_tag = ALB_big
+		add_state_core = 982
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 992
+		add_state_core = 983
+		add_state_core = 802
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 107
+		add_state_core = 804
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 103
+		add_state_core = 163
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 102
+		add_state_core = 1082			
+		news_event = { id = balkanic_endings.12 days = 2 }
+		}
+	}
+}
+
+#Le Retour des Ottomans dans les Balkans
+news_event = {
+	id = balkanic_endings.6
+	title = balkanic_endings.6.t
+	desc = balkanic_endings.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = le_retour_des_ottomans_dans_les_balkans-1
+	option = {
+		name = balkanic_endings.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Nouvelle Administration dans les Balkans ?
+country_event = {
+	id = balkanic_endings.7
+	title = balkanic_endings.7.t
+	desc = balkanic_endings.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	picture = nouvelle_administration_dans_les_balkans_-1
+	option = {
+		name = balkanic_endings.7.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		SER = { 		
+		add_state_core = 804
+		add_state_core = 852
+		add_state_core = 163
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 1167
+		add_state_core = 736
+		add_state_core = 1082
+		add_state_core = 102
+		add_state_core = 853
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 979
+		add_state_core = 107
+		add_state_core = 981
+		add_state_core = 108
+		add_state_core = 105
+		add_state_core = 802
+		add_state_core = 803
+		add_state_core = 48
+		add_state_core = 211
+		add_state_core = 184
+		add_state_core = 731
+		add_state_core = 106
+		add_state_core = 983
+		add_state_core = 934
+		add_state_core = 44
+		add_state_core = 982
+		add_state_core = 805
+		add_state_core = 185
+		add_state_core = 991
+		add_state_core = 992
+		add_state_core = 47
+		add_state_core = 182
+		add_state_core = 187
+		add_state_core = 990
+		add_state_core = 989
+		add_state_core = 341
+		add_state_core = 797
+		add_state_core = 211
+		add_state_core = 801
+		add_state_core = 77
+		add_state_core = 1007
+		add_state_core = 212
+		add_state_core = 186
+		add_state_core = 164 
+		}		
+	release_puppet = SER
+	SER = { set_cosmetic_tag = BALKA_UNITED }
+		news_event = { id = balkanic_endings.13 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.7.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		release_puppet = SER
+		SER = {
+		set_cosmetic_tag = YUG	
+		add_state_core = 105
+		add_state_core = 981
+		add_state_core = 104
+		add_state_core = 980
+		add_state_core = 804
+		add_state_core = 103
+		add_state_core = 109
+		add_state_core = 853
+		add_state_core = 107
+		add_state_core = 108
+		add_state_core = 802
+		add_state_core = 979
+		add_state_core = 983
+		add_state_core = 106
+		add_state_core = 803
+		add_state_core = 764
+		add_state_core = 45
+		add_state_core = 978
+		add_state_core = 163
+		add_state_core = 852
+		add_state_core = 736
+		add_state_core = 1167
+		add_state_core = 102
+		add_state_core = 1082
+			}
+		GRE = {
+			add_state_core = 982
+			}
+		release_puppet = GRE
+		release_puppet = BUL
+		BUL = {
+			owns_state = 803
+			owns_state = 106
+			}
+		news_event = { id = balkanic_endings.13 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.7.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+		release_puppet = HRZ
+		release_puppet = BOS
+		release_puppet = CRO
+		release_puppet = MNT
+		release_puppet = ALB
+		release_puppet = SER
+		release_puppet = BUL
+		release_puppet = GRE
+		SER = {
+			owns_state = 979
+			add_state_core = 979
+			add_state_core = 764
+			}
+		GRE = { 
+			owns_state = 731
+			owns_state = 184
+			owns_state = 989			
+			}
+		SLV = { 
+			owns_state = 1167
+			add_state_core = 1167
+			}
+		release_puppet = SLV
+		news_event = { id = balkanic_endings.12 days = 2 }
+		}
+	}
+	option = {
+		name = balkanic_endings.7.e
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Formation du [---] dans les Balkans
+news_event = {
+	id = balkanic_endings.8
+	title = balkanic_endings.8.t
+	desc = balkanic_endings.8.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = dominationdesdanslesbalkans-1
+	option = {
+		name = balkanic_endings.8.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Domination Serbe dans les Balkans
+news_event = {
+	id = balkanic_endings.9
+	title = balkanic_endings.9.t
+	desc = balkanic_endings.9.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = domination_serbe_dans_les_balkans-1
+	option = {
+		name = balkanic_endings.9.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Byzance Impose sa loi dans les Balkans
+news_event = {
+	id = balkanic_endings.10
+	title = balkanic_endings.10.t
+	desc = balkanic_endings.10.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = byzance_impose_sa_loi_dans_les_balkans-1
+	option = {
+		name = balkanic_endings.10.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Domination Bulgare dans les Balkans
+news_event = {
+	id = balkanic_endings.11
+	title = balkanic_endings.11.t
+	desc = balkanic_endings.11.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = domination_bulgare_dans_les_balkans-1
+	option = {
+		name = balkanic_endings.11.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Domination des [---] Dans les Balkans
+news_event = {
+	id = balkanic_endings.12
+	title = balkanic_endings.12.t
+	desc = balkanic_endings.12.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = formationdudanslesbalkans-1
+	option = {
+		name = balkanic_endings.12.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#[----] Restructure les Balkans
+news_event = {
+	id = balkanic_endings.13
+	title = balkanic_endings.13.t
+	desc = balkanic_endings.13.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	picture = _restructure_les_balkans-1
+	option = {
+		name = balkanic_endings.13.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 40 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1008
+	name="Cisjordanie"
+
+	history={
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		owner = TUR
+		add_core_of = PAL
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		13470 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

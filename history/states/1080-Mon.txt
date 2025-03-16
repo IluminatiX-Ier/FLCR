@@ -1,0 +1,22 @@
+state={
+	id=1080
+	name="Môn"
+
+	history={
+		buildings = {
+			infrastructure = 1
+
+		}
+		owner = BRM
+		add_core_of = BRM
+
+	}
+
+	provinces={
+		1403 4408 7295 12125 
+	}
+	manpower=3400000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

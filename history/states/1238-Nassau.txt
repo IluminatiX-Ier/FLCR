@@ -1,0 +1,30 @@
+
+state={
+	id=1238
+	name="STATE_1238"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		owner = NSS
+		add_core_of = NSS
+
+		victory_points = {
+			3524 3 
+		}
+
+
+	}
+
+	provinces={
+		589 3524 6444 13598 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

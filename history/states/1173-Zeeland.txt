@@ -1,0 +1,31 @@
+state={
+	id=1173
+	name="STATE_1173"
+
+	history={
+
+		victory_points = {
+			9431 5
+		}
+			buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 3
+		9431 = {
+				naval_base = 4
+				}
+			}
+		owner = HOL
+		add_core_of = HOL
+
+	}
+
+	provinces={
+		480 9431
+	}
+	manpower=124000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
